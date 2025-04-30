@@ -61,10 +61,13 @@
   7. **Set up automated monitoring and alerts** for under‑replicated partitions, disk usage, and consumer lag.
   8. **Test cluster upgrades** in non-production first and use the managed upgrade capability to minimize downtime.
 
-- **Recent Updates**
-  - **General Availability of MSK Serverless (Aug 2022)** – Simplified capacity management with pay-per-usage scaling.
-  - **Launch of MSK Connect (Nov 2022)** in GA – Fully managed Kafka Connect framework with pre-built connectors.
-  - **Tiered Storage Public Preview (Apr 2023)** – Offload older segment data to S3 to reduce broker disk requirements.
-  - **Support for Apache Kafka 3.3 and 3.4** – New client features, performance improvements, and security patches.
-  - **OAuth 2.0 Authentication (SASL/OAUTHBEARER)** – Integrate with external identity providers for token-based auth.
-  - **Automatic Broker Version Upgrades (Dec 2024)** – Rolling, zero‑downtime version upgrades across AZs.
+---
+
+## Core Apache Kafka Concepts
+
+| Concept      | Description                                                                                         | Notes                                                                                       |
+|--------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Broker**   | A Kafka server that stores data and serves client requests (producers/consumers).                   | MSK clusters have multiple brokers for scalability and fault tolerance.                      |
+| **ZooKeeper**| A distributed coordination service used by Kafka for cluster metadata, leader election, and configs. | MSK manages ZooKeeper for you; newer Kafka versions are moving toward a ZooKeeper-less mode. |
+| **Topic**    | A named stream of records to which producers write and from which consumers read.                   | Topics are split into partitions for scalability and parallelism.                            |
+| **Partition**| A subdivision of a topic; each partition is an ordered, immutable sequence of records.              | Enables parallel processing; each partition is replicated across brokers for durability.     |
