@@ -22,10 +22,25 @@ Once a model is trained and validated, it must be made accessible to end-user ap
 
   - **Real-Time Inference Endpoints:**
     - **Use Case:** When your application requires immediate predictions with very low latency (e.g., fraud detection during a credit card application).
+    - **Payload Size:** Small to medium (typically up to a few MB per request).
+    - **Processing Time:** Milliseconds to a few seconds.
+    - **Notes:** Designed for synchronous, low-latency workloads.
   - **Serverless Inference:**
     - **Use Case:** For workloads with intermittent traffic or long idle periods; it reduces costs by automatically scaling to zero when not in use, though be mindful of potential cold start delays.
+    - **Payload Size:** Up to 6 MB per request (input + output).
+    - **Processing Time:** Milliseconds to a few seconds (plus possible cold start latency).
+    - **Notes:** Good for unpredictable or spiky workloads.
   - **Asynchronous Inference:**
     - **Use Case:** When handling large payloads or jobs with long processing times. You can quickly submit the data and retrieve the result later without blocking the client.
+    - **Payload Size:** Up to 1 GB per request.
+    - **Processing Time:** Seconds to hours (supports long-running jobs).
+    - **Notes:** Suitable for large or slow inference tasks.
+  - **Batch Transform (Batch Endpoint):**
+    - **What It Is:** A managed service for running inference on large datasets without deploying persistent endpoints. It processes input data in bulk and writes predictions to S3.
+    - **When to Use:** Ideal for offline or periodic batch scoring, such as scoring a large dataset overnight or processing historical data where real-time responses are not required.
+    - **Payload Size:** Very large datasets (multiple GBs or TBs, depending on instance/storage).
+    - **Processing Time:** Minutes to hours (depends on dataset size and compute resources).
+    - **Notes:** No persistent endpoint; jobs are run as needed.
 
 - **Auto Scaling:**
   - **What It Does:** Dynamically adjusts the number of inference nodes based on metrics like CPU utilization or request count, ensuring optimal resource use during traffic surges or lulls.
