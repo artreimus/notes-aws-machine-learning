@@ -67,7 +67,48 @@ Understanding the following metrics is essential for evaluating classification m
 
 - **ROC Curve & AUC**: The Receiver Operating Characteristic (ROC) curve plots the true positive rate against the false positive rate at various threshold settings. The Area Under the Curve (AUC) provides a single measure of overall model performance.
 
+  - AUC values range from 0 to 1, with higher values indicating better model performance.
+
 - **Precision-Recall Curve**: Plots precision versus recall at various thresholds. Particularly useful for imbalanced datasets.
+  - PR curves can provide more insight into model performance than ROC curves when dealing with imbalanced classes.
+  - The higher the area under the PR curve, the better the model's performance.
+
+---
+
+## 📉 Key Metrics for Regression Tasks
+
+Regression models predict continuous values rather than discrete classes. Common metrics for evaluating regression models include:
+
+- **Mean Absolute Error (MAE):**  
+  Measures the average absolute difference between predicted and actual values.
+
+  - Formula: `MAE = (1/n) * Σ|y_i - ŷ_i|`
+  - Lower MAE indicates better model performance.
+
+- **Mean Squared Error (MSE):**  
+  Measures the average squared difference between predicted and actual values.
+
+  - Formula: `MSE = (1/n) * Σ(y_i - ŷ_i)^2`
+  - Penalizes larger errors more than MAE.
+
+- **Root Mean Squared Error (RMSE):**  
+  The square root of MSE, providing error in the same units as the target variable.
+
+  - Formula: `RMSE = sqrt(MSE)`
+  - Easier to interpret than MSE due to unit consistency.
+
+- **R-squared (Coefficient of Determination):**  
+  Indicates the proportion of variance in the dependent variable explained by the model.
+
+  - Formula: `R² = 1 - (Σ(y_i - ŷ_i)^2 / Σ(y_i - ȳ)^2)`
+  - Values range from 0 to 1 (higher is better), though can be negative for poor models.
+
+- **Mean Absolute Percentage Error (MAPE):**  
+  Measures the average absolute percentage difference between predicted and actual values.
+  - Formula: `MAPE = (100/n) * Σ| (y_i - ŷ_i) / y_i |`
+  - Useful for interpretability, but sensitive to zero values in the denominator.
+
+These metrics are available in AWS services such as SageMaker Autopilot and SageMaker Canvas when evaluating regression models.
 
 ---
 
