@@ -18,6 +18,17 @@ L2 regularization, commonly known as Ridge regression, adds a penalty term propo
 \]  
 where λ ≥ 0 determines the influence of the penalty on model complexity ([L1 and L2 Regularization (Part 1): A Complete Guide - Medium](https://medium.com/%40alejandro.itoaramendia/l1-and-l2-regularization-part-1-a-complete-guide-51cf45bb4ade?utm_source=chatgpt.com)). This quadratic penalty yields a smooth marginal cost that shrinks all coefficients towards zero but never exactly to zero, preventing overfitting without eliminating features entirely ([Regularization (mathematics) - Wikipedia](https://en.wikipedia.org/wiki/Regularization*%28mathematics%29?utm_source=chatgpt.com)). L2 regularization distributes weight more evenly across correlated features, enhancing numerical stability and reducing model variance ([Fighting Overfitting With L1 or L2 Regularization: Which One Is Better?](https://neptune.ai/blog/fighting-overfitting-with-l1-or-l2-regularization?utm_source=chatgpt.com)). It is widely used when multicollinearity is present or when one desires small but nonzero coefficients for all features ([L1 and L2 Regularization Methods, Explained - Built In](https://builtin.com/data-science/l2-regularization?utm_source=chatgpt.com)).
 
+## Practical Differences (Summary)
+
+- **L1 (sum of weights):**
+  - Performs feature selection (entire features can go to zero)
+  - Computationally inefficient
+  - Produces sparse output
+- **L2 (sum of square of weights):**
+  - All features remain, just weighted differently
+  - Computationally efficient
+  - Produces dense output
+
 ## Comparison Table
 
 | Feature                 | L1 Regularization (LASSO)                               | L2 Regularization (Ridge)                      |
