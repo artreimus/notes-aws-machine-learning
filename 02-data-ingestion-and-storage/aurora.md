@@ -18,6 +18,7 @@ Amazon Aurora is a managed relational database engine compatible with **MySQL** 
 - **Fast failover / HA:** designed for rapid recovery and availability.
 - **Serverless option (Aurora Serverless):** capacity scales automatically for variable workloads (useful for spiky dev/test or intermittent apps).
 - **Global Database (Aurora Global Database):** low-latency global reads and cross-region disaster recovery.
+- **Analytics integration:** commonly paired with S3/Glue/Redshift patterns to offload training and analytics workloads.
 
 ---
 
@@ -45,4 +46,3 @@ Amazon Aurora is a managed relational database engine compatible with **MySQL** 
 - Choose **RDS** when you need:
   - A specific engine not provided by Aurora (e.g., Oracle/SQL Server).
   - A simpler managed setup for standard relational workloads.
-
