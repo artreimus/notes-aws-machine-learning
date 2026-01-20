@@ -1,4 +1,5 @@
-## Amazon Bedrock Guardrails 
+## Amazon Bedrock Guardrails
+
 Amazon Bedrock Guardrails is AWS’s “policy layer” you attach to model interactions to reduce unsafe outputs, block certain topics, scrub sensitive data, and (optionally) check whether responses are grounded in a reference source. The key idea is consistency: you define guardrails once, then apply them across multiple foundation models and apps so your safety and privacy behavior does not depend on which model you picked. ([AWS Documentation][1])
 
 You can use guardrails in two main ways:
