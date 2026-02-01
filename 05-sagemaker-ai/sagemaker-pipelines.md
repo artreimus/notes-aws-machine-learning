@@ -16,20 +16,18 @@ Amazon SageMaker Pipelines is an end-to-end orchestration service for creating, 
 **Key Features and Capabilities:**
 
 - **Pipeline Definition as Code:**
-  - Use YAML or Python SDK to define the series of steps that comprise your ML workflow. This includes data processing, feature engineering, model training, evaluation, and model deployment.
+    - Use YAML or Python SDK to define the series of steps that comprise your ML workflow. This includes data processing, feature engineering, model training, evaluation, and model deployment.
 - **Built-In Steps and Integration:**
-
-  - **Processing Step:** Run data preprocessing and feature engineering jobs using built-in SageMaker Processing capabilities.
-  - **Training Step:** Automate model training jobs with options for integrated hyperparameter tuning.
-  - **Evaluation and Validation Step:** Validate model performance and compute metrics to decide if further actions (like deployment) should take place.
-  - **Deployment Step:** Trigger deployment workflows for productionizing models on SageMaker endpoints.
+    - **Processing Step:** Run data preprocessing and feature engineering jobs using built-in SageMaker Processing capabilities.
+    - **Training Step:** Automate model training jobs with options for integrated hyperparameter tuning.
+    - **Evaluation and Validation Step:** Validate model performance and compute metrics to decide if further actions (like deployment) should take place.
+    - **Deployment Step:** Trigger deployment workflows for productionizing models on SageMaker endpoints.
 
 - **Workflow Orchestration:**
-
-  - Pipelines allow you to set dependencies and control the execution order among steps, making it possible to branch workflows based on evaluation outcomes.
+    - Pipelines allow you to set dependencies and control the execution order among steps, making it possible to branch workflows based on evaluation outcomes.
 
 - **CI/CD Integration:**
-  - Leverage AWS CodePipeline or other CI/CD tools to integrate your ML pipelines into a broader automated deployment strategy.
+    - Leverage AWS CodePipeline or other CI/CD tools to integrate your ML pipelines into a broader automated deployment strategy.
 
 **Typical Use Cases:**
 
@@ -66,44 +64,38 @@ For predictive maintenance in healthcare—for instance, predicting patient dete
 **Common Challenges:**
 
 - **Pipeline Complexity and Debugging:**
-
-  - **Challenge:** Multi-step pipelines can become complex, making debugging and iterative development challenging.
-  - **Best Practice:** Modularize your pipeline steps and test individual components in isolation before integrating into the full pipeline.
+    - **Challenge:** Multi-step pipelines can become complex, making debugging and iterative development challenging.
+    - **Best Practice:** Modularize your pipeline steps and test individual components in isolation before integrating into the full pipeline.
 
 - **Managing Dependencies and Versioning:**
-
-  - **Challenge:** Ensuring that the right versions of code, configurations, and data are used across pipeline runs can be difficult.
-  - **Best Practice:** Use version control (e.g., Git) for your pipeline code and clearly document dependencies. Integrate automated tests to validate changes.
+    - **Challenge:** Ensuring that the right versions of code, configurations, and data are used across pipeline runs can be difficult.
+    - **Best Practice:** Use version control (e.g., Git) for your pipeline code and clearly document dependencies. Integrate automated tests to validate changes.
 
 - **Resource Utilization and Cost Optimization:**
-
-  - **Challenge:** Frequent pipeline execution on large datasets can lead to increased costs.
-  - **Best Practice:** Optimize resource usage by leveraging spot instances where possible, applying data sampling, and properly scheduling pipeline runs.
+    - **Challenge:** Frequent pipeline execution on large datasets can lead to increased costs.
+    - **Best Practice:** Optimize resource usage by leveraging spot instances where possible, applying data sampling, and properly scheduling pipeline runs.
 
 - **Integration into CI/CD Workflows:**
-  - **Challenge:** Seamlessly integrating ML pipelines with existing CI/CD systems can be non-trivial.
-  - **Best Practice:** Begin with clearly defined interfaces between your ML pipeline and CI/CD processes. AWS CodePipeline and CodeBuild can help bridge this gap effectively.
+    - **Challenge:** Seamlessly integrating ML pipelines with existing CI/CD systems can be non-trivial.
+    - **Best Practice:** Begin with clearly defined interfaces between your ML pipeline and CI/CD processes. AWS CodePipeline and CodeBuild can help bridge this gap effectively.
 
 ---
 
 ## 5. Recommended Additional Resources
 
 - **AWS Documentation:**
-
-  - [Amazon SageMaker Pipelines Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/pipelines.html) citeturn0search0  
-    This documentation provides detailed instructions, API references, and examples to get started.
+    - [Amazon SageMaker Pipelines Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/pipelines.html)
+      This documentation provides detailed instructions, API references, and examples to get started.
 
 - **AWS Blogs and Whitepapers:**
-
-  - The AWS Machine Learning Blog regularly features posts on best practices and real-world implementations of SageMaker Pipelines.
-  - AWS whitepapers related to operationalizing ML and CI/CD practices in machine learning projects provide additional context.
+    - The AWS Machine Learning Blog regularly features posts on best practices and real-world implementations of SageMaker Pipelines.
+    - AWS whitepapers related to operationalizing ML and CI/CD practices in machine learning projects provide additional context.
 
 - **Tutorials and Workshops:**
-
-  - AWS offers hands-on workshops and tutorials (via the AWS Training and Certification portal) that cover end-to-end ML workflows using SageMaker Pipelines.
-  - Look for re:Invent session recordings that specifically address managing ML pipelines on SageMaker for practical insights.
+    - AWS offers hands-on workshops and tutorials (via the AWS Training and Certification portal) that cover end-to-end ML workflows using SageMaker Pipelines.
+    - Look for re:Invent session recordings that specifically address managing ML pipelines on SageMaker for practical insights.
 
 - **Community Resources:**
-  - Explore GitHub repositories and forums for sample code and community-contributed pipelines, which can provide practical examples and troubleshooting tips.
+    - Explore GitHub repositories and forums for sample code and community-contributed pipelines, which can provide practical examples and troubleshooting tips.
 
 ---

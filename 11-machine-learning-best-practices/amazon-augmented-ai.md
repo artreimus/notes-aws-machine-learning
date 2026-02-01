@@ -85,7 +85,7 @@ _Benefits:_ Balances the efficiency of ML with the nuanced understanding of clin
 
 - **AWS Documentation:**
 
-  - [Amazon Augmented AI (A2I) Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/amazon-a2i.html) citeturn0search0  
+  - [Amazon Augmented AI (A2I) Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/amazon-a2i.html)   
     This documentation provides in-depth guides, API references, and best practices for setting up and integrating human review workflows into your ML pipelines.
 
 - **AWS Whitepapers and Blogs:**

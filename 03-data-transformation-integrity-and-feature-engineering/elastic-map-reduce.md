@@ -101,18 +101,18 @@ To deepen your understanding of Amazon EMR and its role in ML workflows, conside
 
 - **AWS Official Documentation:**
 
-  - [Amazon EMR Documentation](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html) – Detailed guides on setup, configuration, and best practices. citeAWS_EMR_Docs
+  - [Amazon EMR Documentation](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html) – Detailed guides on setup, configuration, and best practices. 
 
 - **AWS Whitepapers and Best Practice Guides:**
 
-  - “Best Practices for Running Apache Spark on AWS EMR” – Offers insights into performance tuning, cost management, and security considerations. citeAWS_Spark_on_EMR_Whitepaper
+  - “Best Practices for Running Apache Spark on AWS EMR” – Offers insights into performance tuning, cost management, and security considerations. 
 
 - **Tutorials and Workshops:**
 
-  - AWS hands-on tutorials and webinars (accessible via the [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/)) often cover end-to-end ML workflows involving EMR. citeAWS_ML_Blog
+  - AWS hands-on tutorials and webinars (accessible via the [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/)) often cover end-to-end ML workflows involving EMR. 
 
 - **AWS Training and Certification Materials:**
-  - The exam guide and sample questions for the AWS Certified Machine Learning – Specialty and Associate exams provide insights into how EMR might be integrated into broader ML architectures. citeAWS_ExamGuide
+  - The exam guide and sample questions for the AWS Certified Machine Learning – Specialty and Associate exams provide insights into how EMR might be integrated into broader ML architectures. 
 
 ---
 
@@ -290,13 +290,13 @@ To further solidify your understanding and prepare for the exam, consider these 
 
 - **AWS Documentation:**
 
-  - [Amazon EMR Documentation](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html) – Comprehensive guides on EMR features and best practices. citeAWS_EMR_Docs
-  - [EMR Serverless Documentation](https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/) – Specific details on how to deploy and manage jobs with EMR Serverless. citeAWS_EMR_Serverless_Docs
+  - [Amazon EMR Documentation](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html) – Comprehensive guides on EMR features and best practices. 
+  - [EMR Serverless Documentation](https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/) – Specific details on how to deploy and manage jobs with EMR Serverless. 
 
 - **Whitepapers and Blog Posts:**
 
-  - “Best Practices for Running Apache Spark on AWS EMR” provides detailed tuning and cost-optimization recommendations. citeAWS_Spark_on_EMR_Whitepaper
-  - AWS Machine Learning Blog posts frequently discuss integration patterns between EMR, Amazon SageMaker, and other data services. citeAWS_ML_Blog
+  - “Best Practices for Running Apache Spark on AWS EMR” provides detailed tuning and cost-optimization recommendations. 
+  - AWS Machine Learning Blog posts frequently discuss integration patterns between EMR, Amazon SageMaker, and other data services. 
 
 - **Tutorials and Hands-On Labs:**
   - The AWS Workshops and tutorials on [AWS Training](https://aws.amazon.com/training/) offer practical, hands-on experience with both EMR Serverless and traditional EMR clusters.

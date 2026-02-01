@@ -11,7 +11,7 @@
   - Seamless integration with existing Kubernetes-based workflows.
   - Centralized job management alongside your other containerized applications.
 - **Reference:**
-  - For details, see [Amazon SageMaker Operators for Kubernetes](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-operators-for-kubernetes/) citeturn2search9.
+  - For details, see [Amazon SageMaker Operators for Kubernetes](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-operators-for-kubernetes/) .
 
 **2. Kubeflow Pipelines with SageMaker Components**
 
@@ -37,7 +37,7 @@
   - Simplifies MLOps for teams that want to stay entirely within the SageMaker ecosystem.
   - Reduces the operational burden by managing resources, model versioning, and deployments out of the box.
 - **Reference:**
-  - For more details, see [Amazon SageMaker Projects](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-projects.html) citeturn2search14.
+  - For more details, see [Amazon SageMaker Projects](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-projects.html) .
 
 ---
 

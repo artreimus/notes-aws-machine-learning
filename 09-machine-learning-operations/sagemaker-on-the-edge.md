@@ -13,13 +13,13 @@
 
   - **What it does:** Neo compiles trained models into an optimized, hardware-specific executable that can run on various edge processors such as ARM, Intel, and Nvidia (among others).
   - **Key benefit:** It enables a “train once, run anywhere” paradigm by abstracting away the differences in hardware architectures.
-  - **Reference:** Learn how to set up Neo on edge devices in the [Set up Neo on Edge Devices guide](https://docs.aws.amazon.com/sagemaker/latest/dg/neo-getting-started-edge.html) citeturn1search0 and read more on [Amazon SageMaker Neo](https://aws.amazon.com/sagemaker/neo/) citeturn1search4.
+  - **Reference:** Learn how to set up Neo on edge devices in the [Set up Neo on Edge Devices guide](https://docs.aws.amazon.com/sagemaker/latest/dg/neo-getting-started-edge.html)  and read more on [Amazon SageMaker Neo](https://aws.amazon.com/sagemaker/neo/) .
 
 - **AWS IoT Greengrass:**
 
   - **What it does:** Greengrass enables the secure deployment and management of applications on edge devices, facilitating local data processing, inference, and near real-time responses.
   - **Key benefit:** It allows you to deploy SageMaker Neo–compiled models along with inference logic (often as Lambda functions or custom components) directly onto devices.
-  - **Reference:** Explore machine learning inference on edge with [AWS IoT Greengrass ML inference](https://docs.aws.amazon.com/greengrass/v2/developerguide/perform-machine-learning-inference.html) citeturn1search3.
+  - **Reference:** Explore machine learning inference on edge with [AWS IoT Greengrass ML inference](https://docs.aws.amazon.com/greengrass/v2/developerguide/perform-machine-learning-inference.html) .
 
 - **Complementary Tools:**
   - **AWS IoT Core:** For device connectivity and secure communication between edge devices and the cloud.

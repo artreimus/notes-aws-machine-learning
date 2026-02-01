@@ -67,10 +67,10 @@ Together, these features allow you to focus on your ML application while AWS man
 ### 4. Additional Resources
 
 - **SageMaker Serverless Inference Documentation:**  
-  [Deploy models with Amazon SageMaker Serverless Inference](https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html) citeturn2search0
+  [Deploy models with Amazon SageMaker Serverless Inference](https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html) 
 
 - **SageMaker Inference Recommender Documentation:**  
-  [Amazon SageMaker Inference Recommender](https://docs.aws.amazon.com/sagemaker/latest/dg/inference-recommender.html) citeturn2search1
+  [Amazon SageMaker Inference Recommender](https://docs.aws.amazon.com/sagemaker/latest/dg/inference-recommender.html) 
 
 - **AWS Blogs and Example Notebooks:**  
   Explore the detailed example notebooks and blog posts (such as [Improved ML model deployment using Amazon SageMaker Inference Recommender](https://aws.amazon.com/blogs/machine-learning/improved-ml-model-deployment-using-amazon-sagemaker-inference-recommender/)) for step-by-step guides.

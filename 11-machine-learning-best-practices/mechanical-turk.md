@@ -75,7 +75,7 @@ MTurk is often used for tasks like sentiment analysis annotation, document class
 
 - **AWS Documentation:**
 
-  - [Amazon Mechanical Turk Developer Guide](https://docs.aws.amazon.com/AWSMechTurk/latest/AWSMechTurkAPI/Welcome.html) citeturn0search0  
+  - [Amazon Mechanical Turk Developer Guide](https://docs.aws.amazon.com/AWSMechTurk/latest/AWSMechTurkAPI/Welcome.html)   
     Provides comprehensive details about integrating MTurk into your applications, including API references and workflow examples.
 
 - **AWS Blogs and Whitepapers:**
