@@ -1,3 +1,21 @@
+---
+title: "Strands Agents in Amazon Bedrock"
+exam: "MLA-C01"
+status: "supplemental"
+domain:
+  - "supplemental"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "14_agentic_ai"
+aliases:
+  - "Strands Agents in Amazon Bedrock"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Strands Agents in Amazon Bedrock
 
 ## Overview

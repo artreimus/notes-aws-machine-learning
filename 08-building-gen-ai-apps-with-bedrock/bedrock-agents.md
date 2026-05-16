@@ -1,3 +1,26 @@
+---
+title: "Bedrock Agents"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "08_building_gen_ai_apps_with_bedrock"
+aliases:
+  - "Bedrock Agents"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Bedrock Agents
+
 ## 1. Overview of LM Agents in Bedrock
 
 LM agents are an advanced way to extend the capabilities of a foundation model by giving it “tools” to interact with external systems. Rather than being limited to its internal knowledge, the model can dynamically invoke external functions—such as API calls, database queries, or even custom code—to retrieve or compute information. This architecture transforms a static generative model into an interactive, context-aware system.
@@ -113,3 +136,9 @@ LM agents are an advanced way to extend the capabilities of a foundation model b
   - Look for AWS webinars that cover integrating generative AI with external tools, and workshops that demonstrate end-to-end agent creation.
 
 ---
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html

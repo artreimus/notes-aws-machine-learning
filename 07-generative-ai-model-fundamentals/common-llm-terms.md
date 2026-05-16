@@ -1,3 +1,22 @@
+---
+title: "Common LLM Terms and Model Parameters"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "07_generative_ai_model_fundamentals"
+aliases:
+  - "Common LLM Terms and Model Parameters"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Common LLM Terms and Model Parameters
 
 - **Tokens** – Numerical representations of words or parts of words. These are the fundamental units processed by the model.
@@ -30,3 +49,8 @@
 - **Top-P sampling**: Limits the pool of choices based on cumulative probability.
 
 Understanding these parameters is crucial for tuning model behavior, optimizing generation quality, and controlling computational cost.
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

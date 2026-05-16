@@ -1,3 +1,26 @@
+---
+title: "Amazon Bedrock Agent Memory"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "13_bedrock"
+aliases:
+  - "Amazon Bedrock Agent Memory"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Bedrock Agent Memory
 
 ## Overview

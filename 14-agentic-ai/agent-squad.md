@@ -1,3 +1,21 @@
+---
+title: "Agent Squad in Amazon Bedrock"
+exam: "MLA-C01"
+status: "supplemental"
+domain:
+  - "supplemental"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "14_agentic_ai"
+aliases:
+  - "Agent Squad in Amazon Bedrock"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Agent Squad in Amazon Bedrock
 
 ## Overview

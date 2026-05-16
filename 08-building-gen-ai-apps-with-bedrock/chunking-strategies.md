@@ -1,3 +1,24 @@
+---
+title: "Chunking Strategies in RAG Pipelines"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "08_building_gen_ai_apps_with_bedrock"
+aliases:
+  - "Chunking Strategies in RAG Pipelines"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Chunking Strategies in RAG Pipelines
 
 ## 1. Overview of Chunking in Retrieval-Augmented Generation
@@ -165,3 +186,8 @@ Amazon Bedrock provides several chunking strategies for Knowledge Bases:
 - **Consider Document Metadata:**
   - Preserve document metadata (titles, headers, source information) within chunks.
   - Use metadata to enhance retrieval relevance and provide context.
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html

@@ -1,3 +1,26 @@
+---
+title: "Chunking strategies for RAG (deep dive notes)"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "13_bedrock"
+aliases:
+  - "Chunking strategies for RAG (deep dive notes)"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Chunking strategies for RAG (deep dive notes)
 
 Chunking is the step where you turn “documents” into **retrieval units**. Retrieval (vector / hybrid / keyword) typically happens at the chunk level, so chunking quietly controls everything downstream: relevance, citations, hallucination rate, latency, and cost.
@@ -359,3 +382,10 @@ When you implement chunking yourself, store:
 - `created_at`, `source_version`
 
 This makes debugging and incremental updates dramatically easier.
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

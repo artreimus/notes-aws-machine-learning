@@ -1,3 +1,28 @@
+---
+title: "Optimizing Vector Store And Embeddings"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "13_bedrock"
+aliases:
+  - "Optimizing Vector Store And Embeddings"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Optimizing Vector Store And Embeddings
+
 ## Optimizing vector store and embeddings (Amazon Bedrock Knowledge Bases context)
 
 When RAG feels “meh”, it is usually not the LLM. It is the geometry you built underneath it: how you chunked, embedded, indexed, and searched. Bedrock Knowledge Bases is helpful because it standardizes the ingestion flow (chunk → embed → write to vector index) ([AWS Documentation][1]), but you still control the two biggest levers:
@@ -219,3 +244,11 @@ If you keep the tuning order disciplined, you end up with a system that is faste
 [9]: https://aws.amazon.com/blogs/database/optimize-generative-ai-applications-with-pgvector-indexing-a-deep-dive-into-ivfflat-and-hnsw-techniques/?utm_source=chatgpt.com 'Optimize generative AI applications with pgvector indexing'
 [10]: https://aws.amazon.com/blogs/database/accelerate-hnsw-indexing-and-searching-with-pgvector-on-amazon-aurora-postgresql-compatible-edition-and-amazon-rds-for-postgresql/?utm_source=chatgpt.com 'Accelerate HNSW indexing and searching with pgvector on ...'
 [11]: https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-aurora-postgresql-pgvector-v0-5-0-hnsw-indexing/?utm_source=chatgpt.com 'Amazon Aurora PostgreSQL now supports pgvector v0.5.0 ...'
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

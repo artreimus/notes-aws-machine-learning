@@ -1,3 +1,26 @@
+---
+title: "Retrieval Augmented Generation"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "08_building_gen_ai_apps_with_bedrock"
+aliases:
+  - "Retrieval Augmented Generation"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Retrieval Augmented Generation
+
 ## 1. Detailed Overview of Data Stores in RAG with Bedrock
 
 In the context of Bedrock, a **knowledge base** is essentially built on top of a data store that holds your domain data alongside its corresponding embeddings. This data store is critical because it enables the system to retrieve contextually relevant information to augment prompts given to a generative model. Here’s what’s involved:
@@ -66,3 +89,7 @@ In the context of Bedrock, a **knowledge base** is essentially built on top of a
   When dealing with sensitive or proprietary information, ensure that data ingestion and query processes use secure methods (for example, integrating with AWS VPC and PrivateLink).
 
 
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html

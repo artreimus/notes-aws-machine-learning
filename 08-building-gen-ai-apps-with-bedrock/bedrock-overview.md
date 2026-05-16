@@ -1,3 +1,26 @@
+---
+title: "Bedrock Overview"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "08_building_gen_ai_apps_with_bedrock"
+aliases:
+  - "Bedrock Overview"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Bedrock Overview
+
 ## 1. Detailed Overview of Amazon Bedrock
 
 Amazon Bedrock is a fully managed, serverless service designed to simplify access to a variety of generative AI foundation models. These foundation models are essentially the large language models (LLMs) and image generation models that power a wide range of AI applications. In Bedrock’s ecosystem:
@@ -86,3 +109,9 @@ Amazon Bedrock is a fully managed, serverless service designed to simplify acces
   Experiment using Bedrock’s playgrounds (chat, text generation, image generation) to quickly validate model performance and integration before committing to production-level deployments.
 
 ---
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html

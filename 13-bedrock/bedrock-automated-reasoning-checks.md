@@ -1,3 +1,28 @@
+---
+title: "Bedrock Automated Reasoning Checks"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "13_bedrock"
+aliases:
+  - "Bedrock Automated Reasoning Checks"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Bedrock Automated Reasoning Checks
+
 ## 1) What it is
 
 **Automated Reasoning checks** is a **Guardrails policy type** in Amazon Bedrock that uses **formal (logic-based) verification** to validate whether an LLM’s output is consistent with the rules you define for a domain. Instead of “best effort” filtering (keywords, classifiers, another LLM judging), it translates relevant parts of text into logic and then checks whether the claims can be proven true (or proven false) under your policy. ([AWS Documentation][1])
@@ -189,3 +214,11 @@ If you want, I can turn these notes into a Bedrock implementation template (Guar
 [10]: https://docs.aws.amazon.com/bedrock/latest/userguide/deploy-automated-reasoning-policy.html 'Deploy your Automated Reasoning policy in your application - Amazon Bedrock'
 [11]: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-runtime/client/converse_stream.html 'converse_stream - Boto3 1.42.27 documentation'
 [12]: https://aws.amazon.com/about-aws/whats-new/2025/08/automated-reasoning-checks-amazon-bedrock-guardrails/?utm_source=chatgpt.com 'Automated Reasoning checks is now available in ...'
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

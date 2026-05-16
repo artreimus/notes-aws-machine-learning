@@ -1,3 +1,24 @@
+---
+title: "Foundational Models In AWS"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "07_generative_ai_model_fundamentals"
+aliases:
+  - "Foundational Models In AWS"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Foundational Models In AWS
+
 Foundation models (FMs) are expansive deep learning neural networks trained on vast datasets, serving as versatile bases for various machine learning (ML) applications. In AWS, both proprietary and third-party open-source FMs are accessible, facilitating the development of generative AI applications.
 
 **AWS Proprietary Foundation Models**
@@ -115,3 +136,9 @@ For more detailed information and guidance:
 - [AWS Generative AI Overview](https://aws.amazon.com/ai/generative-ai/)
 
 These resources provide comprehensive insights into utilizing foundation models within AWS services, aiding in the development of effective and responsible AI applications.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

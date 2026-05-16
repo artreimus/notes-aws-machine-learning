@@ -1,3 +1,26 @@
+---
+title: "Fine Tuning And Continuous Pre Training"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "08_building_gen_ai_apps_with_bedrock"
+aliases:
+  - "Fine Tuning And Continuous Pre Training"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Fine Tuning And Continuous Pre Training
+
 ## 1. Detailed Overview of Fine Tuning in Bedrock
 
 Fine tuning in Bedrock is the process of extending the training of a foundation model—such as a large language model or an image generation model—to better suit a specific application or domain. Rather than relying solely on prompt engineering (i.e., providing context or examples on every request), fine tuning "bakes in" your domain-specific information directly into the model's weights. This approach:
@@ -106,3 +129,9 @@ Continuous pre-training is a specialized form of model customization in Amazon B
 - **Iterative Approach:** Treat continuous pre-training as an ongoing process, periodically updating models with new information.
 
 ---
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html

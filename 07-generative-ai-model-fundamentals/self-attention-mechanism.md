@@ -1,3 +1,24 @@
+---
+title: "Self Attention Mechanism"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "07_generative_ai_model_fundamentals"
+aliases:
+  - "Self Attention Mechanism"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Self Attention Mechanism
+
 Self-attention is a pivotal mechanism in neural networks, particularly within the architecture of Transformers, that enables models to evaluate and assign varying degrees of importance to different words or tokens within a sequence. This capability allows the model to capture intricate relationships and dependencies, irrespective of the distance between words in the input data.
 
 **Understanding Self-Attention**
@@ -224,3 +245,9 @@ Modern transformer architectures have explored various enhancements to the basic
 - **Computational Efficiency:** Despite being computationally efficient due to parallelization, feed-forward networks often account for a significant portion of a transformer's parameters due to the expanded inner dimension.
 
 The position-wise feed-forward network, while conceptually simple, is a fundamental building block that contributes significantly to the remarkable success of transformer models across various domains and tasks.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

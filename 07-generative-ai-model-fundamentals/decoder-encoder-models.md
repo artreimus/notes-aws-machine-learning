@@ -1,3 +1,22 @@
+---
+title: "Encoder-Decoder Models"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "07_generative_ai_model_fundamentals"
+aliases:
+  - "Encoder-Decoder Models"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Encoder-Decoder Models
 
 ## Overview
@@ -89,7 +108,7 @@ For example, in healthcare applications on AWS, encoder-decoder models can proce
 1. **Infrastructure Optimization**:
 
    - Use SageMaker's distributed training capabilities for large models
-   - Consider Amazon Elastic Inference for cost-effective inference
+   - Use current SageMaker endpoint sizing, serverless inference, async inference, accelerator-backed instances, or SageMaker Inference Recommender for cost-effective inference
    - Implement model compression techniques when deploying to production
 
 2. **Fine-tuning Strategies**:

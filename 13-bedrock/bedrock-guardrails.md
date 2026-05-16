@@ -1,3 +1,28 @@
+---
+title: "Bedrock Guardrails"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "13_bedrock"
+aliases:
+  - "Bedrock Guardrails"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Bedrock Guardrails
+
 ## Amazon Bedrock Guardrails
 
 Amazon Bedrock Guardrails is AWS’s “policy layer” you attach to model interactions to reduce unsafe outputs, block certain topics, scrub sensitive data, and (optionally) check whether responses are grounded in a reference source. The key idea is consistency: you define guardrails once, then apply them across multiple foundation models and apps so your safety and privacy behavior does not depend on which model you picked. ([AWS Documentation][1])
@@ -212,3 +237,11 @@ That contract is the real superpower: it lets you swap models without re-litigat
 [18]: https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-supported.html?utm_source=chatgpt.com 'Supported Regions and models for Amazon Bedrock ...'
 [19]: https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-supported-languages.html?utm_source=chatgpt.com 'Languages supported by Amazon Bedrock Guardrails'
 [20]: https://aws.amazon.com/bedrock/pricing/?utm_source=chatgpt.com 'Amazon Bedrock Pricing'
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
