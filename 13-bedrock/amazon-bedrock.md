@@ -1,3 +1,28 @@
+---
+title: "Amazon Bedrock (deep dive notes)"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "13_bedrock"
+aliases:
+  - "Amazon Bedrock (deep dive notes)"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Bedrock (deep dive notes)
 
 ## 1) What it is
@@ -357,3 +382,10 @@ Cost control levers:
 
 - **AccessDenied on invocation** → missing `bedrock:InvokeModel` / model access not granted.
 - **Validation errors** → wrong request sche
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

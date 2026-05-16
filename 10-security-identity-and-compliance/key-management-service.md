@@ -1,3 +1,24 @@
+---
+title: "🔐 AWS KMS (Key Management Service) – Complete Notes"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "4.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-4"
+  - "10_security_identity_and_compliance"
+aliases:
+  - "🔐 AWS KMS (Key Management Service) – Complete Notes"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # 🔐 AWS KMS (Key Management Service) – Complete Notes
 
 ## ✅ 1. **What is AWS KMS?**
@@ -245,3 +266,8 @@ aws kms encrypt \
 ---
 
 If you'd like, I can follow this up with **practice questions** on KMS for the exam, or show how it integrates step-by-step in a SageMaker pipeline. Want to go that route next?
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

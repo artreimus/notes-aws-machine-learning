@@ -1,3 +1,30 @@
+---
+title: "SageMaker Deployment Modes"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Deployment Modes"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# SageMaker Deployment Modes
+
 Amazon SageMaker supports several deployment strategies that allow you to update machine learning models in production with minimal disruption and risk. These strategies—blue/green, canary, and linear deployments—provide different approaches for shifting traffic from an existing (often “stable”) model to a new version. Here’s an in‐depth explanation of each:
 
 ---
@@ -76,3 +103,11 @@ Each strategy offers a balance between risk mitigation and deployment speed, and
 ---
 
 By using these deployment strategies, SageMaker helps you transition seamlessly between model versions while ensuring that any issues can be quickly identified and remediated with minimal impact on end users.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

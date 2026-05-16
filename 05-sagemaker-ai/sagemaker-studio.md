@@ -1,72 +1,78 @@
-# SageMaker Studio
+---
+title: "Amazon SageMaker Studio"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "reviewed"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.3"
+service:
+  - "Amazon SageMaker AI"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "sagemaker"
+  - "studio"
+aliases:
+  - "Amazon SageMaker Studio"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
 
-## Overview
+# Amazon SageMaker Studio
 
-Amazon SageMaker Studio is an integrated development environment (IDE) for machine learning (ML) that provides a web-based, fully managed interface for building, training, tuning, and deploying ML models at scale. It unifies all ML development steps, from data preparation to model deployment, in a single visual interface. SageMaker Studio streamlines collaboration, experiment tracking, and resource management, making it a central hub for ML workflows on AWS.
+## Knowledge Relevance
 
-**Key Features:**
+Domain 2/3/4 SageMaker AI development environment note. Current AWS docs distinguish updated Studio from legacy Studio Classic and next-generation SageMaker/Unified Studio context.
 
-- Unified visual interface for the entire ML lifecycle
-- Support for Jupyter notebooks, code, and visual tools
-- Integrated data preparation, model building, training, tuning, and deployment
-- Experiment management and lineage tracking
-- Collaboration and sharing capabilities
-- Scalable compute resources and cost management
+## When To Use
 
-**Relevance:**
-SageMaker Studio is essential for ML practitioners seeking to accelerate development, improve reproducibility, and manage resources efficiently within the AWS ecosystem.
+- Use Studio as the web-based ML development environment for SageMaker AI resources.
+- Use it to access notebooks, training, pipelines, experiments, model registry, feature store, Canvas/Data Wrangler-style experiences where available, and deployment workflows.
+- Use Studio Classic only as legacy context for existing domains/workloads.
 
-## AWS Services & Features
+## Core Concepts
 
-SageMaker Studio integrates with a wide range of AWS services and SageMaker features, including:
+- All new SageMaker domains use updated Studio; treat Studio Classic as legacy context.
+- Studio Classic is the previous experience and has lifecycle/maintenance caveats.
+- Next-generation SageMaker includes SageMaker Unified Studio and access to SageMaker AI.
 
-- **Amazon SageMaker Notebooks:** Managed Jupyter notebooks with elastic compute.
-- **SageMaker Experiments:** Track, organize, and compare ML experiments.
-- **SageMaker Data Wrangler:** Visual data preparation and feature engineering.
-- **SageMaker Autopilot:** Automated machine learning (AutoML) for model creation.
-- **SageMaker Model Monitor:** Monitor deployed models for data and prediction quality.
-- **SageMaker Debugger:** Debug and profile training jobs.
-- **SageMaker Pipelines:** Build, automate, and manage ML workflows.
-- **SageMaker Feature Store:** Centralized repository for ML features.
-- **SageMaker Projects:** Templates for MLOps best practices.
-- **AWS Identity and Access Management (IAM):** Secure access and permissions.
-- **Amazon S3:** Storage for datasets, models, and artifacts.
-- **AWS CloudWatch:** Monitoring and logging.
+## AWS Services And Features
 
-## Practical Application
+- Amazon SageMaker Studio
+- SageMaker Studio Classic (legacy context)
+- SageMaker Unified Studio
+- Amazon SageMaker AI
+- IAM Identity Center/IAM
 
-**Example Scenario:**
-A data science team uses SageMaker Studio to collaboratively develop a fraud detection model:
+## Implementation Patterns
 
-1. **Data Preparation:** Use SageMaker Data Wrangler to import, clean, and transform transaction data from Amazon S3.
-2. **Exploration & Prototyping:** Launch Jupyter notebooks to explore data and build initial models.
-3. **Experimentation:** Track different model versions and hyperparameters with SageMaker Experiments.
-4. **Training & Tuning:** Run distributed training jobs and use SageMaker Autopilot for automated model selection.
-5. **Deployment:** Deploy the best model directly from Studio to a SageMaker endpoint.
-6. **Monitoring:** Set up Model Monitor to track data drift and prediction quality.
-7. **Collaboration:** Share notebooks and results with team members, leveraging IAM for secure access.
+- Create/enter SageMaker domain -> launch Studio -> build/process/train/tune/deploy/monitor ML assets.
+- Use project/pipeline/model registry workflows for MLOps rather than one-off notebook-only deployments.
 
-**Sample Architecture:**
+## Tradeoffs And Pitfalls
 
-- Data stored in Amazon S3
-- SageMaker Studio as the central interface
-- Integration with SageMaker Pipelines for automation
-- Model deployment to SageMaker Endpoints
-- Monitoring via CloudWatch and Model Monitor
+- Do not use old Studio Classic-only screenshots or terminology as current default behavior.
+- Studio is a workspace; execution roles, domain settings, VPC/KMS/S3 permissions still control access.
+- Idle apps and instances can create cost.
 
-## Challenges & Best Practices
+## Decision Triggers
 
-**Common Challenges:**
+- Current Studio vs Studio Classic legacy distinction points to this note.
+- Unified data/AI development wording can point to next-generation SageMaker.
+- Notebook-only workflow without MLOps is usually incomplete for production.
 
-- Managing cost and compute resources
-- Ensuring secure access and data privacy
-- Handling large-scale data and distributed training
-- Versioning and reproducibility of experiments
+## Related Notes
 
-**Best Practices:**
+- [[sagemaker-ai-current-capabilities]]
+- [[sagemaker-domains]]
+- [[sagemaker-pipelines]]
 
-- Use IAM roles and policies to enforce least-privilege access
-- Leverage SageMaker Projects and Pipelines for MLOps automation
-- Monitor resource usage and set up cost controls
-- Use SageMaker Experiments and Model Registry for tracking and governance
-- Regularly monitor deployed models for drift and performance issues
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/studio.html
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/next-generation-sagemaker/latest/userguide/what-is-sagemaker.html

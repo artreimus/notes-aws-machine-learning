@@ -1,3 +1,27 @@
+---
+title: "Tf Idf"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+  - "1.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "03_data_transformation_integrity_and_feature_engineering"
+aliases:
+  - "Tf Idf"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Tf Idf
+
 ## 1. What is TF-IDF?
 
 **TF-IDF** is a numerical statistic used in information retrieval and text mining to reflect how important a word is to a document in a collection (or corpus). The main idea behind TF-IDF is to weigh terms so that common words across many documents (e.g., “the”, “is”, etc.) get lower weights, whereas words that are rare across documents—but frequent in a particular document—receive a higher weight. This makes it easier to differentiate documents and capture their unique vocabulary.
@@ -136,3 +160,8 @@ In practice, these weights are computed using the TF-IDF formula mentioned earli
 
 TF-IDF remains one of the foundational techniques in NLP for transforming text data into meaningful numerical features. By combining the frequency of terms in a document with the inverse frequency of the term across the corpus, TF-IDF highlights distinctive words that help in tasks like classification, search ranking, and clustering. Enhancing this technique with n-gram features (unigrams, bigrams, and trigrams) can capture phrase-level context and improve model performance. However, practitioners must address challenges like increased dimensionality and sparsity, often resorting to preprocessing and feature selection techniques.
 
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

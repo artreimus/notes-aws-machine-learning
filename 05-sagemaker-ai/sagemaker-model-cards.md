@@ -1,3 +1,28 @@
+---
+title: "SageMaker Model Cards"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Model Cards"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # SageMaker Model Cards
 
 ## Overview
@@ -55,3 +80,10 @@ The model card is linked to the model in the SageMaker Model Registry, ensuring 
 - **Automate Updates**: Integrate model card creation and updates into CI/CD pipelines where possible.
 - **Review Regularly**: Schedule periodic reviews of model cards, especially for models in production.
 - **Access Control**: Use AWS IAM policies to restrict who can view or edit model cards.
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

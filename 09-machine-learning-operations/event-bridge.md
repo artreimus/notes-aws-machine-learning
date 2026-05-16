@@ -1,3 +1,29 @@
+---
+title: "Event Bridge"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Event Bridge"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Event Bridge
+
 ### Overview of Amazon EventBridge
 
 **Amazon EventBridge** (formerly known as CloudWatch Events) is a serverless event bus service that enables you to build event-driven architectures by easily integrating data from AWS services, custom applications, and SaaS providers. With EventBridge, you can capture, filter, and route events to various targets such as AWS Lambda, SNS, SQS, Step Functions, ECS tasks, and more. This flexibility makes it a powerful tool for automating workflows, handling cron jobs, and reacting to events in near real-time.
@@ -7,7 +33,7 @@ For machine learning projects, EventBridge is key to orchestrating automated res
 
 - **Model Retraining:** Trigger retraining jobs when new data becomes available.
 - **Monitoring & Alerting:** Automatically react to security events (like an IAM root user sign-in) or system events (e.g., EC2 instance state changes) by sending notifications or initiating remediation actions.
-- **Data Pipelines:** Initiate ETL jobs or trigger data ingestion workflows when files are uploaded to S3.
+- **Data Workflow Triggers:** Initiate ETL jobs or trigger data ingestion workflows when files are uploaded to S3.
 
 ---
 
@@ -99,3 +125,10 @@ For machine learning projects, EventBridge is key to orchestrating automated res
 ---
 
 By leveraging Amazon EventBridge, you can build robust, event-driven architectures that react to both scheduled and real-time events. Whether you’re automating routine data processing, enhancing security with immediate notifications, or orchestrating complex ML pipelines, EventBridge provides a flexible and scalable solution that integrates seamlessly with a wide range of AWS services and third-party tools. This makes it an essential component in modern cloud-based ML workflows and a critical topic for the AWS Certified Machine Learning Engineer – Associate exam.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

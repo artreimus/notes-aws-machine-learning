@@ -1,3 +1,26 @@
+---
+title: "Define a training job with VPC configuration"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "4.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-4"
+  - "10_security_identity_and_compliance"
+aliases:
+  - "Define a training job with VPC configuration"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Define a training job with VPC configuration
+
 ## ✅ 1. **Overview of AWS VPC**
 
 **Amazon Virtual Private Cloud (VPC)** is a service that lets you launch AWS resources in a logically isolated virtual network. VPC provides complete control over your virtual networking environment, including resource placement, connectivity, and security.
@@ -197,7 +220,6 @@ graph LR
 ### 📝 Example SageMaker Training in Private VPC
 
 ```python
-# Define a training job with VPC configuration
 training_params = {
     "AlgorithmSpecification": {
         "TrainingImage": "123456789012.dkr.ecr.us-west-2.amazonaws.com/my-ml-image:latest",
@@ -622,3 +644,8 @@ aws ec2 create-network-acl-entry \
 
 - 🧪 [AWS Networking Workshop](https://networking.workshop.aws/)
 - 🧪 [Amazon SageMaker Security Workshop](https://sagemaker-workshop.com/security.html)
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

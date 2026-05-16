@@ -1,3 +1,25 @@
+---
+title: "Elastic Fabric Adapter (EFA) & MiCS (Minimize Communication Scale)"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "2.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "04_model_training_tuning_and_evaluation"
+aliases:
+  - "Elastic Fabric Adapter (EFA) & MiCS (Minimize Communication Scale)"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Elastic Fabric Adapter (EFA) & MiCS (Minimize Communication Scale)
 
 ### 1. Feature Names
@@ -107,3 +129,6 @@
 - Recognize **p4d.24xlarge** as canonical EFA‑enabled instance with 400 Gbps networking.
 - Understand that **NCCL collectives (AllReduce/AllGather)** offload communication to EFA/CPU to free GPU cycles.
 
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

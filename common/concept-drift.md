@@ -1,3 +1,23 @@
+---
+title: "Concept Drift in Machine Learning"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Concept Drift in Machine Learning"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Concept Drift in Machine Learning
 
 **Concept drift** refers to the phenomenon where the statistical properties of the target variable, which a model is trying to predict, change over time in unforeseen ways. This causes the relationship between input features and the target to shift, leading to model performance degradation if not addressed.
@@ -40,3 +60,9 @@ In fraud detection, as fraudsters adapt their tactics, the patterns in transacti
 **References:**
 
 - [AWS: Monitoring Models for Concept Drift](https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-model-quality.html)
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

@@ -1,3 +1,29 @@
+---
+title: "AWS Batch"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "AWS Batch"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# AWS Batch
+
 ### Overview
 
 **AWS Batch** is a fully managed service designed to run batch computing workloads on AWS. It dynamically provisions the underlying compute resources (whether EC2 instances or Spot Instances) based on the current job volume and resource requirements. This means you no longer need to manage clusters manually. Instead, you define your jobs using Docker containers, and Batch takes care of resource provisioning, scheduling, and scaling.
@@ -91,3 +117,10 @@ In machine learning projects, AWS Batch can be used to run a variety of recurrin
 ---
 
 This high-level overview should provide a strong foundation for understanding AWS Batch, its role within AWS ML workflows, and how to leverage it effectively as part of your preparation for the AWS Certified Machine Learning Engineer – Associate exam.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

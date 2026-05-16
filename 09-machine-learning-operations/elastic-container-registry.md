@@ -1,3 +1,29 @@
+---
+title: "Elastic Container Registry"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Elastic Container Registry"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Elastic Container Registry
+
 ## 1. Overview & Relevance to ML Workflows
 
 **Amazon ECR** is a fully managed container registry service that simplifies storing, managing, and deploying Docker images on AWS. Its tight integration with other AWS services—such as ECS, EKS, and Fargate—enables ML practitioners to seamlessly deploy containerized applications, whether for training, model serving, or data preprocessing.
@@ -88,3 +114,10 @@
 ---
 
 This comprehensive overview should help you understand how Amazon ECR fits into AWS ML workflows—from ensuring reproducibility with Docker images to securing and managing your ML application deployments. Whether you’re storing production-ready models or experimental training environments, leveraging ECR effectively is key to maintaining robust and scalable ML solutions on AWS.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

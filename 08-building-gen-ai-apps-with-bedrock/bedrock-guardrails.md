@@ -1,3 +1,28 @@
+---
+title: "Bedrock Guardrails"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "08_building_gen_ai_apps_with_bedrock"
+aliases:
+  - "Bedrock Guardrails"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Bedrock Guardrails
+
 ## 1. Overview of Amazon Bedrock Guardrails
 
 Amazon Bedrock Guardrails provide a robust mechanism for ensuring that both the input (prompts) and output (responses) of your generative AI system comply with safety, governance, and security requirements. In essence, they act as a filter that automatically screens content to:
@@ -72,3 +97,9 @@ Amazon Bedrock Guardrails provide a robust mechanism for ensuring that both the 
 
 - **Plan for Future Expansion:**  
   Currently, guardrails are designed for text-based models (like Titan or Claude). Stay informed about updates as similar safety features may eventually be extended to image models and other modalities.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html

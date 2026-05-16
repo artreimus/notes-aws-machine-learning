@@ -1,3 +1,24 @@
+---
+title: "Matplotlib and Seaborn for Data Visualization"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Matplotlib and Seaborn for Data Visualization"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Matplotlib and Seaborn for Data Visualization
 
 ## Overview

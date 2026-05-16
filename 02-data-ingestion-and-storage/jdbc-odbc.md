@@ -1,3 +1,24 @@
+---
+title: "JDBC and ODBC in AWS Machine Learning Workflows"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "JDBC and ODBC in AWS Machine Learning Workflows"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # JDBC and ODBC in AWS Machine Learning Workflows
 
 ## Overview
@@ -14,7 +35,7 @@ While both serve similar purposes, they differ in language support, platform com
 | **API Standard**      | Java (part of Java SE)                        | Microsoft (open standard)                     |
 | **Driver Type**       | JDBC drivers (Type 1-4)                       | ODBC drivers                                  |
 | **Typical Use Cases** | Java applications, ETL, AWS Glue, Athena      | BI tools, analytics, QuickSight, Athena       |
-| **AWS Integration**   | Glue, Redshift, Athena, RDS, Data Pipeline    | Redshift, Athena, QuickSight, RDS             |
+| **AWS Integration**   | Glue, Redshift, Athena, RDS, DMS, Step Functions    | Redshift, Athena, QuickSight, RDS             |
 | **Ease of Use**       | Easy for Java developers                      | Easy for most languages/tools                 |
 | **Performance**       | Comparable (depends on driver/implementation) | Comparable (depends on driver/implementation) |
 | **Configuration**     | Requires Java runtime                         | Requires ODBC driver manager                  |
@@ -35,7 +56,7 @@ Several AWS services leverage JDBC and ODBC for data connectivity:
 - **AWS Glue**: Uses JDBC connections to connect to various data sources (e.g., RDS, Redshift, on-premises databases) for ETL jobs.
 - **Amazon RDS & Aurora**: Support JDBC/ODBC for connecting applications and analytics tools to managed relational databases.
 - **Amazon SageMaker**: Can use JDBC/ODBC indirectly via data sources (e.g., through Glue or Athena) to access training data.
-- **AWS Data Pipeline**: Uses JDBC to connect to on-premises or cloud databases for data movement and transformation.
+- **AWS Glue and AWS DMS**: Use JDBC-capable connectors and migration workflows for data movement and transformation. Treat AWS Data Pipeline as legacy.
 - **Amazon QuickSight**: Connects to data sources using ODBC/JDBC for interactive analytics and dashboarding.
 
 ## Practical Application
@@ -54,7 +75,7 @@ A data scientist uses a JDBC driver to connect a Jupyter notebook to Amazon Athe
 
 ### Example 4: Data Migration
 
-AWS Data Pipeline uses JDBC to move data from an on-premises Oracle database to Amazon RDS, enabling cloud-based analytics and ML workflows.
+AWS Glue or AWS DMS can use database connectivity to move data from an on-premises Oracle database to Amazon RDS or Amazon S3, enabling cloud-based analytics and ML workflows.
 
 ## Challenges & Best Practices
 
@@ -74,3 +95,8 @@ AWS Data Pipeline uses JDBC to move data from an on-premises Oracle database to 
 - Monitor and audit connections using **CloudTrail** and service-specific logging.
 - Regularly update drivers to the latest supported versions for security and compatibility.
 - Test connections and queries in a development environment before production deployment.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

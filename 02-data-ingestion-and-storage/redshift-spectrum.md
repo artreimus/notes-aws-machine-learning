@@ -1,3 +1,26 @@
+---
+title: "Redshift Spectrum"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Redshift Spectrum"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Redshift Spectrum
+
 **AWS Redshift Spectrum** is a feature of Amazon Redshift that lets you run SQL queries against exabytes of data in Amazon S3 without having to load the data into Redshift tables. Spectrum extends Redshift’s query processing engine so that it can span both the local, high‑performance storage of a Redshift cluster and S3 as an “external” data source. You define external tables (backed by data in S3 in open formats like Parquet, ORC, CSV, or JSON) in an external schema, and Spectrum transparently pushes down predicates and projection to a fleet of Spectrum nodes that read only the data needed and return results to your Redshift cluster for final aggregation and join processing.
 
 **Amazon Athena** is a fully serverless, interactive query service that lets you analyze data directly in S3 using standard SQL. Under the hood, Athena uses the open‑source Presto engine. There is no infrastructure to manage—you simply point Athena at your data, define schemas in the AWS Glue Data Catalog (or in Athena’s own catalog), and start querying. You pay per query ($5 per terabyte scanned, with discounts for partitioning and columnar formats).
@@ -37,3 +60,9 @@
 
 - **Redshift Spectrum** augments a provisioned Redshift cluster by transparently querying external tables in S3, ideal for blending hot and cold data and leveraging Redshift’s MPP engine and BI integrations.
 - **Athena** is a standalone, serverless query service powered by Presto, optimized for ad hoc, pay‑per‑use analytics directly on S3. Choose based on your performance needs, workload patterns, and management preferences.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

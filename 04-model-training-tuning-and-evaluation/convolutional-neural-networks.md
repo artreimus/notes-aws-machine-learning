@@ -1,3 +1,25 @@
+---
+title: "Convolutional Neural Networks (CNNs)"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "2.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "04_model_training_tuning_and_evaluation"
+aliases:
+  - "Convolutional Neural Networks (CNNs)"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Convolutional Neural Networks (CNNs)
 
 ## What Are CNNs For?
@@ -55,3 +77,7 @@
 - **AlexNet**: deeper network that popularized CNNs on ImageNet.
 - **GoogLeNet (Inception)**: introduced inception modules (parallel convolution/filter paths).
 - **ResNet (Residual Network)**: uses skip connections to train very deep networks without vanishing gradients.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

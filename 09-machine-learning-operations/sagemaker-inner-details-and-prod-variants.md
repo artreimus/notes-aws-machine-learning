@@ -1,3 +1,29 @@
+---
+title: "Start with a TensorFlow base image"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Start with a TensorFlow base image"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Start with a TensorFlow base image
+
 ### 1. Overview and Relevance
 
 **Docker Containers as the Backbone of SageMaker Deployments**  
@@ -107,7 +133,6 @@ These features collectively allow you to tailor both training and inference envi
 Here's a basic example of a Dockerfile for creating a custom training container compatible with SageMaker:
 
 ```dockerfile
-# Start with a TensorFlow base image
 FROM tensorflow/tensorflow:2.0.0a0
 
 # Install the SageMaker training toolkit
@@ -181,3 +206,9 @@ This approach offers several advantages:
 - Consistency between development and production environments
 
 For local development and testing, use `train_instance_type='local'`. For production workloads, use appropriate instance types like `ml.m5.large` or `ml.p3.2xlarge` depending on your computational needs.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

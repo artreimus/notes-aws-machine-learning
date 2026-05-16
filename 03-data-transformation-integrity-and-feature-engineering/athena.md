@@ -1,3 +1,25 @@
+---
+title: "Amazon Athena"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+  - "1.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "03_data_transformation_integrity_and_feature_engineering"
+aliases:
+  - "Amazon Athena"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Athena
 
 ## Overview
@@ -58,3 +80,8 @@ Amazon Athena is a serverless, interactive query service that enables you to ana
 - **Leverage Glue Crawlers**: Automate schema discovery and partition management.
 - **Monitor and Optimize Queries**: Use Athena's query history and AWS Cost Explorer to identify and optimize expensive queries.
 - **Secure Data Access**: Use IAM policies, S3 bucket policies, and encryption to protect sensitive data.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

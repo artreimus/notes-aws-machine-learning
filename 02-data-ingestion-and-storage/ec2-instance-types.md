@@ -1,3 +1,24 @@
+---
+title: "Amazon EC2 Instance Types Overview"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Amazon EC2 Instance Types Overview"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon EC2 Instance Types Overview
 
 Amazon EC2 offers a wide variety of instance types optimized for different use cases. Here's a categorized summary of the main EC2 instance families, along with their capabilities in terms of **CPU**, **GPU**, and **Memory** (as of mid-2025):
@@ -67,3 +88,8 @@ Optimized for high-throughput and low-latency storage.
 
 - **Graviton-based instances** (e.g., m7g, c7g, r7g) use ARM CPUs and offer better price-performance in many workloads.
 - **GPU-based instances** (p\*, g\*, inf2) are priced higher and designed for heavy ML, graphics, or scientific computing.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

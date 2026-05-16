@@ -1,3 +1,24 @@
+---
+title: "SQL analytics patterns"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "12_sql"
+aliases:
+  - "SQL analytics patterns"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # SQL analytics patterns
 
 ## Why it matters
@@ -123,3 +144,7 @@ JOIN dim_customer d
   columns, and preferring columnar formats.
 - Respect boolean operator precedence (`NOT`, `AND`, `OR`) to avoid logical
   errors in complex filters.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html

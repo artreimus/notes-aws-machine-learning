@@ -1,3 +1,24 @@
+---
+title: "SQL quick reference"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "12_sql"
+aliases:
+  - "SQL quick reference"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # SQL quick reference
 
 Short, exam-ready reminders for common SQL tasks and patterns.
@@ -112,3 +133,7 @@ WHEN NOT MATCHED THEN INSERT (id, col) VALUES (s.id, s.col);
 - Project only needed columns; avoid `SELECT *` in production or exam scenarios.
 - Filter early and on indexed columns to stay sargable (avoid wrapping columns in functions).
 - For analytics engines, prefer columnar formats, partitions, and sort keys (Redshift, Athena).
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html

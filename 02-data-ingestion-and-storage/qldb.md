@@ -1,32 +1,67 @@
-# Amazon QLDB (Quantum Ledger Database)
-
-## 1. Overview
-
-Amazon QLDB is a managed **ledger database** that maintains an **immutable** record of changes. It’s designed for use cases that require a verifiable history of updates.
-
-**Where it fits in ML workflows**
-
-- Maintain an auditable history of “ground truth” business events (e.g., decisions, approvals, overrides) that might be used to create labels or evaluate model outcomes.
-- Support compliance/audit requirements for data lineage and change tracking around ML-relevant records.
-
+---
+title: "Amazon QLDB"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "legacy"
+domain:
+  - "supplemental"
+service:
+  - "Amazon QLDB"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "legacy"
+  - "supplemental"
+aliases:
+  - "Amazon QLDB"
+last_verified: "2026-05-16"
+source_type: "aws-official"
 ---
 
-## 2. Core Concepts
+# Amazon QLDB
 
-- A ledger stores data with a **journal** of changes.
-- The key idea is **append-only history** with the ability to verify that records weren’t altered.
+## Knowledge Relevance
 
----
+Legacy/supplemental note. Amazon QLDB is in full shutdown and is not a current MLA-C01 study target.
 
-## 3. ML-Relevant Patterns
+## When To Use
 
-- Use QLDB as the authoritative audit trail for decision events, then extract curated datasets to S3/warehouse for training and analysis.
-- Keep online serving features in DynamoDB/feature store; use QLDB for compliance-grade history when required.
+- Use only for historical audit-ledger context.
+- For current AWS audit/compliance study, focus on CloudTrail, Config, S3 object lock/versioning, and governed data stores.
 
----
+## Core Concepts
 
-## 4. When to Choose QLDB vs DynamoDB
+- QLDB was a ledger database service.
+- AWS General Reference lists Amazon QLDB in full shutdown as of July 31, 2025.
 
-- Choose **QLDB** when immutability and verifiable history are requirements.
-- Choose **DynamoDB** when you need flexible, low-latency key-based access and don’t require ledger semantics (Streams can provide change capture, but not ledger verification).
+## AWS Services And Features
 
+- Amazon QLDB
+- AWS CloudTrail
+- AWS Config
+
+## Implementation Patterns
+
+- Historical ledger database pattern -> current alternatives depend on audit requirement and data model.
+
+## Tradeoffs And Pitfalls
+
+- Do not prioritize QLDB for MLA-C01.
+- Full shutdown means it should not be a current answer choice.
+
+## Decision Triggers
+
+- Ledger database with shutdown caveat points to legacy QLDB.
+- API activity history points to CloudTrail.
+
+## Related Notes
+
+- [[cloudtrail]]
+- [[aws-config]]
+
+
+## Sources
+
+- https://docs.aws.amazon.com/general/latest/gr/full_shutdown_services.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-out-of-scope-services.html

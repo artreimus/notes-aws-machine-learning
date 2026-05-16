@@ -1,3 +1,26 @@
+---
+title: "Transformer Architecture"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "07_generative_ai_model_fundamentals"
+aliases:
+  - "Transformer Architecture"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Transformer Architecture
+
 The Transformer architecture has revolutionized the field of artificial intelligence (AI), particularly in natural language processing (NLP). Introduced in the 2017 paper "Attention Is All You Need," Transformers have become foundational in developing large language models (LLMs) such as GPT (Generative Pre-trained Transformer) and BERT (Bidirectional Encoder Representations from Transformers).
 
 **Overview of Transformer Architecture**
@@ -57,3 +80,9 @@ For a more comprehensive exploration of Transformer architecture and its applica
 - **Online Tutorials:** Platforms like GeeksforGeeks offer tutorials on getting started with Transformers in machine learning. 
 
 By integrating Transformer models into your machine learning workflows and leveraging AWS's robust services, you can develop sophisticated AI applications that are both scalable and efficient.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

@@ -1,3 +1,25 @@
+---
+title: "What is Apache Hadoop?"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+  - "1.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "03_data_transformation_integrity_and_feature_engineering"
+aliases:
+  - "What is Apache Hadoop?"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # What is Apache Hadoop?
 
 **Apache Hadoop** is an open-source framework for distributed storage and processing of large datasets across clusters of computers. It is designed to scale from a single server to thousands of machines, each offering local computation and storage.
@@ -37,3 +59,8 @@
 
 **References:**  
 - [Apache Hadoop Documentation](https://hadoop.apache.org/)
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

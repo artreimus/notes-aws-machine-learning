@@ -1,3 +1,26 @@
+---
+title: "Kinesis Producer Library"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Kinesis Producer Library"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Kinesis Producer Library
+
 The Amazon Kinesis Producer Library (KPL) is a high-performance library designed to simplify and optimize the process of writing data to Amazon Kinesis Data Streams. It handles complex tasks such as batching, aggregation, retries, and efficient network utilization, allowing developers to focus on their core application logic.
 
 ---
@@ -77,3 +100,9 @@ KPL offers various configuration options to tailor its behavior:
 - [KPL Deaggregation Modules for AWS Lambda](https://docs.aws.amazon.com/streams/latest/dev/kinesis-record-deaggregation.html)
 
 These resources provide in-depth information and practical guidance for effectively utilizing the Amazon Kinesis Producer Library in your applications.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

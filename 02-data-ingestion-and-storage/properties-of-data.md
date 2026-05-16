@@ -1,3 +1,26 @@
+---
+title: "Properties Of Data"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Properties Of Data"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Properties Of Data
+
 **1. Concept Overview**  
 The data‑properties “three V’s” describe key dimensions that influence how you architect data ingestion, storage, and processing pipelines:
 
@@ -21,7 +44,7 @@ The data‑properties “three V’s” describe key dimensions that influence h
 | **Velocity** | Amazon Kinesis Data Streams (real‑time, low‑latency ingestion)             | Clickstream & IoT sensor streams                     |
 | **Velocity** | Kinesis Data Firehose (managed streaming to S3/Redshift/OpenSearch)        | Near real‑time delivery to analytics stores          |
 | **Velocity** | Amazon MSK (managed Apache Kafka)                                          | High‑throughput event streaming                      |
-| **Velocity** | AWS Lambda & Kinesis Data Analytics (serverless stream processing)         | Fraud detection, live dashboards                     |
+| **Velocity** | AWS Lambda, Kinesis Data Streams, and Amazon Managed Service for Apache Flink         | Fraud detection, live dashboards                     |
 | **Variety**  | AWS Glue Data Catalog & Lake Formation (centralized metadata & governance) | Centralized schema management                        |
 | **Variety**  | Amazon Athena & Redshift Spectrum (SQL over S3)                            | Ad‑hoc queries across structured & unstructured data |
 | **Variety**  | Amazon OpenSearch Service (search unstructured logs)                       | Log analytics & full‑text search                     |
@@ -50,3 +73,9 @@ The data‑properties “three V’s” describe key dimensions that influence h
 | **Backpressure & ordering**      | In Kinesis Data Streams, configure appropriate shard count; use sequence‑number checkpoints in consumers.     |
 | **Schema drift**                 | Leverage Glue Schema Registry; version schemas; automate compatibility checks before deployment.              |
 | **Cost control**                 | Choose serverless (Firehose, Athena) over provisioned when workload is spiky; monitor with AWS Cost Explorer. |
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

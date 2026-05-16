@@ -1,3 +1,27 @@
+---
+title: "Linear Learner"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Linear Learner"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Linear Learner
+
 Amazon SageMaker's **Linear Learner** algorithm is a supervised learning method designed to address both classification and regression tasks. It achieves this by learning a linear function (for regression) or a linear threshold function (for classification) that maps input features to the target variable. This algorithm is versatile, supporting binary classification, multiclass classification, and regression problems.
 
 **Training Input:**
@@ -63,3 +87,9 @@ Linear Learner supports training on both CPU and GPU instances:
   - **GPU Instances:** Beneficial for larger datasets and more complex models. However, it's important to note that multi-GPU configurations do not necessarily lead to performance improvements for this algorithm.
 
 For detailed information on instance recommendations, refer to the [SageMaker Linear Learner Algorithm documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html).
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

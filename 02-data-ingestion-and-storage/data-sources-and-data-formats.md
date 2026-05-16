@@ -1,3 +1,26 @@
+---
+title: "Data Sources And Data Formats"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Data Sources And Data Formats"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Data Sources And Data Formats
+
 ## Common Data Sources
 
 When building ETL/ELT pipelines, your raw data may originate from many different places. Understanding each source's characteristics helps you choose the right connector, handle authentication, and ensure data quality.
@@ -41,3 +64,9 @@ When building ETL/ELT pipelines, your raw data may originate from many different
 
 3. **Combining sources & formats**
    - A typical pipeline might extract JSON payloads from REST APIs, store them raw in S3, then transform and write out partitioned Parquet tables for fast, cost‑effective analytics via Athena or Redshift Spectrum.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

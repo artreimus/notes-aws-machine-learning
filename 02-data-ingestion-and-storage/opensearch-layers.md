@@ -1,3 +1,24 @@
+---
+title: "OpenSearch vector search: layers and tradeoffs"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "OpenSearch vector search: layers and tradeoffs"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # OpenSearch vector search: layers and tradeoffs
 
 Below is a “stack view” of OpenSearch vector search. Each row is a **choice at a different layer** (you can mix-and-match: e.g., **faiss + hnsw + on_disk**).
@@ -44,3 +65,8 @@ Below is a “stack view” of OpenSearch vector search. Each row is a **choice 
 
 - **Mode:** exact brute force after a filter
 - **Note:** Only works if the filtered candidate pool stays small
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

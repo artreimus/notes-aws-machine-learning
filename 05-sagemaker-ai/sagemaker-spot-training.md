@@ -1,3 +1,28 @@
+---
+title: "SageMaker Spot Training"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Spot Training"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # SageMaker Spot Training
 
 ## Overview

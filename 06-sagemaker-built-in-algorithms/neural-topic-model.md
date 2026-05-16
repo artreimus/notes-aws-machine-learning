@@ -1,3 +1,27 @@
+---
+title: "Neural Topic Model"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Neural Topic Model"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Neural Topic Model
+
 **Neural Topic Model (NTM) in Amazon SageMaker**
 
 **Purpose:**
@@ -34,3 +58,9 @@ Fine-tuning these hyperparameters is crucial for balancing model accuracy and tr
 - **Training:** NTM supports both GPU and CPU instance types. However, GPU instances (such as P2, P3, G4dn, and G5 families) are recommended for faster training, especially with large datasets.
 
 - **Inference:** CPU instances are generally sufficient for inference tasks, offering a cost-effective solution without significant performance trade-offs.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

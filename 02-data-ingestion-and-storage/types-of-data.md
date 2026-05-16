@@ -1,3 +1,26 @@
+---
+title: "Types Of Data"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Types Of Data"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Types Of Data
+
 **1. Concept Overview**  
 AWS’s Machine Learning Engineer exam guide calls out three fundamental data types you must recognize and handle when designing ML workflows:
 
@@ -48,3 +71,9 @@ While the concepts are service‑agnostic, AWS provides a rich toolset to manage
 | **Data quality / missing fields** | Build validation in Glue ETL (e.g., AWS Deequ); reject or backfill bad records |
 | **Indexing & search over unstructured blobs** | Extract metadata (timestamps, author, transcript) into DynamoDB or Elasticsearch |
 | **Cost of preprocessing at scale** | Leverage serverless (Lambda, Glue 2.0) with auto‑scaling; filter early to reduce data |
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

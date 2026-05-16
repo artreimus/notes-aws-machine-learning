@@ -1,3 +1,27 @@
+---
+title: "Semantic Segmentation"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Semantic Segmentation"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Semantic Segmentation
+
 ### Semantic Segmentation in Amazon SageMaker
 
 **What’s it for?**
@@ -64,3 +88,9 @@
 
 - Semantic segmentation is computationally heavy due to the per-pixel classification requirement.
 - Multi-GPU training within a single machine is supported, but **multi-node (multi-machine) training is not**.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

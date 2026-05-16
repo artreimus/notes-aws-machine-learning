@@ -1,3 +1,23 @@
+---
+title: "Probability Distributions"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Probability Distributions"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Probability Distributions
 
 A **probability distribution** is just a rule that tells us how likely each possible outcome of a random event is. Flip a coin: there’s a 50 % chance of heads and a 50 % chance of tails. Those two numbers (0.5 and 0.5) are the probability distribution for that coin flip—it must always add up to **1 (100 %)**.
@@ -48,3 +68,9 @@ A **probability distribution** is just a rule that tells us how likely each poss
 ### Takeaway
 
 Probability distributions are simply different lenses for “how likely is what.” Learn the stories behind the big ones above, and you’ll have a solid toolkit for data, games, science—or even impressing friends at a (very nerdy) party! 🎲✨
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

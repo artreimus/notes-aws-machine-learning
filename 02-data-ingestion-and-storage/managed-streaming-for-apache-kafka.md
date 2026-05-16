@@ -1,3 +1,24 @@
+---
+title: "Amazon Managed Streaming for Apache Kafka (Amazon MSK)"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Amazon Managed Streaming for Apache Kafka (Amazon MSK)"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Managed Streaming for Apache Kafka (Amazon MSK)
 
 - **Category**  
@@ -71,3 +92,8 @@
 | **ZooKeeper**| A distributed coordination service used by Kafka for cluster metadata, leader election, and configs. | MSK manages ZooKeeper for you; newer Kafka versions are moving toward a ZooKeeper-less mode. |
 | **Topic**    | A named stream of records to which producers write and from which consumers read.                   | Topics are split into partitions for scalability and parallelism.                            |
 | **Partition**| A subdivision of a topic; each partition is an ordered, immutable sequence of records.              | Enables parallel processing; each partition is replicated across brokers for durability.     |
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

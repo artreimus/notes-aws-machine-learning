@@ -1,3 +1,29 @@
+---
+title: "Resource Management And Autoscaling"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Resource Management And Autoscaling"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Resource Management And Autoscaling
+
 ### 1. Overview and Relevance
 
 **Resource Management in SageMaker** is an essential operations concern that focuses on selecting the optimal instance types and configurations for both training and inference. The goal is to maximize performance while minimizing costs:
@@ -68,3 +94,10 @@ _Best Practice:_ Always perform load testing of your auto-scaling configuration 
   - Configure your VPC with at least two subnets in separate availability zones to maximize resiliency.
 
 ---
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

@@ -1,3 +1,30 @@
+---
+title: "SageMaker Input Modes"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Input Modes"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# SageMaker Input Modes
+
 Amazon SageMaker offers various input modes to efficiently access training data stored in Amazon S3 and other AWS storage services. Here's an overview of these input modes and their relevance to AWS machine learning workflows:
 
 **1. S3 File Mode**
@@ -124,3 +151,11 @@ Amazon SageMaker offers various input modes to efficiently access training data 
 - **Fast File Mode vs Pipe Mode**
 
 Fast File Mode offers a balance between ease of use and performance, allowing immediate training with minimal code adjustments. Pipe Mode provides efficient data streaming but may require code modifications and is best suited for specific sequential access patterns.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

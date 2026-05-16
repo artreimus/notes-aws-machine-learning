@@ -1,3 +1,29 @@
+---
+title: "Code Pipeline"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Code Pipeline"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Code Pipeline
+
 ### Overview of AWS CodePipeline
 
 **AWS CodePipeline** is a fully managed continuous integration and continuous delivery (CI/CD) service that orchestrates the various stages of your application delivery process. It enables you to automatically build, test, and deploy your code every time there is a code change, ensuring rapid and reliable updates to your production systems. CodePipeline integrates seamlessly with other AWS Developer Tools such as **CodeCommit**, **CodeBuild**, and **CodeDeploy**, as well as third-party services like GitHub, Elastic Beanstalk, and CloudFormation.
@@ -81,3 +107,10 @@ In machine learning projects, CodePipeline is invaluable for automating and stre
 ---
 
 By leveraging AWS CodePipeline, you can seamlessly integrate your source control, build processes, and deployment steps into one automated workflow. This orchestration is crucial for maintaining a robust CI/CD pipeline in machine learning projects, enabling rapid iteration and deployment while ensuring high quality and consistency across your environments.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

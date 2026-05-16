@@ -1,3 +1,23 @@
+---
+title: "Preventing Underfitting"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Preventing Underfitting"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Preventing Underfitting
 
 Underfitting happens when your model is too simple to capture the underlying structure of the data, resulting in poor performance on both training and validation sets. Here's how to address it in practice:

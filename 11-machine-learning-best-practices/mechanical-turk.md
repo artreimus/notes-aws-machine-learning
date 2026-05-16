@@ -1,3 +1,24 @@
+---
+title: "Amazon Mechanical Turk"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "4.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-4"
+  - "11_machine_learning_best_practices"
+aliases:
+  - "Amazon Mechanical Turk"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Mechanical Turk
 
 ## 1. Overview of Amazon Mechanical Turk
@@ -90,3 +111,8 @@ MTurk is often used for tasks like sentiment analysis annotation, document class
   - Explore community forums and GitHub for example projects and scripts that integrate MTurk into machine learning pipelines. Real-world code examples help in understanding common pitfalls and effective usage strategies.
 
 ---
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/welcome.html

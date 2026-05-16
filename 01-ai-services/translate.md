@@ -1,3 +1,24 @@
+---
+title: "Amazon Translate"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "01_ai_services"
+aliases:
+  - "Amazon Translate"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Translate
 
 ## Overview
@@ -72,3 +93,8 @@ Amazon Translate is essential for building multilingual applications, processing
 - **Secure Data:** Use encryption and IAM policies to protect sensitive content.
 - **Optimize Batch Jobs:** Group documents and use asynchronous batch translation for efficiency.
 - **Integrate with Other Services:** Combine with Comprehend, Polly, and Transcribe for richer NLP workflows.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

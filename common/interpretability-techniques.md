@@ -1,3 +1,23 @@
+---
+title: "Interpretability Techniques in Machine Learning"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Interpretability Techniques in Machine Learning"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Interpretability Techniques in Machine Learning
 
 Interpretability techniques help us understand how machine learning models make decisions. These techniques can be grouped into:

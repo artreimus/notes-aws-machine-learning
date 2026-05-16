@@ -1,3 +1,26 @@
+---
+title: "IAM"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "4.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-4"
+  - "10_security_identity_and_compliance"
+aliases:
+  - "IAM"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# IAM
+
 ## ✅ 1. **Overview of AWS IAM**
 
 **AWS IAM (Identity and Access Management)** is a service that allows you to **securely manage access** to AWS resources. IAM is foundational for every AWS workload—including ML—because it enforces **least privilege access**, **authorization**, and **identity controls**.
@@ -194,3 +217,9 @@ IAM policies are JSON documents that consist of several key elements:
 
 - 📄 [Security Best Practices for AWS ML Services](https://docs.aws.amazon.com/whitepapers/latest/security-best-practices-ml-services/security-best-practices-ml-services.pdf)
 - 📄 [IAM Policy Reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies.html)
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

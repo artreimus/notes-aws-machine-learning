@@ -1,3 +1,25 @@
+---
+title: "Neural Networks"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "2.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "04_model_training_tuning_and_evaluation"
+aliases:
+  - "Neural Networks"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Neural Networks
 
 A neural network is a computational model inspired by the human brain's network of neurons. It consists of interconnected layers of nodes (neurons), where each connection has an associated weight, and each neuron applies an activation function to the weighted sum of its inputs plus a bias. Through training—typically using backpropagation and optimization algorithms like stochastic gradient descent—neural networks learn complex patterns and relationships in data, enabling tasks such as classification, regression, sequence prediction, and more.
@@ -104,3 +126,7 @@ A neural network is a computational model inspired by the human brain's network 
 - **Use Cases**:
   - Similar to LSTM but when computational efficiency and fewer parameters are desired.
   - Real-time sequence processing on resource-constrained devices.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

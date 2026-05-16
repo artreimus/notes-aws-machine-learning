@@ -1,100 +1,87 @@
-**Data Warehouses**
-
-**Definition & Purpose**  
-A **data warehouse** is a centralized, **schema‑on‑write** repository optimized for analytical querying over large volumes of **structured** data. Data from operational systems is **extracted**, **transformed** (cleaned, conformed, aggregated) and **loaded** (ETL) into a star or snowflake schema. The warehouse serves read‑heavy workloads—OLAP, reporting, BI dashboards and pre‑computed analytics.
-
-**Core Architecture Components**
-
-1. **Ingestion Layer**
-   - Batch connectors (AWS DMS, AWS Glue)
-   - Data validation, cleansing & conforming
-2. **Storage & Schema**
-   - Star or snowflake schemas
-   - Columnar storage for fast aggregations
-3. **Query Engine**
-   - Optimized for complex joins, window functions, aggregations
-   - Data marts and materialized views for performance
-4. **Access & Security**
-   - IAM roles, VPC endpoints, encryption (KMS, SSL/TLS)
-5. **Monitoring & Management**
-   - Workload management (WLM, concurrency scaling)
-   - Performance dashboards
-
-**AWS Example**
-
-- **Amazon Redshift**: MPP columnar, Spectrum for external queries, RA3 nodes with managed storage
-
+---
+title: "Data Lakes, Lakehouses, And Warehouses"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "reviewed"
+domain:
+  - "1.1"
+  - "1.2"
+  - "1.3"
+service:
+  - "Amazon S3"
+  - "AWS Lake Formation"
+  - "Amazon Redshift"
+  - "Amazon Athena"
+  - "AWS Glue"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "data-architecture"
+aliases:
+  - "Data Lakes, Lakehouses, And Warehouses"
+last_verified: "2026-05-16"
+source_type: "aws-official"
 ---
 
-**Data Lakes**
+# Data Lakes, Lakehouses, And Warehouses
 
-**Definition & Purpose**  
-A **data lake** is a centralized, **schema‑on‑read** repository that ingests **raw** data—structured, semi‑structured, and unstructured—in its native formats. It supports ELT: you **extract** and **load** first, then **transform** later for specific analytics, ML, or exploration.
+## Knowledge Relevance
 
-**Core Architecture Components**
+Domain 1 architecture note for choosing between data lake, lakehouse, and warehouse patterns for ML datasets.
 
-1. **Ingestion Zone**
-   - S3 “landing” buckets; streaming via Kinesis Firehose, MSK
-2. **Storage Layer**
-   - Amazon S3 with lifecycle policies (Glacier, Intelligent‑Tiering)
-3. **Metadata & Governance**
-   - AWS Glue Data Catalog / Lake Formation
-4. **Processing & Transformation**
-   - AWS Glue ETL, EMR, Lambda, Glue Elastic Views
-   - Athena, Redshift Spectrum for SQL-on-S3
-5. **Serving & Consumption**
-   - Curated zones; ML feature stores; OpenSearch for logs; BI tools
+## When To Use
 
-**AWS Example**
+- Use S3-based data lakes for flexible, durable raw/curated data storage.
+- Use Lake Formation for governance over data lake permissions.
+- Use Athena for serverless SQL over S3 and Redshift for managed warehouse workloads.
+- Use Apache Iceberg/Hudi/Delta-style table formats for lakehouse-style transactional tables where supported.
 
-- **S3 + Glue + Athena**: raw JSON → Glue crawler → Athena queries or parquet conversion
+## Core Concepts
 
----
+- Data lakes store raw/curated data, often in S3.
+- Warehouses optimize structured analytics.
+- Lakehouses add table/transaction/governance features over lake storage.
+- Glue Elastic Views should not be treated as current exam material; use Glue, Lake Formation, Athena, Redshift, and table formats instead.
 
-**Data Lakehouses**
+## AWS Services And Features
 
-**Definition & Purpose**  
-A **lakehouse** combines the low‑cost, scalable storage of a data lake with the performance and transactional integrity of a data warehouse. It supports both **schema‑on‑write** (for curated, high‑performance tables) and **schema‑on‑read** (for raw data exploration), unifying ETL and ELT patterns.
+- Amazon S3
+- AWS Glue
+- AWS Lake Formation
+- Amazon Athena
+- Amazon Redshift
 
-**Core Architecture Components**
+## Implementation Patterns
 
-1. **Unified Storage**
-   - Data in S3 using open formats (Parquet, ORC) with transaction logs (Delta Lake, Apache Hudi, Iceberg)
-2. **Metadata & Transactions**
-   - Lake Formation for access controls; open‑table formats for ACID guarantees
-3. **Query Engine & Compute**
-   - Redshift Spectrum, Athena, EMR Spark, or specialized engines (Databricks Runtime)
-4. **Governance & Optimization**
-   - Schema enforcement, versioning, compaction & indexing
-5. **Workloads Supported**
-   - BI/reporting, ad‑hoc SQL, real‑time analytics, ML training & serving
+- Raw zone -> curated zone -> catalog with Glue -> governed access with Lake Formation -> Athena/Redshift/SageMaker consumption.
 
-**AWS Example**
+## Tradeoffs And Pitfalls
 
-- **Lake Formation + S3 + Redshift Spectrum**: raw zone + curated tables in S3 → Lake Formation catalogs & secures them → Redshift Spectrum queries with warehouse‑grade performance
+- Data lake flexibility can lead to schema/governance sprawl without catalog and quality controls.
+- Warehouse performance comes with modeling and cost tradeoffs.
+- Do not rely on stale Glue Elastic Views references.
 
----
+## Decision Triggers
 
-**Key Comparisons**
+- S3 data lake and governance point to S3 + Glue Catalog + Lake Formation.
+- Warehouse analytics at scale points to Redshift.
+- Serverless query over S3 points to Athena.
 
-| Aspect           | Data Warehouse       | Data Lake                           | Data Lakehouse                                 |
-| ---------------- | -------------------- | ----------------------------------- | ---------------------------------------------- |
-| **Schema**       | On write (fixed)     | On read (flexible)                  | Both: on write for curated, on read for raw    |
-| **Data Types**   | Structured only      | All types                           | All types                                      |
-| **Ingestion**    | ETL                  | ELT                                 | ELT + managed transforms                       |
-| **Transactions** | ACID                 | None                                | ACID via open‑table formats                    |
-| **Query Model**  | SQL‑optimized        | SQL via Athena/Spectrum; custom     | SQL via multiple engines; real‑time & batch    |
-| **Cost Profile** | Higher TCO           | Low storage, pay‑per‑query compute  | Moderate; optimizes storage & compute          |
-| **Flexibility**  | Rigid schema changes | Highly flexible                     | Flexible with curated performance zones        |
-| **Use Cases**    | BI, dashboards       | Exploratory analytics, ML, archives | Unified analytics & ML, single-copy governance |
+## Related Notes
 
----
+- [[s3]]
+- [[glue]]
+- [[lake-formation]]
+- [[athena]]
+- [[redshift]]
 
-**Choosing the Right Architecture**
 
-- **Data Warehouse**
-  - Predefined, stable schemas; stringent SLAs on query latency; primary BI/reporting use.
-- **Data Lake**
-  - Heterogeneous data at scale; exploratory analytics; cost‑efficient archival.
-- **Data Lakehouse**
-  - Need both rapid BI performance and ML/ELT flexibility on the same data platform.
+## Sources
+
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+- https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html
+- https://docs.aws.amazon.com/athena/latest/ug/what-is.html
+- https://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html

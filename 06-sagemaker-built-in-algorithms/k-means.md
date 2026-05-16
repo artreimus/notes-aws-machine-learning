@@ -1,3 +1,27 @@
+---
+title: "K Means"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "K Means"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# K Means
+
 K-Means Clustering is an unsupervised machine learning algorithm that partitions data into _k_ distinct clusters based on feature similarity. The goal is to organize data points such that those within the same cluster are more similar to each other than to those in other clusters. This technique is valuable for exploratory data analysis, customer segmentation, anomaly detection, and more.
 
 **Relevant AWS Services & Features + Use Cases**
@@ -23,3 +47,9 @@ Consider an e-commerce company aiming to enhance its marketing efforts. By apply
 - **Initialization Sensitivity**: The algorithm's outcome can be affected by initial cluster placements. Using the 'k-means++' initialization method helps in achieving more consistent results.
 
 By leveraging SageMaker's K-Means implementation and adhering to best practices, you can effectively uncover patterns and structures within your data, facilitating informed decision-making and strategic planning.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

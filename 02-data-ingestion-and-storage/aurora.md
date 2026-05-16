@@ -1,3 +1,24 @@
+---
+title: "Amazon Aurora"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Amazon Aurora"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Aurora
 
 ## 1. Overview
@@ -46,3 +67,8 @@ Amazon Aurora is a managed relational database engine compatible with **MySQL** 
 - Choose **RDS** when you need:
   - A specific engine not provided by Aurora (e.g., Oracle/SQL Server).
   - A simpler managed setup for standard relational workloads.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

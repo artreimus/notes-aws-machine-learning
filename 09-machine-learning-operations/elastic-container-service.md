@@ -1,3 +1,29 @@
+---
+title: "Elastic Container Service"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Elastic Container Service"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Elastic Container Service
+
 ## 1. Amazon ECS Overview in ML Workflows
 
 ## Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that simplifies running Docker containers in production. In ML workflows, ECS enables you to deploy, scale, and manage containerized applications—such as model training, inference endpoints, and data preprocessing services—across a cluster of resources.
@@ -169,3 +195,10 @@ The ECS Agent enables EC2 instances to function as part of an ECS cluster by mai
 ---
 
 This comprehensive overview should help solidify your understanding of Amazon ECS’s core components and how they integrate into AWS ML workflows. Whether you're provisioning EC2 instances for custom hardware needs or leveraging Fargate for serverless deployments, these concepts and best practices will prepare you for the exam and real-world scenarios alike.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

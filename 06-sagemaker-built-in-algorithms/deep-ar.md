@@ -1,3 +1,27 @@
+---
+title: "Deep Ar"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Deep Ar"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Deep Ar
+
 **Amazon SageMaker's DeepAR Algorithm**
 
 **Purpose:**
@@ -65,3 +89,9 @@ Selecting the appropriate instance type based on the model size and dataset char
 For a practical demonstration and deeper understanding of DeepAR, consider watching the following video:
 
 - **video:** Probabilistic Forecasting with DeepAR and AWS SageMaker
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

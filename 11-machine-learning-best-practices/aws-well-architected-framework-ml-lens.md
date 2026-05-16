@@ -1,3 +1,24 @@
+---
+title: "AWS Well-Architected Framework (ML Lens)"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "4.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-4"
+  - "11_machine_learning_best_practices"
+aliases:
+  - "AWS Well-Architected Framework (ML Lens)"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # AWS Well-Architected Framework (ML Lens)
 
 ## Overview
@@ -29,7 +50,7 @@ Each pillar of the framework leverages specific AWS services and features:
 
 ### 4. **Performance Efficiency**
 
-- **Services:** Amazon SageMaker (managed infrastructure, distributed training), Amazon EC2 (GPU/CPU selection), AWS Lambda, Amazon Elastic Inference, Amazon S3
+- **Services:** Amazon SageMaker (managed infrastructure, distributed training), Amazon EC2 (GPU/CPU selection), AWS Lambda, SageMaker Inference Recommender and current accelerator-backed inference instances, Amazon S3
 - **Features:** Resource selection, auto-scaling, distributed training, hardware acceleration
 
 ### 5. **Cost Optimization**
@@ -73,3 +94,8 @@ Each pillar of the framework leverages specific AWS services and features:
 - **Secure by default:** Apply least privilege IAM policies, encrypt all data, and audit access.
 - **Optimize resources:** Use spot instances, right-size compute, and manage data lifecycle.
 - **Document and review:** Regularly perform Well-Architected Reviews to identify and remediate risks.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/welcome.html

@@ -1,3 +1,24 @@
+---
+title: "Feature Engineering Techniques"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Feature Engineering Techniques"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Feature Engineering Techniques
 
 ## 1. Feature Splitting
@@ -96,3 +117,8 @@ x\_{\text{scaled}} = \frac{x - \mu}{\sigma}
 | **year_constructed** (child) | Binning           | Captures era‑based pricing tiers with discrete age bins      |
 | **city**                     | One‑Hot Encoding  | Avoids arbitrary ordering; lets model learn per‑city effects |
 | **building_size**            | Standardization   | Puts sizes on common scale; speeds convergence and stability |
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

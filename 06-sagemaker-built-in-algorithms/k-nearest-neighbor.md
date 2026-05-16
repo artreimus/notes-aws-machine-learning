@@ -1,3 +1,27 @@
+---
+title: "K Nearest Neighbor"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "K Nearest Neighbor"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# K Nearest Neighbor
+
 **K-Nearest Neighbors (k-NN): Overview and Applications**
 
 Amazon SageMaker's k-NN is a simple yet powerful algorithm for both classification and regression tasks. It operates on the principle that similar data points tend to have similar outcomes, making predictions based on the characteristics of the k closest points in the feature space.
@@ -71,3 +95,9 @@ Amazon SageMaker's k-NN is a simple yet powerful algorithm for both classificati
 - **Curse of Dimensionality:**
   - High-dimensional data can reduce effectiveness
   - Dimensionality reduction techniques help mitigate this
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

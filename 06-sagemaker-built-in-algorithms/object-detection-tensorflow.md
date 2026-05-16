@@ -1,0 +1,71 @@
+---
+title: "Object Detection - TensorFlow"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "reviewed"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "Amazon SageMaker AI"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "sagemaker"
+  - "built-in-algorithm"
+aliases:
+  - "Object Detection - TensorFlow"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Object Detection - TensorFlow
+
+## Knowledge Relevance
+
+SageMaker AI supervised transfer-learning algorithm for object detection.
+
+## When To Use
+
+- Use when the data/task matches the algorithm family and a managed SageMaker built-in container is preferred.
+- Use to avoid maintaining custom training code when built-in input formats and hyperparameters fit.
+
+## Core Concepts
+
+- Uses pretrained TensorFlow Model Garden models, accepts image datasets, and outputs bounding boxes/classes for objects in images.
+- Check required input channels, content types, and instance recommendations before training.
+- Compare against XGBoost/LightGBM/Linear Learner or custom training depending on task and constraints.
+
+## AWS Services And Features
+
+- Amazon SageMaker AI built-in algorithms
+- SageMaker Training
+- SageMaker Automatic Model Tuning
+
+## Implementation Patterns
+
+- S3 training data -> built-in algorithm container -> training job -> model artifact -> endpoint or batch transform.
+
+## Tradeoffs And Pitfalls
+
+- Built-in algorithms still require correct input format and feature engineering.
+- Use the algorithm cheat sheet to avoid choosing image/text/tabular algorithms interchangeably.
+- Not every algorithm is parallelizable or GPU-appropriate.
+
+## Decision Triggers
+
+- Managed built-in algorithm with matching data type points to SageMaker AI.
+- Need full architecture control points to custom training.
+
+## Related Notes
+
+- [[sagemaker-built-in-algorithms-cheat-sheet]]
+- [[model-selection-decision-guide]]
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/object-detection-tensorflow.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

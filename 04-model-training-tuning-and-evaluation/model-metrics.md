@@ -1,3 +1,27 @@
+---
+title: "Model Metrics"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "2.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "04_model_training_tuning_and_evaluation"
+aliases:
+  - "Model Metrics"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Model Metrics
+
 A **confusion matrix** is a fundamental tool in machine learning for evaluating the performance of classification models, especially when dealing with imbalanced datasets or when the costs of different types of errors vary. In the context of AWS Machine Learning services, understanding and interpreting confusion matrices is crucial for model assessment and selection.
 
 ---
@@ -147,3 +171,8 @@ Using SageMaker Autopilot, one can train a model on transaction data and evaluat
 Shapley values provide a local explanation by quantifying the contribution of each feature to the prediction for a specific instance, while PDP provides a global explanation by showing the marginal effect of a feature on the model’s predictions across the dataset. Use Shapley values to explain individual predictions and PDP to understand the model's behavior at a dataset level
 
 For more detailed information, refer to the [Amazon SageMaker Developer Guide on Metrics](https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-metrics-validation.html).
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

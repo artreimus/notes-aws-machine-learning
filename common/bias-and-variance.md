@@ -1,3 +1,25 @@
+---
+title: "Bias And Variance"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Bias And Variance"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Bias And Variance
+
 In supervised learning, model error can be decomposed into three parts:
 
 - squared bias
@@ -49,3 +71,10 @@ The table below summarizes key differences between bias and variance ([Bias–va
 | **Effect on Test Error**     | High                                                   | High                                                           |
 | **Typical Remedies**         | Increase model complexity, add features                | Regularization, reduce complexity, gather more data            |
 | **Example**                  | Linear regression on nonlinear data                    | Decision tree without pruning; k-NN with very small k          |
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

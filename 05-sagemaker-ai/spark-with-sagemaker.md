@@ -1,3 +1,28 @@
+---
+title: "Spark Integration with SageMaker"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "Spark Integration with SageMaker"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Spark Integration with SageMaker
 
 ## Overview
@@ -124,3 +149,10 @@ spark_processor.run(
 - Monitor resource usage and tune Spark configurations for performance
 - Use managed integrations (e.g., Studio + EMR, Data Wrangler) to simplify setup
 - Secure data with IAM, encryption, and VPC endpoints
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

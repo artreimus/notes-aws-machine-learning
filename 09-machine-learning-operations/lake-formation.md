@@ -1,3 +1,29 @@
+---
+title: "Lake Formation"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Lake Formation"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Lake Formation
+
 ### Overview of AWS Lake Formation
 
 **AWS Lake Formation** is a managed service designed to simplify and accelerate the process of setting up a secure data lake on AWS. Originally announced in 2018 and significantly refined over 2020, Lake Formation is built on top of AWS Glue. Its core promise is to enable you to create a secure data lake in days by automating many of the manual, error-prone tasks associated with setting up and managing data lakes.
@@ -90,3 +116,10 @@ The process of creating a data lake involves several key steps:
 ---
 
 By leveraging AWS Lake Formation, you can streamline the creation and management of secure, scalable data lakes that integrate with a wide range of AWS analytics and ML services. This empowers you to focus on deriving insights from your data while ensuring robust security and compliance—a critical capability for modern data-driven applications and a key topic for the AWS Certified Machine Learning Engineer – Associate exam.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

@@ -1,3 +1,27 @@
+---
+title: "Light Gbm"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Light Gbm"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Light Gbm
+
 **LightGBM** (Light Gradient Boosting Machine) is an open-source, high-performance framework developed by Microsoft for gradient boosting on decision trees. It is designed to be efficient and scalable, making it suitable for large datasets and high-dimensional data. LightGBM is commonly used for various supervised learning tasks, including classification, regression, and ranking.
 
 **Training Input Requirements:**
@@ -41,3 +65,9 @@ LightGBM is a memory-bound algorithm, meaning its performance is often limited b
 Starting from LightGBM version 3.2.0, distributed training using the Dask framework is supported, allowing for efficient scaling across multiple machines.
 
 By understanding these aspects, practitioners can effectively utilize LightGBM within AWS SageMaker to build efficient and accurate machine learning models.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

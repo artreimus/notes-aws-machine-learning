@@ -1,3 +1,29 @@
+---
+title: "Git Branching Strategies"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Git Branching Strategies"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Git Branching Strategies
+
 ### Git Flow: The Traditional Branching Model
 
 **Git Flow** is a branching strategy that provides a robust framework for managing multiple streams of work simultaneously. It defines several types of branches, each with a specific purpose:
@@ -87,3 +113,10 @@ Understanding these workflows is crucial not only for managing code effectively 
   [Understanding GitHub Flow](https://guides.github.com/introduction/flow/) for a concise overview of the simplified workflow.
 
 By mastering these branching models, you'll be better prepared to manage source code changes, collaborate with teams, and implement robust CI/CD pipelines in your ML projects—all essential skills for modern cloud-based machine learning deployments.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

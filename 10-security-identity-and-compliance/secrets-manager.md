@@ -1,3 +1,24 @@
+---
+title: "🔐 AWS Secrets Manager"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "4.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-4"
+  - "10_security_identity_and_compliance"
+aliases:
+  - "🔐 AWS Secrets Manager"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # 🔐 AWS Secrets Manager
 
 ## ✅ 1. **What is AWS Secrets Manager?**
@@ -194,3 +215,8 @@ def get_secret(secret_name):
 - 🎥 [How to Securely Access Secrets in AWS](https://www.youtube.com/watch?v=E-WJrpzLZ1A)
 
 ---
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

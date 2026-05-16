@@ -1,3 +1,27 @@
+---
+title: "Activation Functions"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "2.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "04_model_training_tuning_and_evaluation"
+aliases:
+  - "Activation Functions"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Activation Functions
+
 ## Activation Functions
 
 Activation functions are crucial in neural networks as they introduce non-linearity, allowing the model to learn complex patterns. They determine how the weighted sum of inputs is transformed into an output signal for each neuron.
@@ -28,3 +52,8 @@ Activation functions are crucial in neural networks as they introduce non-linear
 | Maxout             | Hidden layers requiring flexible activations | High parameter count; learns activation shape     |
 | Swish              | Deep models seeking slight accuracy gains    | Smooth, non-monotonic; can outperform ReLU        |
 | Softmax            | Output layer for multi-class classification  | Converts logits to probabilities                  |
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

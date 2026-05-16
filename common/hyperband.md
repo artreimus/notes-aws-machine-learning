@@ -1,3 +1,25 @@
+---
+title: "Hyperband"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Hyperband"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Hyperband
+
 ## Hyperband
 
 **Definition:** Hyperband is an efficient hyperparameter optimization algorithm that adapts the concept of multi-armed bandits to allocate resources (e.g., training epochs, data subsets) to randomly sampled hyperparameter configurations. It incorporates early stopping to quickly discard poor performers, focusing computational budget on promising candidates.
@@ -54,3 +76,10 @@
 **References:**
 
 * Li, L., Jamieson, K., DeSalvo, G., Rostamizadeh, A., & Talwalkar, A. (2017). Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimizat
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

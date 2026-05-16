@@ -1,3 +1,25 @@
+---
+title: "📗 **AWS Automatic Model Tuning (AMT) & Hyperparameter Tuning**"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "2.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "04_model_training_tuning_and_evaluation"
+aliases:
+  - "📗 **AWS Automatic Model Tuning (AMT) & Hyperparameter Tuning**"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # 📗 **AWS Automatic Model Tuning (AMT) & Hyperparameter Tuning**
 
 ---
@@ -179,3 +201,7 @@ aws sagemaker create-hyper-parameter-tuning-job \
 ---
 
 Would you like to add more depth to any area, or cover another service next?
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

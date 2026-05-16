@@ -1,3 +1,20 @@
+---
+title: "Agent Squad in Amazon Bedrock"
+scope: "AWS Machine Learning and AI"
+status: "supplemental"
+domain:
+  - "supplemental"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "14_agentic_ai"
+aliases:
+  - "Agent Squad in Amazon Bedrock"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Agent Squad in Amazon Bedrock
 
 ## Overview

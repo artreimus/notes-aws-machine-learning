@@ -1,3 +1,27 @@
+---
+title: "Principal Component Analysis"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Principal Component Analysis"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Principal Component Analysis
+
 **Principal Component Analysis (PCA): Overview and Applications**
 
 Amazon SageMaker's PCA is an unsupervised machine learning algorithm designed for dimensionality reduction. It transforms high-dimensional data into a lower-dimensional space while preserving the maximum amount of variance in the data. This makes it particularly valuable for simplifying complex datasets and visualizing high-dimensional data.
@@ -97,3 +121,9 @@ Amazon SageMaker provides a built-in implementation of the PCA algorithm, optimi
 **Practical Examples or Scenarios**
 
 Consider a scenario where a company collects extensive customer data with numerous features. Applying SageMaker's PCA algorithm can reduce the dataset's dimensionality, identifying the most significant components that capture the majority of variance. This streamlined dataset can then be used for clustering customers into distinct segments, facilitating targeted marketing strategies and personalized services.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

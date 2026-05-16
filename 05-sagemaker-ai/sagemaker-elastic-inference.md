@@ -1,70 +1,70 @@
+---
+title: "SageMaker Elastic Inference"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "legacy"
+domain:
+  - "3.1"
+service:
+  - "Amazon SageMaker AI"
+  - "Amazon Elastic Inference"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "legacy"
+  - "inference"
+aliases:
+  - "SageMaker Elastic Inference"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # SageMaker Elastic Inference
 
-## Overview
+## Knowledge Relevance
 
-Elastic Inference is an AWS capability that allows you to attach just the right amount of GPU-powered inference acceleration to Amazon SageMaker endpoints, EC2 instances, and ECS tasks. Instead of using a full GPU instance for inference—which can be costly and underutilized for many workloads—Elastic Inference enables you to provision only the GPU acceleration you need, reducing costs while maintaining low-latency predictions. This is especially relevant for deep learning models where inference is less compute-intensive than training.
+Legacy inference acceleration note. AWS stopped onboarding new Elastic Inference customers after April 15, 2023.
 
-**Key Features:**
+## When To Use
 
-- Attachable GPU acceleration to CPU-based instances
-- Pay only for the GPU resources you use
-- Supports popular deep learning frameworks (TensorFlow, MXNet, ONNX, PyTorch)
-- Seamless integration with SageMaker endpoints
+- Use only for existing Elastic Inference environments.
+- For current endpoint cost/performance decisions, use instance selection, accelerator instances, serverless/async/batch modes, and Inference Recommender.
 
-**Relevance:**
-Elastic Inference is important for optimizing the cost and performance of ML inference workloads in production, making it a valuable tool for ML engineers and a topic on the AWS Certified Machine Learning Engineer – Associate exam.
+## Core Concepts
 
-## AWS Services & Features
+- Elastic Inference let customers attach fractional GPU acceleration to endpoints in older patterns.
+- The current study emphasis should be SageMaker Inference Recommender, endpoint modes, Application Auto Scaling, and modern accelerator instances.
 
-- **Amazon SageMaker:** Elastic Inference can be attached to SageMaker endpoints to accelerate model inference without the need for a full GPU instance.
-- **Amazon EC2:** Attach Elastic Inference accelerators to EC2 instances for custom ML inference workloads.
-- **Amazon ECS:** Use Elastic Inference with containerized inference workloads.
-- **Supported Frameworks:** TensorFlow, Apache MXNet, ONNX, PyTorch (check AWS documentation for the latest supported versions).
+## AWS Services And Features
 
-**Distinctive Capabilities:**
+- Amazon Elastic Inference
+- Amazon SageMaker AI
+- SageMaker Inference Recommender
 
-- Fine-grained GPU allocation (e.g., eia1.medium, eia1.large, eia1.xlarge)
-- Cost savings compared to dedicated GPU instances
-- Easy integration with existing inference workflows
+## Implementation Patterns
 
-## Practical Application
+- Historical: endpoint + EI accelerator.
+- Current: benchmark with Inference Recommender -> choose endpoint instance/mode -> autoscale.
 
-**Example Scenario:**
-A company deploys a deep learning model for image classification using SageMaker. The model requires GPU acceleration for low-latency inference, but the workload does not fully utilize a GPU instance. By attaching an Elastic Inference accelerator (e.g., eia2.medium) to a CPU-based SageMaker endpoint, the company achieves the required performance at a fraction of the cost of a full GPU instance.
+## Tradeoffs And Pitfalls
 
-**Sample Architecture:**
+- No new customer onboarding after April 15, 2023.
+- Do not select EI for greenfield current architecture questions.
 
-- Model is trained on SageMaker using GPU instances
-- Model is deployed to a SageMaker endpoint with Elastic Inference attached
-- Application sends inference requests to the endpoint, benefiting from accelerated predictions and reduced costs
+## Decision Triggers
 
-**Workflow:**
+- Elastic Inference wording should trigger legacy caveat.
+- Cost/performance endpoint recommendation points to Inference Recommender.
 
-1. Train model on SageMaker (GPU instance)
-2. Deploy model to endpoint with Elastic Inference (CPU instance + accelerator)
-3. Application calls endpoint for predictions
+## Related Notes
 
-## Challenges & Best Practices
+- [[sagemaker-inference-recommender]]
+- [[deployment-mode-decision-guide]]
+- [[endpoint-autoscaling-metrics]]
 
-**Common Challenges:**
 
-- Not all models or frameworks are supported (check AWS documentation)
-- Accelerator size must match workload requirements; under-provisioning can cause latency, over-provisioning wastes cost
-- Some advanced GPU operations may not be supported
-- Monitoring and troubleshooting can be more complex than standard GPU instances
+## Sources
 
-**Best Practices:**
-
-- Profile your model to determine the right accelerator size
-- Use supported frameworks and versions
-- Monitor endpoint performance and adjust accelerator size as needed
-- Regularly review AWS documentation for updates on supported features and frameworks
-- Consider fallback strategies if Elastic Inference is not available in your region
-
-## Additional Resources
-
-- [AWS SageMaker Elastic Inference Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/ei.html)
-- [Elastic Inference Developer Guide](https://docs.aws.amazon.com/elastic-inference/latest/developerguide/what-is-ei.html)
-- [AWS Machine Learning Blog: Cost-Effective Inference with Elastic Inference](https://aws.amazon.com/blogs/machine-learning/amazon-elastic-inference-deep-learning-inference-cost/)
-- [SageMaker Pricing](https://aws.amazon.com/sagemaker/pricing/)
-- [Exam Guide: AWS Certified Machine Learning – Specialty](https://aws.amazon.com/certification/certified-machine-learning-specialty/)
+- https://docs.aws.amazon.com/sdk-for-go/api/service/elasticinference/
+- https://docs.aws.amazon.com/sagemaker/latest/dg/inference-recommender.html

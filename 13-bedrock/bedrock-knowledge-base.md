@@ -1,3 +1,28 @@
+---
+title: "Amazon Bedrock Knowledge Bases (deep dive notes)"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "13_bedrock"
+aliases:
+  - "Amazon Bedrock Knowledge Bases (deep dive notes)"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Bedrock Knowledge Bases (deep dive notes)
 
 Amazon Bedrock Knowledge Bases is AWS’s **managed Retrieval-Augmented Generation (RAG)** capability. You connect your private data (unstructured docs, multimodal files, or structured tables), Bedrock handles ingestion + indexing, and at runtime it retrieves relevant information and (optionally) generates a grounded answer with **citations/source attribution**.
@@ -347,3 +372,10 @@ Common encryption surfaces:
 - **RetrieveAndGenerate**: retrieve + generate grounded response with citations.
 - **Reranker**: model/step to reorder retrieved candidates by relevance.
 - **Structured KB / NL2SQL**: translate natural language to SQL, execute, and optionally summarize.
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

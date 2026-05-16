@@ -1,3 +1,27 @@
+---
+title: "Supervised And Unsupervised Models"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Supervised And Unsupervised Models"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Supervised And Unsupervised Models
+
 Amazon SageMaker offers a broad portfolio of built-in algorithms for both supervised and unsupervised learning, enabling use cases from classification and regression to clustering, anomaly detection, and topic modeling ([Built-in algorithms and pretrained models in Amazon SageMaker - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html), [Unsupervised Built-in SageMaker AI Algorithms - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/algorithms-unsupervised.html)). Below are concise notes on the key AWS models in each paradigm, followed by separate tables summarizing their core characteristics.
 
 ## Supervised Learning Models in AWS
@@ -51,3 +75,9 @@ Unsupervised algorithms discover hidden patterns in unlabeled data, supporting c
 | Random Cut Forest (RCF)            | Anomaly detection through forest-based scoring of deviations | Time-series anomaly detection          | CSV, RecordIO |
 | Latent Dirichlet Allocation (LDA)  | Probabilistic topic modeling for document corpora            | Topic discovery, Document organization | Text          |
 | Neural Topic Model (NTM)           | Neural network–based unsupervised topic extraction           | Topic modeling, Recommendation         | Text          |
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

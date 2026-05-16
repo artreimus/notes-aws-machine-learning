@@ -1,3 +1,28 @@
+---
+title: "Other Bedrock Features"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "3.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "08_building_gen_ai_apps_with_bedrock"
+aliases:
+  - "Other Bedrock Features"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Other Bedrock Features
+
 ## 1. Importing Your Own Models
 
 - **Flexibility Beyond Provided Models:**  
@@ -93,3 +118,9 @@ These additional features highlight the expansive capabilities of Amazon Bedrock
 - **Bedrock Studio** provides a modern, collaborative environment that streamlines development and teamwork.
 
 Together, these features empower you to build, deploy, and manage sophisticated generative AI systems while addressing practical, security, and scalability concerns—essential knowledge for the AWS Certified Machine Learning Engineer – Associate exam and real-world applications.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
