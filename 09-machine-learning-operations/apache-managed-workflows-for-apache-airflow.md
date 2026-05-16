@@ -1,3 +1,27 @@
+---
+title: "Apache Managed Workflows For Apache Airflow"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Apache Managed Workflows For Apache Airflow"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Apache Managed Workflows For Apache Airflow
+
 ### Overview of Amazon Managed Workflows for Apache Airflow
 
 Amazon Managed Workflows for Apache Airflow (MWAA) is a fully managed service that simplifies the deployment, management, and scaling of Apache Airflow—a popular open source workflow orchestration tool. Apache Airflow allows you to author, schedule, and monitor complex workflows, defined as directed acyclic graphs (DAGs), using Python code. With MWAA, you write your DAGs just like you would in a self-managed Airflow environment, but without the operational overhead of provisioning, maintaining, or scaling the underlying infrastructure.
@@ -87,3 +111,10 @@ In data engineering and machine learning pipelines, MWAA is used to coordinate a
 ---
 
 By leveraging Amazon Managed Workflows for Apache Airflow, you gain the power of Apache Airflow's flexibility and control in orchestrating complex data and ML workflows, while offloading the operational overhead to AWS. This makes it an ideal solution for managing batch-oriented workflows, coordinating ETL processes, and automating model training pipelines—capabilities that are highly relevant for data engineering and the AWS Certified Machine Learning Engineer – Associate exam.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

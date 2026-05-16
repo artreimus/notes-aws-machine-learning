@@ -1,69 +1,59 @@
+---
+title: "AWS IoT Greengrass"
+exam: "MLA-C01"
+status: "out-of-scope"
+domain:
+  - "supplemental"
+service:
+  - "AWS IoT Greengrass"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "out-of-scope"
+aliases:
+  - "AWS IoT Greengrass"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # AWS IoT Greengrass
 
-## Overview
+## Exam Relevance
 
-AWS IoT Greengrass is an open-source edge runtime and cloud service that helps you build, deploy, and manage device software at the edge. It enables local compute, messaging, data caching, sync, and ML inference capabilities on edge devices, allowing them to act intelligently even when not connected to the cloud. Greengrass is essential for scenarios where low latency, intermittent connectivity, or data privacy are critical.
+AWS IoT Greengrass is listed out of scope for MLA-C01; Greengrass V1 is also in sunset. Keep only as edge context.
 
-**Key Features:**
+## When To Use
 
-- Local execution of AWS Lambda functions and Docker containers
-- Secure local messaging between devices
-- Data stream management and local data processing
-- ML inference at the edge
-- Device shadows and sync with AWS IoT Core
-- Over-the-air (OTA) updates for device software
+- Use only for background context unless a linked current service note needs it.
 
-**Relevance in AWS ML:**
-Greengrass is vital for deploying machine learning models to edge devices, enabling real-time inference and reducing the need to send all data to the cloud. This is especially important for IoT, industrial, and remote applications.
+## Core Concepts
 
-## AWS Services & Features
+- AWS IoT Greengrass is listed out of scope for MLA-C01; Greengrass V1 is also in sunset. Keep only as edge context.
+- This note is retained to preserve local study context and links.
 
-- **AWS IoT Greengrass Core**: The runtime that runs on edge devices, enabling local execution and management.
-- **AWS IoT Core**: Connects, manages, and secures devices in the cloud, often used alongside Greengrass.
-- **AWS Lambda**: Functions can be deployed to Greengrass for local execution.
-- **Amazon SageMaker Neo**: Optimizes ML models for edge deployment, producing artifacts that Greengrass can run efficiently.
-- **AWS IoT Device Management**: Manages fleets of devices, including those running Greengrass.
-- **AWS IoT Analytics & AWS IoT Events**: For advanced analytics and event detection, often used in conjunction with Greengrass deployments.
+## AWS Services And Features
 
-## Practical Application
+- AWS IoT Greengrass
 
-### Example: Deploying a Neo-Optimized Model with Greengrass
+## Implementation Patterns
 
-**Scenario:**
-A manufacturing company wants to perform real-time image classification on assembly line cameras to detect product defects. Due to bandwidth and latency constraints, inference must happen locally.
+- Prefer current in-scope alternatives described in related notes.
 
-**Workflow:**
+## Tradeoffs And Pitfalls
 
-1. **Model Training**: Train an image classification model in Amazon SageMaker.
-2. **Model Optimization**: Use SageMaker Neo to compile and optimize the model for the target edge device (e.g., ARM or x86 architecture).
-3. **Model Deployment**:
-   - Upload the Neo-optimized model artifact to Amazon S3.
-   - Configure an AWS IoT Greengrass group and core device.
-   - Deploy the model to the Greengrass core using the ML Inference feature.
-   - Deploy a Lambda function (or container) to the Greengrass core that loads the model and performs inference on images captured by the camera.
-4. **Local Inference**: The Greengrass core device runs the Lambda function, performing inference locally and sending only results or alerts to the cloud.
+- Do not prioritize this note for current MLA-C01 study.
 
-**Sample Architecture:**
+## Exam Triggers
 
-- Edge Device (with Greengrass Core + Neo-optimized model + Lambda function)
-- AWS IoT Core (device management, messaging)
-- Amazon S3 (model storage)
-- Amazon SageMaker (training & Neo compilation)
+- Lifecycle or out-of-scope wording should trigger de-prioritization.
 
-## Challenges & Best Practices
+## Related Notes
 
-**Challenges:**
+- [[in-scope-services]]
+- [[out-of-scope-services]]
 
-- Device resource constraints (CPU, memory, storage)
-- Managing large fleets of heterogeneous devices
-- Ensuring security and compliance at the edge
-- Handling intermittent connectivity
-- Model versioning and updates
 
-**Best Practices:**
+## Sources
 
-- Use SageMaker Neo to optimize models for the specific hardware of your edge devices.
-- Leverage Greengrass's OTA update capabilities for secure and efficient model and software updates.
-- Implement robust logging and monitoring for edge devices.
-- Use device shadows and local data caching to handle connectivity issues.
-- Secure communication between devices and the cloud using AWS IoT security features (certificates, policies).
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-out-of-scope-services.html
+- https://docs.aws.amazon.com/general/latest/gr/sunset_services.html

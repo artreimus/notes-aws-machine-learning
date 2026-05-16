@@ -1,3 +1,22 @@
+---
+title: "SQL performance tuning"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "12_sql"
+aliases:
+  - "SQL performance tuning"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # SQL performance tuning
 
 ## Why it matters
@@ -71,3 +90,7 @@
   workloads instead of permanent overprovisioning.
 - Reduce Athena spend with partition pruning, column projection, and Parquet or
   ORC storage.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html

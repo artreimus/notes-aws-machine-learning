@@ -1,3 +1,21 @@
+---
+title: "Shuffling Data in Machine Learning"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Shuffling Data in Machine Learning"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Shuffling Data in Machine Learning
 
 ## Overview
@@ -62,3 +80,9 @@ Several AWS services support or automate data shuffling as part of their ML pipe
 - Set a random seed for reproducibility.
 - Use built-in shuffling options in AWS services for scalability and efficiency.
 - For time series, consider windowed or block shuffling if appropriate.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

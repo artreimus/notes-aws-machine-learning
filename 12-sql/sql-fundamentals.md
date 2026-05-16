@@ -1,3 +1,22 @@
+---
+title: "SQL fundamentals"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "12_sql"
+aliases:
+  - "SQL fundamentals"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # SQL fundamentals
 
 ## Why it matters
@@ -78,3 +97,7 @@
   not override missing IAM policies.
 - Understand how SQL data types align with downstream analytics tools (e.g.,
   `BOOLEAN` vs. `TINYINT`).
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html

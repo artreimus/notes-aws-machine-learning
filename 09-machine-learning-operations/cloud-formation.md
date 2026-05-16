@@ -1,3 +1,27 @@
+---
+title: "Cloud Formation"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Cloud Formation"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Cloud Formation
+
 ### Overview of AWS CloudFormation
 
 **AWS CloudFormation** is a service that enables you to model, provision, and manage your AWS infrastructure using a declarative template. Instead of manually creating resources through the AWS Management Console, you describe your architecture in a JSON or YAML template, and CloudFormation takes care of provisioning and configuring those resources in the correct order.
@@ -76,7 +100,7 @@ A **stack** is a fundamental concept in AWS CloudFormation that represents a col
 - **Deploying SageMaker Endpoints:**  
   Imagine you have developed a machine learning model using SageMaker. With CloudFormation, you can create a stack that deploys the entire SageMaker environment—from training jobs to real-time endpoints—in a consistent manner across regions or accounts. This is particularly useful for automating the deployment of production models.
 
-- **Automating Data Pipeline Infrastructure:**  
+- **Automating Data Workflow Infrastructure:**
   CloudFormation can deploy a complete data ingestion and transformation pipeline (involving services like S3, Lambda, and Glue) which feeds data into an ML model for training. For instance, a stack might include an S3 bucket for raw data, a Lambda function for preprocessing, and a SageMaker training job.
 
 - **Cost Optimization Through Automation:**  
@@ -135,3 +159,10 @@ A **stack** is a fundamental concept in AWS CloudFormation that represents a col
 ---
 
 This high-level overview and detailed breakdown should help you understand how AWS CloudFormation is leveraged for deploying and managing infrastructure at scale, especially within ML workflows. By mastering CloudFormation, you'll be better equipped to automate, scale, and secure your machine learning environments on AWS, aligning with the best practices expected in the AWS Certified Machine Learning Engineer – Associate exam.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

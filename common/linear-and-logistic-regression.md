@@ -1,3 +1,21 @@
+---
+title: "Linear and Logistic Regression"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Linear and Logistic Regression"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Linear and Logistic Regression
 
 Linear regression is a supervised learning algorithm that models the relationship between a continuous dependent variable and one or more independent variables by fitting an affine function to minimize the mean squared error  ([Linear regression](https://en.wikipedia.org/wiki/Linear_regression?utm_source=chatgpt.com)). In contrast, logistic regression is a supervised classification algorithm that predicts the probability of a binary (or categorical) outcome by applying the logistic (sigmoid) function to a linear combination of input features  ([Logistic regression - Wikipedia](https://en.wikipedia.org/wiki/Logistic_regression?utm_source=chatgpt.com)). Linear regression coefficients are typically estimated via ordinary least squares (OLS) by minimizing the residual sum of squares  ([Linear vs. Logistic Regression](https://www.spiceworks.com/tech/artificial-intelligence/articles/linear-regression-vs-logistic-regression/)). Logistic regression parameters are learned via maximum likelihood estimation (MLE) by maximizing the likelihood of observed class labels under a Bernoulli model  ([Linear vs. Logistic Regression](https://www.spiceworks.com/tech/artificial-intelligence/articles/linear-regression-vs-logistic-regression/), [Logistic Regression — Machine-Learning-Course 1.0 documentation](https://machine-learning-tutorial-abi.readthedocs.io/en/latest/content/supervised/logistic_regression.html?utm_source=chatgpt.com)). The outputs also differ: linear regression produces continuous real-valued predictions, whereas logistic regression outputs probabilities between 0 and 1 that can be thresholded to yield class labels  ([Linear vs. Logistic Regression](https://www.spiceworks.com/tech/artificial-intelligence/articles/linear-regression-vs-logistic-regression/)).
@@ -36,3 +54,9 @@ Parameters are estimated via maximum likelihood estimation, iteratively optimizi
 | **Common Use Cases**  | Forecasting, trend analysis, explanatory modeling  | Classification tasks (spam detection, credit scoring, medical diagnosis)            |
 
 *Sources: Wikipedia (Linear Regression)  ([Linear regression](https://en.wikipedia.org/wiki/Linear_regression?utm_source=chatgpt.com)); Wikipedia (Logistic Regression)  ([Logistic regression - Wikipedia](https://en.wikipedia.org/wiki/Logistic_regression?utm_source=chatgpt.com)); Spiceworks  ([Linear vs. Logistic Regression](https://www.spiceworks.com/tech/artificial-intelligence/articles/linear-regression-vs-logistic-regression/)); Machine-Learning Tutorial  ([Logistic Regression — Machine-Learning-Course 1.0 documentation](https://machine-learning-tutorial-abi.readthedocs.io/en/latest/content/supervised/logistic_regression.html?utm_source=chatgpt.com)); Simple Wikipedia  ([Logistic regression - Simple English Wikipedia, the free encyclopedia](https://simple.wikipedia.org/wiki/Logistic_regression?utm_source=chatgpt.com)).*
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

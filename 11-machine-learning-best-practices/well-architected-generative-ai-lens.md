@@ -1,3 +1,22 @@
+---
+title: "AWS Well-Architected Generative AI Lens"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "4.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-4"
+  - "11_machine_learning_best_practices"
+aliases:
+  - "AWS Well-Architected Generative AI Lens"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # AWS Well-Architected Generative AI Lens
 
 ## Overview

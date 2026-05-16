@@ -1,3 +1,27 @@
+---
+title: "Cloud Development Kit"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Cloud Development Kit"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Cloud Development Kit
+
 ### Overview of AWS CDK
 
 The **AWS Cloud Development Kit (CDK)** is an open source software development framework that enables you to define your cloud infrastructure using familiar programming languages—such as TypeScript, JavaScript, Python, Java, or .NET—rather than just declarative JSON or YAML templates. CDK allows you to create reusable “constructs” that represent high-level AWS resources and architectural patterns. These constructs are then synthesized into AWS CloudFormation templates, ensuring that your infrastructure is deployed in a repeatable and controlled manner.
@@ -94,3 +118,10 @@ For machine learning workloads, CDK simplifies the provisioning of complex envir
 ---
 
 By leveraging the AWS CDK, you can take advantage of a modern, programmatic approach to defining and deploying cloud infrastructure. This not only simplifies the management of your machine learning environments but also enables tighter integration between your application code and infrastructure—an essential advantage for building scalable, robust ML solutions on AWS.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

@@ -1,3 +1,22 @@
+---
+title: "Amazon CloudWatch"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "4.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-4"
+  - "10_security_identity_and_compliance"
+aliases:
+  - "Amazon CloudWatch"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon CloudWatch
 
 ## Overview

@@ -1,3 +1,21 @@
+---
+title: "Preventing Overfitting"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Preventing Overfitting"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Preventing Overfitting
 
 ## Overview
@@ -67,3 +85,9 @@ Overfitting occurs when a machine learning model learns not only the underlying 
 - **Challenge**: Data leakage (e.g., improper scaling, using test data in training) can mask overfitting. Use strict data management.
 - **Best Practice**: Monitor models in production for drift using SageMaker Model Monitor.
 - **Best Practice**: Document and track all experiments and hyperparameters.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

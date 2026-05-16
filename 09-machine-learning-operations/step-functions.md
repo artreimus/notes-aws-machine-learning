@@ -1,3 +1,27 @@
+---
+title: "Step Functions"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Step Functions"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Step Functions
+
 ### Expanded Overview of AWS Step Functions
 
 **AWS Step Functions** is a powerful serverless orchestration service designed to coordinate multiple AWS services into serverless workflows. These workflows, defined as state machines using the Amazon States Language (ASL), allow you to automate complex business and data processing tasks. Not only do Step Functions provide a visual representation of your workflows, but they also incorporate advanced error handling, retries, and auditing capabilities, all of which are essential for building resilient data pipelines and ML workflows.
@@ -113,3 +137,10 @@ Understanding the different types of states is crucial, as each serves a unique 
 ---
 
 By mastering these details about AWS Step Functions—including the various state types and their practical applications—you’ll be well-equipped to answer related questions on the exam and effectively design and manage complex workflows in real-world ML and data engineering projects.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

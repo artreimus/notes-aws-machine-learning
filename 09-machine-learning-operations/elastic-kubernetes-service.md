@@ -1,3 +1,27 @@
+---
+title: "Elastic Kubernetes Service"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Elastic Kubernetes Service"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Elastic Kubernetes Service
+
 ## 1. Overview & Relevance to ML Workflows
 
 **Amazon EKS** is a managed Kubernetes service on AWS. It enables you to deploy, scale, and manage containerized applications using Kubernetes—a widely adopted, open-source container orchestration system. In machine learning (ML) contexts, EKS is used to run scalable ML training jobs, deploy model inference endpoints, and manage complex pipelines, especially if your organization already has Kubernetes expertise or multi-cloud strategies.
@@ -134,3 +158,10 @@ EKS supports persistent storage integration through Kubernetes Storage Classes u
   - [Kubeflow on AWS](https://aws.amazon.com/blogs/machine-learning/running-kubeflow-on-aws/)
 - **AWS Whitepapers:**
   - Whitepapers on Kubernetes security and best practices in container orchestration.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

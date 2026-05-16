@@ -1,3 +1,22 @@
+---
+title: "🔍 Amazon Macie"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "4.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-4"
+  - "10_security_identity_and_compliance"
+aliases:
+  - "🔍 Amazon Macie"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # 🔍 Amazon Macie
 
 ---
@@ -168,3 +187,8 @@ IAM policies must include permissions such as:
 ### 🧪 Hands-on Labs
 
 - 🧪 [AWS Macie Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/ba0299b4-1db3-46e4-9020-9b9288d224c1)
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

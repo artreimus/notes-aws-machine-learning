@@ -1,3 +1,27 @@
+---
+title: "SageMaker Inference Recommender"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "SageMaker Inference Recommender"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# SageMaker Inference Recommender
+
 ### 1. Serverless Inference Overview
 
 **What It Does:**  
@@ -76,3 +100,10 @@ Together, these features allow you to focus on your ML application while AWS man
   Explore the detailed example notebooks and blog posts (such as [Improved ML model deployment using Amazon SageMaker Inference Recommender](https://aws.amazon.com/blogs/machine-learning/improved-ml-model-deployment-using-amazon-sagemaker-inference-recommender/)) for step-by-step guides.
 
 By leveraging Serverless Inference along with Inference Recommender, you can achieve dynamic, cost-efficient scaling of your inference endpoints while obtaining precise, data-driven recommendations on the optimal configuration for your specific workload.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

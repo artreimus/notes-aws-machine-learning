@@ -1,3 +1,27 @@
+---
+title: "Deployment Guardrails And Shadow Test"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Deployment Guardrails And Shadow Test"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Deployment Guardrails And Shadow Test
+
 ### 1. Overview and Relevance
 
 **Deployment guardrails** are new SageMaker features designed to safely update models in production. They help you avoid downtime and minimize risk by controlling how traffic is shifted from an old model (blue fleet) to a new model (green fleet). This controlled rollout can be configured using three strategies:
@@ -68,3 +92,10 @@ These features support best practices in MLOps by providing safe, measurable, an
   Leverage shadow testing to compare the performance of the new model against production without impacting live user experience.
 - **Automate Rollbacks:**  
   Configure auto-rollback policies so that if performance degrades during the deployment, the system can swiftly revert to the previous, stable model.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

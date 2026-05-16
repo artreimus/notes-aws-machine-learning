@@ -1,3 +1,27 @@
+---
+title: "Git"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "3.1"
+  - "3.3"
+  - "4.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-3"
+  - "domain-4"
+  - "09_machine_learning_operations"
+aliases:
+  - "Git"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Git
+
 ### Overview of Git
 
 **Git** is a distributed version control system that enables multiple developers to work on code simultaneously while tracking changes over time. It is widely used for managing source code in both small projects and large, complex applications. For ML workflows, Git is essential for versioning model code, data processing scripts, and configuration files, ensuring that changes are tracked and can be reviewed or rolled back as needed.
@@ -119,3 +143,10 @@ These commands form the foundation of your day-to-day workflow:
 ---
 
 By mastering these Git fundamentals, you'll be well-prepared for questions on version control in the AWS Certified Machine Learning Engineer – Associate exam. These skills are not only crucial for the exam but also form a vital part of best practices in collaborative, modern ML development.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

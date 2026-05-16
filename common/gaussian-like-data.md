@@ -1,3 +1,23 @@
+---
+title: "Gaussian Like Data"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Gaussian Like Data"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Gaussian Like Data
+
 By **"Gaussian-like data"**, we mean data that is approximately **normally distributed**—that is, it resembles a **bell curve** or **Gaussian distribution**.
 
 ---
@@ -36,3 +56,10 @@ If your data is far from Gaussian (e.g., skewed or multimodal), you might consid
 - **QuantileTransformer** from `sklearn`
 
 ---
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

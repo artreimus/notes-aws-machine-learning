@@ -1,3 +1,23 @@
+---
+title: "Ensembling Learning Methods"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+aliases:
+  - "Ensembling Learning Methods"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Ensembling Learning Methods
+
 Ensemble learning methods combine multiple "base" models to produce a stronger overall model. Three of the most popular techniques are **bagging**, **boosting**, and **stacking**:
 
 ---
@@ -129,3 +149,10 @@ SageMaker's implementation of Bayesian Optimization for hyperparameter tuning of
 - **Integration with SageMaker training jobs** for seamless experiment tracking
 
 For the AWS ML Associate exam, remember that this approach is particularly important when working with complex models where training is expensive and the relationship between hyperparameters and model performance is not well understood.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

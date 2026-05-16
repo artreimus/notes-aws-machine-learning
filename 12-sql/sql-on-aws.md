@@ -1,3 +1,22 @@
+---
+title: "SQL on AWS"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "12_sql"
+aliases:
+  - "SQL on AWS"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # SQL on AWS
 
 ## Why it matters
@@ -57,3 +76,7 @@
 - Remember pricing units: RDS instance-hours + storage; Redshift node-hours; Athena per TB scanned.
 - Highlight integration points (e.g., SageMaker consuming Redshift via Data Wrangler) when asked about ML pipelines.
 - Watch for questions on security boundaries—network-level (VPC, SG) plus SQL-level controls.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html

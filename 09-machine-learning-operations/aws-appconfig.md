@@ -1,68 +1,58 @@
-# AWS AppConfig (Systems Manager)
+---
+title: "AWS AppConfig"
+exam: "MLA-C01"
+status: "out-of-scope"
+domain:
+  - "supplemental"
+service:
+  - "AWS AppConfig"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "out-of-scope"
+aliases:
+  - "AWS AppConfig"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
 
-## Overview
-- AWS AppConfig is a service for safely deploying configuration changes and feature flags to applications.
-- It reduces risk by validating configurations, rolling out changes gradually, and rolling back automatically on alarms.
+# AWS AppConfig
 
-## Core Building Blocks
-- **Application**: Logical container for related configurations.
-- **Environment**: A target stage (dev, staging, prod).
-- **Configuration profile**: The configuration type and source (feature flags or freeform).
-- **Configuration data**: The actual config values to deploy.
-- **Deployment strategy**: Controls rollout speed and bake time.
-- **Deployment**: A rollout of a configuration version to an environment.
+## Exam Relevance
 
-## Configuration Types
-- **Feature flags**
-  - Boolean or multi‑variant flags with rules and attributes.
-  - Supports segmentation/targeting via context rules.
-- **Freeform configuration**
-  - Arbitrary JSON or text configuration, retrieved by apps at runtime.
+AWS AppConfig is listed out of scope for MLA-C01. Keep only as application-configuration background.
 
-## Configuration Sources
-- AppConfig hosted configuration store (recommended for most cases).
-- Amazon S3, SSM Parameter Store, SSM Document Store, or Secrets Manager.
+## When To Use
 
-## Validators (Safety Check)
-- **JSON Schema** validator for freeform configs.
-- **Lambda** validators for freeform and feature flags.
-- Validation runs before deployment to prevent invalid configs.
+- Use only for background context unless a linked current service note needs it.
 
-## Deployment Strategies
-- Gradual rollout over minutes/hours to reduce blast radius.
-- Can be used with **CloudWatch alarms** to trigger automatic rollback.
-- Supports manual revert to previous versions if needed.
+## Core Concepts
 
-## Monitoring and Rollback
-- AppConfig integrates with CloudWatch alarms for automatic rollback.
-- Supports third‑party monitors via AppConfig Extensions.
+- AWS AppConfig is listed out of scope for MLA-C01. Keep only as application-configuration background.
+- This note is retained to preserve local study context and links.
 
-## Extensions
-- Extensions can push notifications to EventBridge/SNS/SQS.
-- Custom extensions can integrate with external systems (e.g., Jira) or add custom rollback logic.
+## AWS Services And Features
 
-## GenAI/ML Use Cases
-- Feature flags for model routing (A/B model selection or fallback models).
-- Prompt version control (toggle prompt templates or policies).
-- Safety controls (tighten guardrails by configuration instead of redeploying).
-- Gradual rollout of retrieval settings or RAG parameters.
+- AWS AppConfig
 
-## Best Practices
-- Use hosted configuration store unless you must source externally.
-- Validate all configs with JSON Schema or Lambda validators.
-- Roll out gradually with alarms enabled for automatic rollback.
-- Keep feature flags small and composable to avoid complex rule sets.
+## Implementation Patterns
 
-## Exam Tips
-- AppConfig is for **safe configuration deployment**, not code deployment.
-- Key safety controls: validators + deployment strategies + alarms + rollback.
-- Supports feature flags and freeform configurations.
+- Prefer current in-scope alternatives described in related notes.
+
+## Tradeoffs And Pitfalls
+
+- Do not prioritize this note for current MLA-C01 study.
+
+## Exam Triggers
+
+- Lifecycle or out-of-scope wording should trigger de-prioritization.
+
+## Related Notes
+
+- [[in-scope-services]]
+- [[out-of-scope-services]]
+
 
 ## Sources
-- https://docs.aws.amazon.com/appconfig/latest/userguide/what-is-appconfig.html
-- https://docs.aws.amazon.com/appconfig/latest/userguide/creating-feature-flags-and-configuration-data.html
-- https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-creating-configuration-and-profile-validators.html
-- https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-creating-configuration-and-profile-feature-flags.html
-- https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-deploying-reverting.html
-- https://aws.amazon.com/about-aws/whats-new/2024/11/aws-appconfig-automatic-rollback-safety-third-party-alerts/
-- https://aws.amazon.com/about-aws/whats-new/2022/07/aws-announces-appconfig-extensions/
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-out-of-scope-services.html
