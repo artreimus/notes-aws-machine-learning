@@ -1,6 +1,8 @@
 ---
 title: "Amazon FSx"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Amazon FSx
 
-## Exam Relevance
+## Knowledge Relevance
 
 High-performance file system service; FSx for Lustre is especially relevant for ML/HPC training datasets that need fast POSIX file access.
 
@@ -55,7 +57,7 @@ High-performance file system service; FSx for Lustre is especially relevant for 
 - Scratch vs persistent deployment choices affect durability and cost.
 - Choose storage class based on throughput/latency/cost needs.
 
-## Exam Triggers
+## Decision Triggers
 
 - High-performance POSIX training file system points to FSx for Lustre.
 - Durable object data lake points to S3.

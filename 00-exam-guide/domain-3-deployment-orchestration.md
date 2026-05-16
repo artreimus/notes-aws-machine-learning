@@ -1,6 +1,8 @@
 ---
 title: "Domain 3: Deployment And Orchestration Of ML Workflows"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.1"
@@ -41,7 +43,7 @@ source_type: "aws-official"
 - [[code-pipeline]]
 - [[x-ray]]
 
-## Exam Triggers
+## Decision Triggers
 
 - Real-time, async, batch, serverless, and multi-model endpoint decisions belong here.
 - CI/CD, pipeline orchestration, event-driven retry/decoupling, and observability are deployment workflow signals.

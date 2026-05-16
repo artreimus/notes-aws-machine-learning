@@ -1,6 +1,8 @@
 ---
 title: "Amazon Quick Sight"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.1"
@@ -22,7 +24,7 @@ source_type: "aws-official"
 
 # Amazon Quick Sight
 
-## Exam Relevance
+## Knowledge Relevance
 
 In-scope analytics/dashboarding service for visualizing data, model outcomes, operational metrics, and cost signals.
 
@@ -58,7 +60,7 @@ In-scope analytics/dashboarding service for visualizing data, model outcomes, op
 - Dashboard sharing needs user/group governance.
 - Know the current Quick Suite naming but expect exam wording may still say QuickSight.
 
-## Exam Triggers
+## Decision Triggers
 
 - Dashboards and BI visualizations point to Quick Sight.
 - Natural-language BI inside dashboards points to Quick Sight with Amazon Q.

@@ -1,6 +1,8 @@
 ---
 title: "Bedrock Application Patterns"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Bedrock Application Patterns
 
-## Exam Relevance
+## Knowledge Relevance
 
 Canonical pattern note for common Amazon Bedrock application designs without duplicating every Bedrock feature note.
 
@@ -56,7 +58,7 @@ Canonical pattern note for common Amazon Bedrock application designs without dup
 - RAG quality depends on ingestion, chunking, retrieval, and evaluation.
 - Guardrails reduce risk but do not prove correctness.
 
-## Exam Triggers
+## Decision Triggers
 
 - Grounded enterprise Q&A points to RAG/Knowledge Bases.
 - Tool use and task execution point to Agents.

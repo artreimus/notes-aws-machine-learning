@@ -1,6 +1,8 @@
 ---
 title: "Bedrock RAG Decision Guide"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.1"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # Bedrock RAG Decision Guide
 
-## Exam Relevance
+## Knowledge Relevance
 
 Decision guide for Bedrock RAG, chunking, vector store selection, pre-retrieval filtering, and evaluation.
 
@@ -55,7 +57,7 @@ Decision guide for Bedrock RAG, chunking, vector store selection, pre-retrieval 
 - Poor chunking or missing metadata reduces retrieval quality.
 - Evaluate faithfulness, citation coverage, correctness, and harmfulness.
 
-## Exam Triggers
+## Decision Triggers
 
 - Private corpus Q&A points to RAG.
 - Need managed retrieval/generation points to Bedrock Knowledge Bases.

@@ -1,6 +1,8 @@
 ---
 title: "AWS Service Catalog"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.2"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # AWS Service Catalog
 
-## Exam Relevance
+## Knowledge Relevance
 
 Governed self-service catalog for approved AWS infrastructure and application templates.
 
@@ -52,7 +54,7 @@ Governed self-service catalog for approved AWS infrastructure and application te
 - Service Catalog governs infrastructure templates; it does not run ML jobs by itself.
 - Product versions and constraints need lifecycle management.
 
-## Exam Triggers
+## Decision Triggers
 
 - Approved IT service catalog, self-service with guardrails, and provisioned products point to Service Catalog.
 - Infrastructure as code template alone points to CloudFormation/CDK.

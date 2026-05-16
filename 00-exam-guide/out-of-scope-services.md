@@ -1,6 +1,8 @@
 ---
 title: "MLA-C01 Out-Of-Scope Services"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "all"
@@ -18,7 +20,7 @@ source_type: "aws-official"
 
 # MLA-C01 Out-Of-Scope Services
 
-## Exam Relevance
+## Knowledge Relevance
 
 This note prevents over-studying services that are useful AWS background but not current MLA-C01 target material.
 

@@ -1,6 +1,8 @@
 ---
 title: "AWS Trusted Advisor"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.2"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # AWS Trusted Advisor
 
-## Exam Relevance
+## Knowledge Relevance
 
 Recommendation service that checks AWS environments across cost optimization, performance, security, fault tolerance, service limits, and operational excellence.
 
@@ -55,7 +57,7 @@ Recommendation service that checks AWS environments across cost optimization, pe
 - Trusted Advisor is advisory; remediation still requires operator action.
 - Use Config for compliance rule state and history.
 
-## Exam Triggers
+## Decision Triggers
 
 - Best-practice checks across cost, performance, security, fault tolerance, limits point to Trusted Advisor.
 - Configuration compliance over time points to AWS Config.

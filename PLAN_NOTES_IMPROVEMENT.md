@@ -1,6 +1,8 @@
 ---
 title: "Plan: Improve AWS MLA-C01 Notes"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "supplemental"
 domain:
   - "all"
@@ -69,7 +71,7 @@ Use these as the primary source-of-truth during implementation:
 
 ## Current Repo Findings
 
-The vault is useful and broad, but not yet consistent as an exam-first reference.
+The vault is useful and broad, but it needed a consistent AWS ML/AI knowledge-base structure with MLA-C01 preserved as a certification track.
 
 | Finding | Evidence | Impact |
 | --- | --- | --- |
@@ -78,7 +80,7 @@ The vault is useful and broad, but not yet consistent as an exam-first reference
 | No YAML title metadata | `rg --files-with-matches '^title:' -g '*.md'` returned 0 | Harder to query in Obsidian and automate coverage checks |
 | 95 Markdown files do not have a top-level `#` heading | `rg --files-without-match '^# ' -g '*.md'` | Notes render inconsistently and are harder to skim |
 | 185 Markdown files lack a source/resource section | `rg --files-without-match '^(## )?(Sources|References|Additional Resources)\\b' -g '*.md'` | Currentness cannot be audited |
-| Exam tips are uneven | Most older notes lack `Exam Tips` or `Exam Triggers` | Study value varies widely by note |
+| Decision guidance is uneven | Most older notes lacked `Decision Triggers` or certification-specific tips | Practical and study value varied widely by note |
 | Duplicate topic files exist | `bedrock-agents.md`, `bedrock-guardrails.md`, `chunking-strategies.md`, and `feature-engineering.md` exist in multiple directories | Users may read stale or conflicting versions |
 | Some notes are legacy, out-of-scope, or naming-stale for MLA-C01 | `Data Pipeline`, `Elastic Inference`, `Forecast`, `AppConfig`, `Greengrass`, `Shield`, `DataZone`, `Kinesis Data Analytics`, `Studio Classic`, `Edge Manager`, and `CodeWhisperer` appear locally | Study time can drift away from current exam scope or learn outdated service names |
 | Existing untracked files are present | `responsible-ai-aws.md`, `well-architected-tool-generative-ai-lens.md`, `bedrock-prompt-caching.md`, `pre-retrieval-knowledge-base.md`, `.DS_Store` | Implementation must preserve user-created work |
@@ -253,7 +255,9 @@ Every note should start with this metadata:
 ```yaml
 ---
 title: "Amazon SageMaker Feature Store"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "draft"
 domain:
   - "1.2"
@@ -290,7 +294,7 @@ Use these headings in this order:
 ```markdown
 # <Title>
 
-## Exam Relevance
+## Knowledge Relevance
 
 ## When To Use
 
@@ -302,7 +306,7 @@ Use these headings in this order:
 
 ## Tradeoffs And Pitfalls
 
-## Exam Triggers
+## Decision Triggers
 
 ## Related Notes
 
@@ -331,7 +335,7 @@ Implementation details:
 
 ## README Update Plan
 
-Replace the current README with an exam-first guide:
+Replace the current README with a certification-aware AWS ML/AI knowledge-base guide:
 
 1. Title and purpose.
 2. Current exam overview:

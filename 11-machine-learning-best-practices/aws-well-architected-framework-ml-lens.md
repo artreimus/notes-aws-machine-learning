@@ -1,6 +1,8 @@
 ---
 title: "AWS Well-Architected Framework (ML Lens)"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "draft"
 domain:
   - "4.3"

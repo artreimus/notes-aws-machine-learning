@@ -1,6 +1,8 @@
 ---
 title: "AWS X-Ray"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.3"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # AWS X-Ray
 
-## Exam Relevance
+## Knowledge Relevance
 
 Tracing service for request-level observability across application services that call ML endpoints and downstream dependencies.
 
@@ -55,7 +57,7 @@ Tracing service for request-level observability across application services that
 - Instrumentation and sampling choices affect visibility and cost.
 - Model quality drift is handled by Model Monitor/Clarify, not X-Ray.
 
-## Exam Triggers
+## Decision Triggers
 
 - Distributed tracing, trace map, and request bottleneck point to X-Ray.
 - Metric alarm and dashboard point to CloudWatch.

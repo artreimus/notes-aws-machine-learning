@@ -1,6 +1,8 @@
 ---
 title: "AWS IoT Greengrass"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "out-of-scope"
 domain:
   - "supplemental"
@@ -18,7 +20,7 @@ source_type: "aws-official"
 
 # AWS IoT Greengrass
 
-## Exam Relevance
+## Knowledge Relevance
 
 AWS IoT Greengrass is listed out of scope for MLA-C01; Greengrass V1 is also in sunset. Keep only as edge context.
 
@@ -43,7 +45,7 @@ AWS IoT Greengrass is listed out of scope for MLA-C01; Greengrass V1 is also in 
 
 - Do not prioritize this note for current MLA-C01 study.
 
-## Exam Triggers
+## Decision Triggers
 
 - Lifecycle or out-of-scope wording should trigger de-prioritization.
 

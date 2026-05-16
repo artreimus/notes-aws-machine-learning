@@ -1,6 +1,8 @@
 ---
 title: "Amazon Q Developer In Chat Applications"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Amazon Q Developer In Chat Applications
 
-## Exam Relevance
+## Knowledge Relevance
 
 Current name for AWS Chatbot: ChatOps service for receiving AWS notifications and running AWS CLI commands from chat channels.
 
@@ -54,7 +56,7 @@ Current name for AWS Chatbot: ChatOps service for receiving AWS notifications an
 - ChatOps does not replace incident management or observability data.
 - Use SNS for the notification fanout layer.
 
-## Exam Triggers
+## Decision Triggers
 
 - AWS Chatbot wording should map to Amazon Q Developer in chat applications.
 - Notifications from SNS to Slack/Teams point here.

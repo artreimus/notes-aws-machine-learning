@@ -1,6 +1,8 @@
 ---
 title: "Amazon API Gateway"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.1"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # Amazon API Gateway
 
-## Exam Relevance
+## Knowledge Relevance
 
 Managed service for creating and securing APIs in front of ML applications and inference workflows.
 
@@ -56,7 +58,7 @@ Managed service for creating and securing APIs in front of ML applications and i
 - Throttling and payload limits matter for inference API design.
 - Authentication/authorization must be explicit.
 
-## Exam Triggers
+## Decision Triggers
 
 - Secure public API front door points to API Gateway.
 - Model hosting endpoint points to SageMaker endpoint.

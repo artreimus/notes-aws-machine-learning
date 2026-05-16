@@ -1,6 +1,8 @@
 ---
 title: "Caching for GenAI Workloads: CloudFront + API Gateway (Bedrock Context)"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "draft"
 domain:
   - "2.1"

@@ -1,6 +1,8 @@
 ---
 title: "Model Selection Decision Guide"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.1"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # Model Selection Decision Guide
 
-## Exam Relevance
+## Knowledge Relevance
 
 Scenario guide for choosing between AWS AI services, SageMaker built-in algorithms, custom training, JumpStart, and Bedrock models.
 
@@ -55,7 +57,7 @@ Scenario guide for choosing between AWS AI services, SageMaker built-in algorith
 - Do not use Bedrock for classic structured-data regression/classification unless the task is actually generative or language-centric.
 - Lifecycle caveats matter for older high-level AI services.
 
-## Exam Triggers
+## Decision Triggers
 
 - Need prebuilt text/image/speech API points to AI services.
 - Tabular supervised ML points to SageMaker built-in algorithms such as XGBoost/LightGBM/CatBoost/AutoGluon.

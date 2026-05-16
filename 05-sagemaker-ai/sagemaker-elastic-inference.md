@@ -1,6 +1,8 @@
 ---
 title: "SageMaker Elastic Inference"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "legacy"
 domain:
   - "3.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # SageMaker Elastic Inference
 
-## Exam Relevance
+## Knowledge Relevance
 
 Legacy inference acceleration note. AWS stopped onboarding new Elastic Inference customers after April 15, 2023.
 
@@ -50,7 +52,7 @@ Legacy inference acceleration note. AWS stopped onboarding new Elastic Inference
 - No new customer onboarding after April 15, 2023.
 - Do not select EI for greenfield current architecture questions.
 
-## Exam Triggers
+## Decision Triggers
 
 - Elastic Inference wording should trigger legacy caveat.
 - Cost/performance endpoint recommendation points to Inference Recommender.

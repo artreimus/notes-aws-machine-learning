@@ -1,6 +1,8 @@
 ---
 title: "Data Classification, PII, PHI, And Data Residency"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.3"
@@ -24,7 +26,7 @@ source_type: "aws-official"
 
 # Data Classification, PII, PHI, And Data Residency
 
-## Exam Relevance
+## Knowledge Relevance
 
 Security and data preparation note for classifying sensitive data, protecting PII/PHI, and meeting data residency requirements.
 
@@ -60,7 +62,7 @@ Security and data preparation note for classifying sensitive data, protecting PI
 - Encryption alone does not solve access governance.
 - De-identification and human review may be required before model training.
 
-## Exam Triggers
+## Decision Triggers
 
 - PII in S3 points to Macie.
 - PHI in clinical text points to Comprehend Medical.

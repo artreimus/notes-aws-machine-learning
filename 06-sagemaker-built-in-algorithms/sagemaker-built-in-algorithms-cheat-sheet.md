@@ -1,6 +1,8 @@
 ---
 title: "SageMaker Built-In Algorithms Cheat Sheet"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.1"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # SageMaker Built-In Algorithms Cheat Sheet
 
-## Exam Relevance
+## Knowledge Relevance
 
 Use this as the first-stop decision table for SageMaker AI built-in algorithm questions.
 
@@ -52,7 +54,7 @@ Use this as the first-stop decision table for SageMaker AI built-in algorithm qu
 - [[image-classification-tensorflow]]
 - [[object-detection-tensorflow]]
 
-## Exam Triggers
+## Decision Triggers
 
 - If the question says tabular classification/regression, compare XGBoost, LightGBM, CatBoost, AutoGluon, TabTransformer, and Linear Learner.
 - If the question says text transfer learning, consider Text Classification - TensorFlow.

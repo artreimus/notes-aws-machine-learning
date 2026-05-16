@@ -1,6 +1,8 @@
 ---
 title: "Amazon Kinesis Video Streams"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.1"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # Amazon Kinesis Video Streams
 
-## Exam Relevance
+## Knowledge Relevance
 
 In-scope media streaming service for ingesting live video/audio/time-serialized data into AWS.
 
@@ -53,7 +55,7 @@ In-scope media streaming service for ingesting live video/audio/time-serialized 
 - Kinesis Video Streams is source-agnostic but application logic still owns downstream analytics.
 - Do not confuse with Kinesis Data Streams for generic records.
 
-## Exam Triggers
+## Decision Triggers
 
 - Live video stream ingestion points to Kinesis Video Streams.
 - Generic event stream processing points to Kinesis Data Streams or Flink.

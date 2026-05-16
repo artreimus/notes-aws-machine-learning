@@ -1,6 +1,8 @@
 ---
 title: "AWS Glue DataBrew"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.2"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # AWS Glue DataBrew
 
-## Exam Relevance
+## Knowledge Relevance
 
 Domain 1 data preparation service for visual cleaning, profiling, and no-code transformation before analytics or ML.
 
@@ -54,7 +56,7 @@ Domain 1 data preparation service for visual cleaning, profiling, and no-code tr
 - Prefer Glue ETL or Glue Data Quality for automated production enforcement when code-first control is needed.
 - Validate output schema before using the prepared dataset for training.
 
-## Exam Triggers
+## Decision Triggers
 
 - Visual/no-code data preparation points to DataBrew.
 - Recipe-based transformations and profiling point to DataBrew.

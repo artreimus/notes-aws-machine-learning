@@ -1,6 +1,8 @@
 ---
 title: "AWS Cost Management For ML"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.2"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # AWS Cost Management For ML
 
-## Exam Relevance
+## Knowledge Relevance
 
 Domain 4 cost governance note for controlling ML training, inference, storage, and data pipeline spend.
 
@@ -56,7 +58,7 @@ Domain 4 cost governance note for controlling ML training, inference, storage, a
 - Idle endpoints and Studio apps can create avoidable cost.
 - Spot training saves cost but requires checkpointing and interruption tolerance.
 
-## Exam Triggers
+## Decision Triggers
 
 - Cost forecast, budget alert, chargeback/showback, and unused resources point to AWS Cost Management.
 - Right-sizing recommendation points to Compute Optimizer or Trusted Advisor depending on wording.

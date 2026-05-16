@@ -1,6 +1,8 @@
 ---
 title: "Amazon DataZone"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "out-of-scope"
 domain:
   - "supplemental"
@@ -18,7 +20,7 @@ source_type: "aws-official"
 
 # Amazon DataZone
 
-## Exam Relevance
+## Knowledge Relevance
 
 Amazon DataZone is listed out of scope for MLA-C01. Keep only as governance background.
 
@@ -43,7 +45,7 @@ Amazon DataZone is listed out of scope for MLA-C01. Keep only as governance back
 
 - Do not prioritize this note for current MLA-C01 study.
 
-## Exam Triggers
+## Decision Triggers
 
 - Lifecycle or out-of-scope wording should trigger de-prioritization.
 

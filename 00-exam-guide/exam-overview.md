@@ -1,6 +1,8 @@
 ---
 title: "MLA-C01 Exam Overview"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "all"
@@ -18,7 +20,7 @@ source_type: "aws-official"
 
 # MLA-C01 Exam Overview
 
-## Exam Relevance
+## Knowledge Relevance
 
 This is the top-level map for the AWS Certified Machine Learning Engineer - Associate exam.
 

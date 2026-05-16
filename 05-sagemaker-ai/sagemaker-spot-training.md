@@ -1,6 +1,8 @@
 ---
 title: "SageMaker Spot Training"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "draft"
 domain:
   - "2.2"

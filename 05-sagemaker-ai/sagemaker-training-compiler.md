@@ -1,6 +1,8 @@
 ---
 title: "SageMaker Training Compiler"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "legacy"
 domain:
   - "2.2"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # SageMaker Training Compiler
 
-## Exam Relevance
+## Knowledge Relevance
 
 Legacy SageMaker optimization feature. Keep for historical context and exam caveat recognition, but do not emphasize as a current optimization path.
 
@@ -51,7 +53,7 @@ Legacy SageMaker optimization feature. Keep for historical context and exam cave
 - Do not combine with SMDDP as a current best-practice answer.
 - Security patch status matters for old DLCs.
 
-## Exam Triggers
+## Decision Triggers
 
 - Training Compiler wording should trigger legacy caveat.
 - Large model scaling points to distributed training/model parallelism instead.

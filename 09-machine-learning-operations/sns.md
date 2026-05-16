@@ -1,6 +1,8 @@
 ---
 title: "Amazon SNS"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.3"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Amazon SNS
 
-## Exam Relevance
+## Knowledge Relevance
 
 Application integration service for pub/sub notifications and fanout in ML workflows.
 
@@ -55,7 +57,7 @@ Application integration service for pub/sub notifications and fanout in ML workf
 - Use SQS subscriptions when subscribers need buffering and retries.
 - Avoid sending sensitive production data to test subscribers without controls.
 
-## Exam Triggers
+## Decision Triggers
 
 - Fanout to multiple consumers points to SNS.
 - Durable decoupled queue with visibility timeout points to SQS.

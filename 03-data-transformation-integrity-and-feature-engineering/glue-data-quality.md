@@ -1,6 +1,8 @@
 ---
 title: "AWS Glue Data Quality"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.3"
@@ -22,7 +24,7 @@ source_type: "aws-official"
 
 # AWS Glue Data Quality
 
-## Exam Relevance
+## Knowledge Relevance
 
 Domain 1 and Domain 4 feature for measuring, monitoring, and enforcing data quality before and during ML workflows.
 
@@ -57,7 +59,7 @@ Domain 1 and Domain 4 feature for measuring, monitoring, and enforcing data qual
 - Catalog checks are useful for stewardship; ETL checks are better for pipeline enforcement.
 - Rules should match the ML feature contract, not just table schema.
 
-## Exam Triggers
+## Decision Triggers
 
 - DQDL, data quality score, and rulesets point to Glue Data Quality.
 - Bad records need quarantining before model training points to Glue ETL with Data Quality.

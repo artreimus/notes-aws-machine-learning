@@ -1,6 +1,8 @@
 ---
 title: "Amazon CloudFront"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Amazon CloudFront
 
-## Exam Relevance
+## Knowledge Relevance
 
 CDN service for low-latency delivery and caching in ML and generative AI applications that serve static or dynamic web content.
 
@@ -54,7 +56,7 @@ CDN service for low-latency delivery and caching in ML and generative AI applica
 - Bad cache settings can serve stale generated or user-specific content.
 - Private content requires signed access or origin controls.
 
-## Exam Triggers
+## Decision Triggers
 
 - Global edge caching and static/dynamic content acceleration point to CloudFront.
 - Private network link to AWS points to Direct Connect or VPN.

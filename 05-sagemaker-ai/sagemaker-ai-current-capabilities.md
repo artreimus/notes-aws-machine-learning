@@ -1,6 +1,8 @@
 ---
 title: "SageMaker AI Current Capabilities"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.1"
@@ -22,7 +24,7 @@ source_type: "aws-official"
 
 # SageMaker AI Current Capabilities
 
-## Exam Relevance
+## Knowledge Relevance
 
 Current landscape note for Amazon SageMaker AI versus next-generation SageMaker, Studio, and related ML lifecycle features.
 
@@ -56,7 +58,7 @@ Current landscape note for Amazon SageMaker AI versus next-generation SageMaker,
 - Do not confuse Studio, Studio Classic, and SageMaker Unified Studio.
 - Lifecycle caveats apply to Training Compiler, Elastic Inference, and Edge Manager.
 
-## Exam Triggers
+## Decision Triggers
 
 - Build/train/deploy/monitor ML lifecycle points to SageMaker AI.
 - Managed foundation model API points to Bedrock.

@@ -1,6 +1,8 @@
 ---
 title: "Amazon SQS"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.3"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # Amazon SQS
 
-## Exam Relevance
+## Knowledge Relevance
 
 Application integration service for durable queue-based decoupling in asynchronous ML workflows.
 
@@ -53,7 +55,7 @@ Application integration service for durable queue-based decoupling in asynchrono
 - Visibility timeout must exceed normal processing time.
 - SQS is pull-based; SNS is push/fanout.
 
-## Exam Triggers
+## Decision Triggers
 
 - Queue, visibility timeout, DLQ, and decoupling point to SQS.
 - Multiple subscribers receiving the same event point to SNS fanout.

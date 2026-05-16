@@ -1,6 +1,8 @@
 ---
 title: "Domain 4: ML Solution Monitoring, Maintenance, And Security"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.1"
@@ -42,7 +44,7 @@ source_type: "aws-official"
 - [[sagemaker-role-manager]]
 - [[private-ml-networking]]
 
-## Exam Triggers
+## Decision Triggers
 
 - Drift, quality baselines, CloudWatch metrics, alarms, cost optimization, least privilege, encryption, private connectivity, and governance controls point to Domain 4.
 

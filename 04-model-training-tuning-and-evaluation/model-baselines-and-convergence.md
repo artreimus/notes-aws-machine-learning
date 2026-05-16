@@ -1,6 +1,8 @@
 ---
 title: "Model Baselines And Convergence"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.2"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Model Baselines And Convergence
 
-## Exam Relevance
+## Knowledge Relevance
 
 Model development concept note for comparing models to baselines and detecting convergence or non-convergence during training/tuning.
 
@@ -52,7 +54,7 @@ Model development concept note for comparing models to baselines and detecting c
 - Training loss improving while validation worsens suggests overfitting.
 - Unstable loss can indicate learning-rate or data quality issues.
 
-## Exam Triggers
+## Decision Triggers
 
 - Baseline comparison and convergence detected point to Domain 2 performance analysis.
 - Early stopping/tuning objective point to AMT.

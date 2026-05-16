@@ -1,6 +1,8 @@
 ---
 title: "Amazon SageMaker Role Manager"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.3"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Amazon SageMaker Role Manager
 
-## Exam Relevance
+## Knowledge Relevance
 
 SageMaker feature for creating persona-based IAM roles with least-privilege permissions for ML activities.
 
@@ -53,7 +55,7 @@ SageMaker feature for creating persona-based IAM roles with least-privilege perm
 - Least privilege requires narrowing data buckets, KMS keys, and network access.
 - Separate user roles from execution roles.
 
-## Exam Triggers
+## Decision Triggers
 
 - SageMaker persona-based IAM role creation points to Role Manager.
 - Generic cross-account governance points to IAM/Organizations/SCPs.

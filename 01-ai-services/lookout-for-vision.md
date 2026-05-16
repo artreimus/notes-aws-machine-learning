@@ -1,6 +1,8 @@
 ---
 title: "Amazon Lookout For Vision"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "legacy"
 domain:
   - "2.1"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # Amazon Lookout For Vision
 
-## Exam Relevance
+## Knowledge Relevance
 
 Lifecycle-aware note: AWS General Reference lists Amazon Lookout for Vision in full shutdown as of October 31, 2025.
 
@@ -49,7 +51,7 @@ Lifecycle-aware note: AWS General Reference lists Amazon Lookout for Vision in f
 - Full shutdown means it is not a current service choice.
 - Do not confuse with Amazon Rekognition, which remains in scope.
 
-## Exam Triggers
+## Decision Triggers
 
 - Visual defect detection with shutdown caveat points to Lookout for Vision only historically.
 - Face/object/text/image analysis APIs point to Rekognition.

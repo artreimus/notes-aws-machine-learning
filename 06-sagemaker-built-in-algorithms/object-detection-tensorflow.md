@@ -1,6 +1,8 @@
 ---
 title: "Object Detection - TensorFlow"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.1"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # Object Detection - TensorFlow
 
-## Exam Relevance
+## Knowledge Relevance
 
 SageMaker AI supervised transfer-learning algorithm for object detection.
 
@@ -52,7 +54,7 @@ SageMaker AI supervised transfer-learning algorithm for object detection.
 - Use the algorithm cheat sheet to avoid choosing image/text/tabular algorithms interchangeably.
 - Not every algorithm is parallelizable or GPU-appropriate.
 
-## Exam Triggers
+## Decision Triggers
 
 - Managed built-in algorithm with matching data type points to SageMaker AI.
 - Need full architecture control points to custom training.

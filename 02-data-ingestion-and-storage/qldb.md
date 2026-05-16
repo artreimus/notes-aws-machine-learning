@@ -1,6 +1,8 @@
 ---
 title: "Amazon QLDB"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "legacy"
 domain:
   - "supplemental"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # Amazon QLDB
 
-## Exam Relevance
+## Knowledge Relevance
 
 Legacy/supplemental note. Amazon QLDB is in full shutdown and is not a current MLA-C01 study target.
 
@@ -48,7 +50,7 @@ Legacy/supplemental note. Amazon QLDB is in full shutdown and is not a current M
 - Do not prioritize QLDB for MLA-C01.
 - Full shutdown means it should not be a current answer choice.
 
-## Exam Triggers
+## Decision Triggers
 
 - Ledger database with shutdown caveat points to legacy QLDB.
 - API activity history points to CloudTrail.

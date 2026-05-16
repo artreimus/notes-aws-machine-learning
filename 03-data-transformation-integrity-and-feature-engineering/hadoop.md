@@ -1,6 +1,8 @@
 ---
 title: "What is Apache Hadoop?"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "draft"
 domain:
   - "1.2"

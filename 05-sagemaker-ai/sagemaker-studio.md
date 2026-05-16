@@ -1,6 +1,8 @@
 ---
 title: "Amazon SageMaker Studio"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.2"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # Amazon SageMaker Studio
 
-## Exam Relevance
+## Knowledge Relevance
 
 Domain 2/3/4 SageMaker AI development environment note. Current AWS docs distinguish updated Studio from legacy Studio Classic and next-generation SageMaker/Unified Studio context.
 
@@ -56,7 +58,7 @@ Domain 2/3/4 SageMaker AI development environment note. Current AWS docs disting
 - Studio is a workspace; execution roles, domain settings, VPC/KMS/S3 permissions still control access.
 - Idle apps and instances can create cost.
 
-## Exam Triggers
+## Decision Triggers
 
 - Current Studio vs Studio Classic legacy distinction points to this note.
 - Unified data/AI development wording can point to next-generation SageMaker.

@@ -1,6 +1,8 @@
 ---
 title: "AWS Organizations"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.2"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # AWS Organizations
 
-## Exam Relevance
+## Knowledge Relevance
 
 Multi-account governance and consolidated billing service for AWS environments.
 
@@ -57,7 +59,7 @@ Multi-account governance and consolidated billing service for AWS environments.
 - Management account should be protected and used sparingly.
 - Separate workload accounts reduce blast radius.
 
-## Exam Triggers
+## Decision Triggers
 
 - Multi-account governance, OUs, SCPs, and consolidated billing point to Organizations.
 - Approved product catalog points to Service Catalog.

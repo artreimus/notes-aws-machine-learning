@@ -1,6 +1,8 @@
 ---
 title: "Domain 1: Data Preparation For Machine Learning"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.1"
@@ -41,7 +43,7 @@ source_type: "aws-official"
 - [[class-imbalance-and-resampling]]
 - [[data-classification-pii-phi-data-residency]]
 
-## Exam Triggers
+## Decision Triggers
 
 - Raw data must be cataloged, transformed, cleaned, validated, and stored before modeling.
 - Streaming transformations point toward Kinesis Data Streams, Data Firehose, and Amazon Managed Service for Apache Flink.

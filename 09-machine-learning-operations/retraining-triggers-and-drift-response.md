@@ -1,6 +1,8 @@
 ---
 title: "Retraining Triggers And Drift Response"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.1"
@@ -22,7 +24,7 @@ source_type: "aws-official"
 
 # Retraining Triggers And Drift Response
 
-## Exam Relevance
+## Knowledge Relevance
 
 Monitoring and maintenance note for responding to data drift, model quality drift, bias drift, and infrastructure signals.
 
@@ -57,7 +59,7 @@ Monitoring and maintenance note for responding to data drift, model quality drif
 - Automated promotion can be risky in regulated workflows.
 - Need baselines and thresholds before alerts are meaningful.
 
-## Exam Triggers
+## Decision Triggers
 
 - Drift threshold breach and automated retraining point to Model Monitor plus EventBridge/Pipelines.
 - Bias drift points to Clarify.

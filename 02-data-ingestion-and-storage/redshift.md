@@ -1,6 +1,8 @@
 ---
 title: "Amazon Redshift, Redshift ML, Redshift Serverless, and Redshift Data API"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "draft"
 domain:
   - "1.1"

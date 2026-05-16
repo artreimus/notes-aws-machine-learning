@@ -1,6 +1,8 @@
 ---
 title: "Advanced Amazon SageMaker Training Techniques"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.2"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Advanced Amazon SageMaker Training Techniques
 
-## Exam Relevance
+## Knowledge Relevance
 
 Domain 2 optimization note for scaling, speeding up, and reducing cost of SageMaker AI training jobs.
 
@@ -61,7 +63,7 @@ Domain 2 optimization note for scaling, speeding up, and reducing cost of SageMa
 - Distributed training adds communication overhead and configuration complexity.
 - Training Compiler is legacy/no-new-release and should not be emphasized.
 
-## Exam Triggers
+## Decision Triggers
 
 - Cost savings plus interruptions points to managed spot training.
 - Repeated startup overhead points to warm pools.

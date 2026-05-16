@@ -1,6 +1,8 @@
 ---
 title: "AWS Storage Gateway"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.1"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # AWS Storage Gateway
 
-## Exam Relevance
+## Knowledge Relevance
 
 Hybrid storage service that connects on-premises environments to AWS storage for ingestion, backup, and migration patterns.
 
@@ -52,7 +54,7 @@ Hybrid storage service that connects on-premises environments to AWS storage for
 - Gateway type choice changes latency, storage, and access semantics.
 - Network reliability and data consistency need planning.
 
-## Exam Triggers
+## Decision Triggers
 
 - Hybrid on-prem to cloud storage bridge points to Storage Gateway.
 - Bulk online transfer between storage systems points to DataSync.

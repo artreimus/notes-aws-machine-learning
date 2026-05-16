@@ -1,6 +1,8 @@
 ---
 title: "Matplotlib and Seaborn for Data Visualization"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "draft"
 domain:
   - "1.1"

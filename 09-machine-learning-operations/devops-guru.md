@@ -1,6 +1,8 @@
 ---
 title: "Amazon DevOps Guru"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Amazon DevOps Guru
 
-## Exam Relevance
+## Knowledge Relevance
 
 In-scope ML-powered operations service for detecting abnormal operational behavior and producing recommendations.
 
@@ -53,7 +55,7 @@ In-scope ML-powered operations service for detecting abnormal operational behavi
 - Disable or scope coverage to avoid unwanted charges.
 - Use Model Monitor/Clarify for model/data drift, not DevOps Guru.
 
-## Exam Triggers
+## Decision Triggers
 
 - Operational issue/risk with ML-generated recommendation points to DevOps Guru.
 - Model drift or bias points to SageMaker Model Monitor or Clarify.

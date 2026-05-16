@@ -1,6 +1,8 @@
 ---
 title: "Encoding Techniques"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.2"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Encoding Techniques
 
-## Exam Relevance
+## Knowledge Relevance
 
 Feature engineering note for converting categorical/text values into model-usable numeric representations.
 
@@ -53,7 +55,7 @@ Feature engineering note for converting categorical/text values into model-usabl
 - Label encoding can create false ordinal relationships.
 - One-hot encoding can create sparse high-dimensional data.
 
-## Exam Triggers
+## Decision Triggers
 
 - Categorical variables and one-hot/label/binary encoding point to encoding.
 - Text preprocessing points to tokenization or embeddings.

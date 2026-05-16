@@ -1,6 +1,8 @@
 ---
 title: "CI/CD Tests For ML Pipelines"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.2"
@@ -23,7 +25,7 @@ source_type: "aws-official"
 
 # CI/CD Tests For ML Pipelines
 
-## Exam Relevance
+## Knowledge Relevance
 
 Testing strategy note for validating ML code, data contracts, pipelines, model artifacts, and deployments in CI/CD.
 
@@ -56,7 +58,7 @@ Testing strategy note for validating ML code, data contracts, pipelines, model a
 - Non-determinism requires tolerances and seeded/reproducible runs where possible.
 - Production deployment needs rollback and monitoring.
 
-## Exam Triggers
+## Decision Triggers
 
 - CI/CD tests, model approval, and pipeline validation point to MLOps testing.
 - Shadow/canary wording points to deployment guardrails.

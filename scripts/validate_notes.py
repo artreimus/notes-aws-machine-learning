@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the MLA-C01 notes vault without external dependencies."""
+"""Validate the AWS Machine Learning and AI notes vault without external dependencies."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED_FRONTMATTER_KEYS = (
     "title",
-    "exam",
+    "scope",
     "status",
     "domain",
     "service",
@@ -32,16 +32,18 @@ ALLOWED_STATUSES = {
     "out-of-scope",
 }
 
-CANONICAL_SECTIONS = (
-    "## Exam Relevance",
-    "## When To Use",
-    "## Core Concepts",
-    "## AWS Services And Features",
-    "## Implementation Patterns",
-    "## Tradeoffs And Pitfalls",
-    "## Exam Triggers",
-    "## Related Notes",
-    "## Sources",
+EXPECTED_SCOPE = "AWS Machine Learning and AI"
+
+CANONICAL_SECTION_GROUPS = (
+    ("## Knowledge Relevance", ("## Knowledge Relevance", "## Exam Relevance")),
+    ("## When To Use", ("## When To Use",)),
+    ("## Core Concepts", ("## Core Concepts",)),
+    ("## AWS Services And Features", ("## AWS Services And Features",)),
+    ("## Implementation Patterns", ("## Implementation Patterns",)),
+    ("## Tradeoffs And Pitfalls", ("## Tradeoffs And Pitfalls",)),
+    ("## Decision Triggers", ("## Decision Triggers", "## Exam Triggers")),
+    ("## Related Notes", ("## Related Notes",)),
+    ("## Sources", ("## Sources",)),
 )
 
 CONTENT_EXCLUDES = {
@@ -106,6 +108,14 @@ def list_values(frontmatter: str, key: str) -> list[str]:
     return values
 
 
+def missing_canonical_sections(text: str) -> list[str]:
+    missing: list[str] = []
+    for preferred, accepted in CANONICAL_SECTION_GROUPS:
+        if not any(section in text for section in accepted):
+            missing.append(preferred)
+    return missing
+
+
 def validate_file(path: Path, strict_sections: bool) -> tuple[list[str], list[str], str | None]:
     rel = path.relative_to(ROOT)
     text = path.read_text(encoding="utf-8")
@@ -120,6 +130,13 @@ def validate_file(path: Path, strict_sections: bool) -> tuple[list[str], list[st
     for key in REQUIRED_FRONTMATTER_KEYS:
         if not re.search(rf"^{re.escape(key)}:", frontmatter, re.MULTILINE):
             errors.append(f"{rel}: missing frontmatter key `{key}`")
+
+    if re.search(r"^exam:", frontmatter, re.MULTILINE):
+        errors.append(f"{rel}: legacy frontmatter key `exam`; use `scope` and optional `certifications`")
+
+    scope = scalar_value(frontmatter, "scope")
+    if scope and scope != EXPECTED_SCOPE:
+        errors.append(f"{rel}: invalid scope `{scope}`")
 
     status = scalar_value(frontmatter, "status")
     if status not in ALLOWED_STATUSES:
@@ -151,7 +168,7 @@ def validate_file(path: Path, strict_sections: bool) -> tuple[list[str], list[st
                 errors.append(f"{rel}:{number}: uncaveated stale/lifecycle term: {line}")
 
     if rel.name not in CONTENT_EXCLUDES:
-        missing_sections = [section for section in CANONICAL_SECTIONS if section not in text]
+        missing_sections = missing_canonical_sections(text)
         if missing_sections:
             message = f"{rel}: missing canonical sections: {', '.join(missing_sections)}"
             if strict_sections:
@@ -163,11 +180,11 @@ def validate_file(path: Path, strict_sections: bool) -> tuple[list[str], list[st
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Validate MLA-C01 note structure and lifecycle caveats.")
+    parser = argparse.ArgumentParser(description="Validate AWS ML/AI note structure and lifecycle caveats.")
     parser.add_argument(
         "--strict-sections",
         action="store_true",
-        help="Fail when content notes do not use every canonical NOTE_TEMPLATE section.",
+        help="Fail when content notes do not use every canonical NOTE_TEMPLATE section group.",
     )
     args = parser.parse_args()
 

@@ -1,6 +1,8 @@
 ---
 title: "Amazon Lookout For Equipment"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "legacy"
 domain:
   - "2.1"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # Amazon Lookout For Equipment
 
-## Exam Relevance
+## Knowledge Relevance
 
 Lifecycle-aware note for the industrial equipment anomaly detection service; AWS has announced support discontinuation for October 7, 2026.
 
@@ -51,7 +53,7 @@ Lifecycle-aware note for the industrial equipment anomaly detection service; AWS
 - Treat as lifecycle caveat even if listed in exam scope.
 - Do not use as a preferred greenfield service answer after the sunset announcement.
 
-## Exam Triggers
+## Decision Triggers
 
 - Industrial equipment anomaly detection with sunset caveat points to Lookout for Equipment.
 - New custom predictive maintenance points to SageMaker AI.

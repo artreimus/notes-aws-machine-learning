@@ -1,6 +1,8 @@
 ---
 title: "Endpoint Autoscaling Metrics"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.1"
@@ -22,7 +24,7 @@ source_type: "aws-official"
 
 # Endpoint Autoscaling Metrics
 
-## Exam Relevance
+## Knowledge Relevance
 
 Operational note for choosing SageMaker endpoint scaling metrics and policies.
 
@@ -54,7 +56,7 @@ Operational note for choosing SageMaker endpoint scaling metrics and policies.
 - Aggressive scaling can increase cost without improving bottlenecks.
 - Need load testing to set realistic targets.
 
-## Exam Triggers
+## Decision Triggers
 
 - Invocations per instance and target tracking point to endpoint autoscaling.
 - Known traffic spike points to scheduled scaling.

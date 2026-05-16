@@ -1,6 +1,8 @@
 ---
 title: "Data Lakes, Lakehouses, And Warehouses"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.1"
@@ -25,7 +27,7 @@ source_type: "aws-official"
 
 # Data Lakes, Lakehouses, And Warehouses
 
-## Exam Relevance
+## Knowledge Relevance
 
 Domain 1 architecture note for choosing between data lake, lakehouse, and warehouse patterns for ML datasets.
 
@@ -61,7 +63,7 @@ Domain 1 architecture note for choosing between data lake, lakehouse, and wareho
 - Warehouse performance comes with modeling and cost tradeoffs.
 - Do not rely on stale Glue Elastic Views references.
 
-## Exam Triggers
+## Decision Triggers
 
 - S3 data lake and governance point to S3 + Glue Catalog + Lake Formation.
 - Warehouse analytics at scale points to Redshift.

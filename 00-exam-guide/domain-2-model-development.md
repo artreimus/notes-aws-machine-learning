@@ -1,6 +1,8 @@
 ---
 title: "Domain 2: ML Model Development"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.1"
@@ -39,7 +41,7 @@ source_type: "aws-official"
 - [[automatic-model-tuning-and-hyperparameter-tuning]]
 - [[model-metrics]]
 
-## Exam Triggers
+## Decision Triggers
 
 - Algorithm choice, model metrics, tuning, baselines, convergence, and training infrastructure are Domain 2.
 - Built-in SageMaker AI algorithm questions usually hinge on data type, learning paradigm, input format, and target task.

@@ -1,6 +1,8 @@
 ---
 title: "Bias Metrics: CI And DPL"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.3"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Bias Metrics: CI And DPL
 
-## Exam Relevance
+## Knowledge Relevance
 
 Focused note on SageMaker Clarify Class Imbalance (CI) and Difference in Proportions of Labels (DPL) metrics.
 
@@ -50,7 +52,7 @@ Focused note on SageMaker Clarify Class Imbalance (CI) and Difference in Proport
 - Interpretation depends on the application and definition of positive outcome.
 - Bias mitigation should involve product, policy, legal, and domain stakeholders.
 
-## Exam Triggers
+## Decision Triggers
 
 - CI means class/facet imbalance.
 - DPL means difference in positive label proportions.

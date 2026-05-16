@@ -1,6 +1,8 @@
 ---
 title: "AWS Shield"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "out-of-scope"
 domain:
   - "supplemental"
@@ -18,7 +20,7 @@ source_type: "aws-official"
 
 # AWS Shield
 
-## Exam Relevance
+## Knowledge Relevance
 
 AWS Shield is listed out of scope for MLA-C01. Prioritize IAM, KMS, Macie, Secrets Manager, VPC, Config, and Organizations.
 
@@ -43,7 +45,7 @@ AWS Shield is listed out of scope for MLA-C01. Prioritize IAM, KMS, Macie, Secre
 
 - Do not prioritize this note for current MLA-C01 study.
 
-## Exam Triggers
+## Decision Triggers
 
 - Lifecycle or out-of-scope wording should trigger de-prioritization.
 

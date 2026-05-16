@@ -1,6 +1,6 @@
 ---
 title: "Note Template"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
 status: "supplemental"
 domain:
   - "unmapped"
@@ -8,7 +8,6 @@ service:
   - "none"
 tags:
   - "aws"
-  - "mla-c01"
   - "template"
 aliases:
   - "Standard Note Template"
@@ -18,12 +17,14 @@ source_type: "repo-standard"
 
 # Note Template
 
-Use this format for AWS MLA-C01 notes.
+Use this format for AWS Machine Learning and AI notes. Add `certifications` only when the note maps to a specific credential track.
 
 ```yaml
 ---
 title: "Amazon SageMaker Feature Store"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "draft"
 domain:
   - "1.2"
@@ -32,6 +33,7 @@ service:
   - "Amazon SageMaker AI"
 tags:
   - aws
+  - machine-learning
   - mla-c01
   - domain-1
   - sagemaker
@@ -42,9 +44,9 @@ source_type: "aws-official"
 ---
 ```
 
-## Exam Relevance
+## Knowledge Relevance
 
-Map the note to official domain tasks, such as `Domain 1, Task 1.2`.
+Explain why the topic matters for AWS ML/AI practice. If the note maps to a certification, include the domain and task mapping here.
 
 ## When To Use
 
@@ -52,7 +54,7 @@ Map the note to official domain tasks, such as `Domain 1, Task 1.2`.
 
 ## Core Concepts
 
-- Define the concepts a test question is likely to use.
+- Define concepts an engineer, architect, or certification candidate is likely to need.
 
 ## AWS Services And Features
 
@@ -64,11 +66,11 @@ Map the note to official domain tasks, such as `Domain 1, Task 1.2`.
 
 ## Tradeoffs And Pitfalls
 
-- Include lifecycle, cost, security, latency, scale, and region caveats.
+- Include lifecycle, cost, security, latency, scale, governance, and region caveats.
 
-## Exam Triggers
+## Decision Triggers
 
-- Add scenario clues that point to this answer.
+- Add scenario clues that point to this service, pattern, or design choice.
 
 ## Related Notes
 
@@ -76,5 +78,6 @@ Map the note to official domain tasks, such as `Domain 1, Task 1.2`.
 
 ## Sources
 
-- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01.html
-- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html
+- https://aws.amazon.com/ai/
+- https://aws.amazon.com/ai/machine-learning/
+- https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html

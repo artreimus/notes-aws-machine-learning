@@ -1,6 +1,8 @@
 ---
 title: "Amazon Comprehend Medical"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.3"
@@ -22,7 +24,7 @@ source_type: "aws-official"
 
 # Amazon Comprehend Medical
 
-## Exam Relevance
+## Knowledge Relevance
 
 In-scope medical NLP service for extracting structured information from unstructured clinical text.
 
@@ -56,7 +58,7 @@ In-scope medical NLP service for extracting structured information from unstruct
 - Only supports medical entity detection in US English text.
 - PHI workflows need encryption, IAM, audit, and human review.
 
-## Exam Triggers
+## Decision Triggers
 
 - Medical text, PHI, RxNorm, ICD-10-CM, and clinical entity extraction point to Comprehend Medical.
 - General sentiment/key phrases/language detection points to Amazon Comprehend.

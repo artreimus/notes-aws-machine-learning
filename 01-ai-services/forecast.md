@@ -1,6 +1,8 @@
 ---
 title: "Amazon Forecast"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "legacy"
 domain:
   - "2.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Amazon Forecast
 
-## Exam Relevance
+## Knowledge Relevance
 
 Legacy forecasting service note. Amazon Forecast is no longer available to new customers and is absent from the current MLA-C01 in-scope ML service list.
 
@@ -51,7 +53,7 @@ Legacy forecasting service note. Amazon Forecast is no longer available to new c
 - No new customers; avoid as a preferred current answer.
 - Still useful to recognize old service wording.
 
-## Exam Triggers
+## Decision Triggers
 
 - Forecast service wording should trigger lifecycle caveat.
 - DeepAR points to SageMaker built-in forecasting.

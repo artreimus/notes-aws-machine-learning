@@ -1,6 +1,8 @@
 ---
 title: "AWS Lambda For ML Workflows"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.1"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # AWS Lambda For ML Workflows
 
-## Exam Relevance
+## Knowledge Relevance
 
 Compute service for event-driven orchestration glue, preprocessing, lightweight inference wrappers, and automation around ML workflows.
 
@@ -58,7 +60,7 @@ Compute service for event-driven orchestration glue, preprocessing, lightweight 
 - Large training jobs belong in SageMaker Training, AWS Batch, EMR, or Glue, not Lambda.
 - Use VPC configuration carefully because networking choices affect access and latency.
 
-## Exam Triggers
+## Decision Triggers
 
 - Small event-driven integration points to Lambda.
 - Long-running ML training does not point to Lambda.

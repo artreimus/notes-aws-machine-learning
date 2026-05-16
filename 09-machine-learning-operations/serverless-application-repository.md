@@ -1,6 +1,8 @@
 ---
 title: "AWS Serverless Application Repository"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.1"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # AWS Serverless Application Repository
 
-## Exam Relevance
+## Knowledge Relevance
 
 In-scope compute-adjacent service for finding, deploying, and publishing packaged serverless applications.
 
@@ -52,7 +54,7 @@ In-scope compute-adjacent service for finding, deploying, and publishing package
 - Use SageMaker Model Registry for model versions and approval workflows.
 - Security depends on reviewing app permissions and templates before deployment.
 
-## Exam Triggers
+## Decision Triggers
 
 - Prebuilt serverless app catalog points to Serverless Application Repository.
 - Model package/version governance points to SageMaker Model Registry.

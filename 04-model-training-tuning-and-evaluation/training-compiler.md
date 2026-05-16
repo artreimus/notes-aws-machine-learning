@@ -1,6 +1,8 @@
 ---
 title: "Training Compiler"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "legacy"
 domain:
   - "2.2"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # Training Compiler
 
-## Exam Relevance
+## Knowledge Relevance
 
 Redirect-style legacy note. The canonical note is [[sagemaker-training-compiler]].
 
@@ -44,7 +46,7 @@ Redirect-style legacy note. The canonical note is [[sagemaker-training-compiler]
 
 - Do not memorize old enablement syntax as a current best practice.
 
-## Exam Triggers
+## Decision Triggers
 
 - Training Compiler term points to a legacy caveat.
 

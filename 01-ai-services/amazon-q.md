@@ -1,6 +1,8 @@
 ---
 title: "Amazon Q"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.1"
@@ -23,7 +25,7 @@ source_type: "aws-official"
 
 # Amazon Q
 
-## Exam Relevance
+## Knowledge Relevance
 
 In-scope generative AI assistant family that includes enterprise assistants, developer assistance, and AWS operational/chat integrations.
 
@@ -58,7 +60,7 @@ In-scope generative AI assistant family that includes enterprise assistants, dev
 - Data permissions and identity setup are central for Q Business.
 - Some IDE plugin lifecycle changes affect specific plugins, not Amazon Q Developer overall.
 
-## Exam Triggers
+## Decision Triggers
 
 - Enterprise assistant with citations and permissions points to Q Business.
 - AWS coding and operational assistant points to Q Developer.

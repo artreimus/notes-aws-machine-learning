@@ -1,6 +1,8 @@
 ---
 title: "AWS Direct Connect"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # AWS Direct Connect
 
-## Exam Relevance
+## Knowledge Relevance
 
 Private network connectivity service for linking on-premises networks to AWS without relying only on the public internet path.
 
@@ -54,7 +56,7 @@ Private network connectivity service for linking on-premises networks to AWS wit
 - Setup lead time and partner/location availability matter.
 - Use Site-to-Site VPN when dedicated connectivity is unnecessary.
 
-## Exam Triggers
+## Decision Triggers
 
 - Dedicated private physical connection points to Direct Connect.
 - Encrypted tunnel over internet points to Site-to-Site VPN.

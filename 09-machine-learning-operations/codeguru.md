@@ -1,6 +1,8 @@
 ---
 title: "Amazon CodeGuru"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.3"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Amazon CodeGuru
 
-## Exam Relevance
+## Knowledge Relevance
 
 In-scope ML-powered developer/operations tooling for code review, security finding, and application performance insight context.
 
@@ -52,7 +54,7 @@ In-scope ML-powered developer/operations tooling for code review, security findi
 - CodeGuru is not a replacement for unit tests, static analysis policy, or runtime monitoring.
 - For request tracing, use X-Ray; for application metrics, use CloudWatch.
 
-## Exam Triggers
+## Decision Triggers
 
 - ML-powered code review/profiling points to CodeGuru.
 - Distributed request trace map points to X-Ray.

@@ -1,6 +1,8 @@
 ---
 title: "SageMaker On The Edge"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "supplemental"
 domain:
   - "3.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # SageMaker On The Edge
 
-## Exam Relevance
+## Knowledge Relevance
 
 Supplemental edge-deployment context. Use for historical/adjacent knowledge only; AWS IoT Greengrass is out-of-scope for MLA-C01 and SageMaker Edge Manager is EOL.
 
@@ -51,7 +53,7 @@ Supplemental edge-deployment context. Use for historical/adjacent knowledge only
 - Do not describe Edge Manager as active.
 - Edge constraints include memory, CPU/GPU, connectivity, update, and security model.
 
-## Exam Triggers
+## Decision Triggers
 
 - Edge Manager term should trigger EOL caveat.
 - Greengrass term should trigger out-of-scope caveat.

@@ -1,6 +1,8 @@
 ---
 title: "Amazon Lookout For Metrics"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "legacy"
 domain:
   - "2.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Amazon Lookout For Metrics
 
-## Exam Relevance
+## Knowledge Relevance
 
 Lifecycle-aware note: AWS General Reference lists Amazon Lookout for Metrics in full shutdown as of October 10, 2025.
 
@@ -50,7 +52,7 @@ Lifecycle-aware note: AWS General Reference lists Amazon Lookout for Metrics in 
 - Full shutdown means it should not be selected as a current implementation choice.
 - If an exam item uses it, read for legacy context and choose current alternatives when offered.
 
-## Exam Triggers
+## Decision Triggers
 
 - Metric anomaly detection with no-current-service caveat points away from Lookout for Metrics.
 - CloudWatch anomaly detection or custom SageMaker time-series model is the current direction.

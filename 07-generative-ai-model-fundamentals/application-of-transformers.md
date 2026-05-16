@@ -1,6 +1,8 @@
 ---
 title: "Application Of Transformers"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Application Of Transformers
 
-## Exam Relevance
+## Knowledge Relevance
 
 Transformer application note for understanding current AWS generative AI services and updated Amazon Q Developer naming.
 
@@ -50,7 +52,7 @@ Transformer application note for understanding current AWS generative AI service
 - Do not use old CodeWhisperer naming as the current service name.
 - Transformers are architecture concepts; Bedrock/Q/SageMaker are AWS service surfaces.
 
-## Exam Triggers
+## Decision Triggers
 
 - AWS coding assistant now points to Amazon Q Developer.
 - Foundation model hosting/API points to Bedrock.

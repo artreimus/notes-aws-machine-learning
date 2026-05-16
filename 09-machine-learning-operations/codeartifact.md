@@ -1,6 +1,8 @@
 ---
 title: "AWS CodeArtifact"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.2"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # AWS CodeArtifact
 
-## Exam Relevance
+## Knowledge Relevance
 
 Managed artifact repository for software packages used by ML application and pipeline builds.
 
@@ -54,7 +56,7 @@ Managed artifact repository for software packages used by ML application and pip
 - Repository permissions and token lifetime affect CI/CD reliability.
 - Pin package versions for reproducible ML pipelines.
 
-## Exam Triggers
+## Decision Triggers
 
 - Package dependency repository points to CodeArtifact.
 - Model artifact registry points to SageMaker Model Registry or S3.

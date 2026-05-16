@@ -1,6 +1,8 @@
 ---
 title: "SageMaker Neo"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.1"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # SageMaker Neo
 
-## Exam Relevance
+## Knowledge Relevance
 
 SageMaker model optimization note. Neo remains optimization context, but Edge Manager references must be treated as historical.
 
@@ -52,7 +54,7 @@ SageMaker model optimization note. Neo remains optimization context, but Edge Ma
 - Edge deployment detail is supplemental for MLA-C01 unless tied to deployment optimization.
 - Validate model framework/operator support before relying on compilation.
 
-## Exam Triggers
+## Decision Triggers
 
 - Compile model for target hardware points to Neo.
 - Edge Manager wording points to EOL caveat.

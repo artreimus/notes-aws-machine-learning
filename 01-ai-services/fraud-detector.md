@@ -1,6 +1,8 @@
 ---
 title: "Amazon Fraud Detector"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "legacy"
 domain:
   - "2.1"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # Amazon Fraud Detector
 
-## Exam Relevance
+## Knowledge Relevance
 
 Lifecycle-aware service note: Amazon Fraud Detector appears in MLA-C01 service scope, but AWS says it is no longer open to new customers and is in sunset status.
 
@@ -53,7 +55,7 @@ Lifecycle-aware service note: Amazon Fraud Detector appears in MLA-C01 service s
 - AWS General Reference lists an end-of-support date of October 7, 2026.
 - Avoid selecting it as a greenfield answer when a current alternative fits.
 
-## Exam Triggers
+## Decision Triggers
 
 - Fraud detection managed service with lifecycle caveat points to Fraud Detector.
 - Greenfield custom fraud model points to SageMaker AI or AutoGluon.

@@ -1,6 +1,8 @@
 ---
 title: "L1 and L2 Regularization: Quick Reference & Practical Guide"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "draft"
 domain:
   - "1.2"

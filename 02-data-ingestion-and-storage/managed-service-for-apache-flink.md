@@ -1,6 +1,8 @@
 ---
 title: "Amazon Managed Service For Apache Flink"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.1"
@@ -22,7 +24,7 @@ source_type: "aws-official"
 
 # Amazon Managed Service For Apache Flink
 
-## Exam Relevance
+## Knowledge Relevance
 
 In-scope streaming analytics service for low-latency stream processing and stateful streaming transformations.
 
@@ -56,7 +58,7 @@ In-scope streaming analytics service for low-latency stream processing and state
 - Use Data Firehose for delivery/transformation when full stateful stream processing is unnecessary.
 - DataStream API gives more control than SQL/Table API but requires more engineering ownership.
 
-## Exam Triggers
+## Decision Triggers
 
 - Stateful streaming ETL or real-time windows point to Flink.
 - Ad hoc streaming SQL notebook points to Flink Studio.

@@ -1,6 +1,8 @@
 ---
 title: "MLA-C01 In-Scope Services"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "all"
@@ -18,7 +20,7 @@ source_type: "aws-official"
 
 # MLA-C01 In-Scope Services
 
-## Exam Relevance
+## Knowledge Relevance
 
 Use this as the canonical checklist for service coverage. It follows the official AWS service list, with lifecycle caveats from current AWS service lifecycle documentation.
 

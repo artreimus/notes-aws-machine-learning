@@ -1,6 +1,8 @@
 ---
 title: "MLA-C01 Study Roadmap"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "all"

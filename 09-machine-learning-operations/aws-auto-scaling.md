@@ -1,6 +1,8 @@
 ---
 title: "AWS Auto Scaling For ML Workloads"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.1"
@@ -22,7 +24,7 @@ source_type: "aws-official"
 
 # AWS Auto Scaling For ML Workloads
 
-## Exam Relevance
+## Knowledge Relevance
 
 Scaling note for SageMaker AI endpoints and supporting services using target tracking, step, scheduled, or predictive scaling patterns.
 
@@ -55,7 +57,7 @@ Scaling note for SageMaker AI endpoints and supporting services using target tra
 - Cold starts and provisioned concurrency matter for serverless inference.
 - Cost and latency objectives must be balanced.
 
-## Exam Triggers
+## Decision Triggers
 
 - Endpoint variant autoscaling points to Application Auto Scaling.
 - Metric-based scaling policy plus CloudWatch points to Application Auto Scaling.

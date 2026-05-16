@@ -1,13 +1,16 @@
 ---
 title: "Agents for Amazon Bedrock"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "draft"
 domain:
   - "2.1"
   - "3.1"
   - "4.1"
 service:
-  - "none"
+  - "Amazon Bedrock"
+  - "Agents for Amazon Bedrock"
 tags:
   - "aws"
   - "mla-c01"
@@ -23,10 +26,16 @@ source_type: "aws-official"
 
 # Agents for Amazon Bedrock
 
-## Overview
-- Managed service to build AI agents that orchestrate multi-step tasks.
-- Agents combine a foundation model with **action groups** (APIs/Lambda) and **knowledge bases** (RAG) to answer questions and take actions.
-- Bedrock handles orchestration, reasoning steps, and tool invocation.
+## Knowledge Relevance
+
+Managed Bedrock agent note for building applications that combine foundation models, tools, knowledge bases, traces, and deployment aliases.
+
+## When To Use
+
+- Use Agents for Amazon Bedrock when you want a managed agent that can break down tasks, call APIs, ask clarifying questions, query knowledge bases, and return a final response.
+- Use an action group when the agent must take action through Lambda or an API.
+- Use a knowledge base when the agent needs RAG over private or frequently changing data.
+- Use multi-agent collaboration when a supervisor agent should coordinate specialist collaborator agents.
 
 ## Core Concepts
 - Agent
@@ -41,32 +50,53 @@ source_type: "aws-official"
   - Create versions and route production traffic via aliases.
 - Traces
   - Orchestration traces show action selection, inputs, outputs, and rationale.
+- Multi-agent collaboration
+  - A supervisor agent can route work to collaborator agents with their own tools, knowledge bases, and guardrails.
 
-## How It Works (High Level)
+## AWS Services And Features
+
+- Agents for Amazon Bedrock
+- Action groups
+- Knowledge bases
+- Guardrails
+- Agent aliases and versions
+- Agent traces
+- Multi-agent collaboration
+
+## Implementation Patterns
+
 1. User request enters the agent.
 2. Orchestration model selects action groups or knowledge bases as needed.
 3. Actions run (Lambda/API) or KB retrieval happens.
 4. The agent synthesizes a final response.
 
-## Common Use Cases
-- Customer support agents that retrieve policy data and trigger workflows.
-- IT helpdesk automation (diagnose → lookup → execute actions).
-- Business process flows that require RAG + tool invocation.
+## Tradeoffs And Pitfalls
 
-## Best Practices
 - Keep action groups narrowly scoped with clear schemas.
 - Associate a knowledge base only when RAG is required.
 - Use aliases to promote tested versions safely.
 - Review orchestration traces to debug and tune prompts.
+- For multi-agent collaboration, minimize overlapping collaborator responsibilities.
 
-## Exam Tips
+## Decision Triggers
+
 - Agents for Bedrock is a **managed** agent service.
 - Action groups define tools (often Lambda-backed), knowledge bases provide RAG.
 - Orchestration is managed by Bedrock and can be traced.
+- Supervisor/collaborator wording points to [[bedrock-multi-agent-collaboration]].
+
+## Related Notes
+
+- [[bedrock-multi-agent-collaboration]]
+- [[bedrock-agentcore]]
+- [[bedrock-rag-decision-guide]]
+- [[agentic-rag-patterns]]
+- [[model-context-protocol-mcp]]
 
 ## Sources
 - https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html
 - https://docs.aws.amazon.com/bedrock/latest/userguide/agents-how.html
 - https://docs.aws.amazon.com/bedrock/latest/userguide/agents-create.html
+- https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html
 - https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_OrchestrationTrace.html
 - https://aws.amazon.com/blogs/aws/agents-for-amazon-bedrock-is-now-available-with-improved-control-of-orchestration-and-visibility-into-reasoning

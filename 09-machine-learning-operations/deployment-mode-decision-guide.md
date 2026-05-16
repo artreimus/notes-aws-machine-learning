@@ -1,6 +1,8 @@
 ---
 title: "Deployment Mode Decision Guide"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "3.1"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # Deployment Mode Decision Guide
 
-## Exam Relevance
+## Knowledge Relevance
 
 Decision guide for choosing real-time, async, batch, serverless, multi-model, and multi-container SageMaker deployment modes.
 
@@ -59,7 +61,7 @@ Decision guide for choosing real-time, async, batch, serverless, multi-model, an
 - Batch transform is not interactive.
 - MLOps needs rollback, monitoring, and automation regardless of mode.
 
-## Exam Triggers
+## Decision Triggers
 
 - Low latency synchronous inference points to real-time endpoint.
 - Large payload or long-running inference points to async inference.

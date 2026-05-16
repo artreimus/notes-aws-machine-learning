@@ -1,6 +1,8 @@
 ---
 title: "AWS Compute Optimizer"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.2"
@@ -19,7 +21,7 @@ source_type: "aws-official"
 
 # AWS Compute Optimizer
 
-## Exam Relevance
+## Knowledge Relevance
 
 Cost/performance optimization service for rightsizing supported AWS compute resources.
 
@@ -50,7 +52,7 @@ Cost/performance optimization service for rightsizing supported AWS compute reso
 - Recommendations are only as good as the observed metric history and supported resource types.
 - SageMaker endpoint-specific autoscaling still uses SageMaker/Application Auto Scaling decisions.
 
-## Exam Triggers
+## Decision Triggers
 
 - Rightsizing compute resources points to Compute Optimizer.
 - Broad support-plan check categories point to Trusted Advisor.

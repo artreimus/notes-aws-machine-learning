@@ -1,6 +1,8 @@
 ---
 title: "Kinesis Data Analytics"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "supplemental"
 domain:
   - "1.2"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Kinesis Data Analytics
 
-## Exam Relevance
+## Knowledge Relevance
 
 Redirect-style note for a stale service name. Use [[managed-service-for-apache-flink]] as the canonical current note.
 
@@ -49,7 +51,7 @@ Redirect-style note for a stale service name. Use [[managed-service-for-apache-f
 - Do not create new notes or diagrams that use Kinesis Data Analytics as the primary current name.
 - Kinesis Data Analytics for SQL shutdown is distinct from current Managed Service for Apache Flink.
 
-## Exam Triggers
+## Decision Triggers
 
 - Kinesis Data Analytics wording points to Managed Service for Apache Flink.
 - Kinesis Data Analytics for SQL points to shutdown/migration caveat.

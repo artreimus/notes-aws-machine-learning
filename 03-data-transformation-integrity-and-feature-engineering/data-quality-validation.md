@@ -1,6 +1,8 @@
 ---
 title: "Data Quality Validation"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.3"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # Data Quality Validation
 
-## Exam Relevance
+## Knowledge Relevance
 
 Cross-service note for validating ML datasets before training and monitoring quality drift after deployment.
 
@@ -54,7 +56,7 @@ Cross-service note for validating ML datasets before training and monitoring qua
 - Rules should be versioned with the pipeline.
 - Bad validation thresholds can block valid data or permit silent drift.
 
-## Exam Triggers
+## Decision Triggers
 
 - DQDL and ruleset point to Glue Data Quality.
 - Visual profiling/no-code cleanup points to DataBrew.

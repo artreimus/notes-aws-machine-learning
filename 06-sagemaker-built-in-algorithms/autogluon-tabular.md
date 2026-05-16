@@ -1,6 +1,8 @@
 ---
 title: "AutoGluon-Tabular"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "2.1"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # AutoGluon-Tabular
 
-## Exam Relevance
+## Knowledge Relevance
 
 SageMaker AI built-in tabular AutoML algorithm for classification, regression, and ranking.
 
@@ -52,7 +54,7 @@ SageMaker AI built-in tabular AutoML algorithm for classification, regression, a
 - Use the algorithm cheat sheet to avoid choosing image/text/tabular algorithms interchangeably.
 - Not every algorithm is parallelizable or GPU-appropriate.
 
-## Exam Triggers
+## Decision Triggers
 
 - Managed built-in algorithm with matching data type points to SageMaker AI.
 - Need full architecture control points to custom training.

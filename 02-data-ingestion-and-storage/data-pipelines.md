@@ -1,6 +1,8 @@
 ---
 title: "AWS Data Pipeline"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "legacy"
 domain:
   - "supplemental"
@@ -18,7 +20,7 @@ source_type: "aws-official"
 
 # AWS Data Pipeline
 
-## Exam Relevance
+## Knowledge Relevance
 
 AWS Data Pipeline is no longer available to new customers; prefer AWS Glue, Step Functions, or MWAA for current workflows.
 
@@ -43,7 +45,7 @@ AWS Data Pipeline is no longer available to new customers; prefer AWS Glue, Step
 
 - Do not prioritize this note for current MLA-C01 study.
 
-## Exam Triggers
+## Decision Triggers
 
 - Lifecycle or out-of-scope wording should trigger de-prioritization.
 

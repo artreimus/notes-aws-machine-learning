@@ -1,6 +1,8 @@
 ---
 title: "Class Imbalance And Resampling"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.3"
@@ -21,7 +23,7 @@ source_type: "aws-official"
 
 # Class Imbalance And Resampling
 
-## Exam Relevance
+## Knowledge Relevance
 
 Domain 1/2 concept note for imbalanced labels, sampling strategies, and the SageMaker Clarify Class Imbalance bias metric.
 
@@ -53,7 +55,7 @@ Domain 1/2 concept note for imbalanced labels, sampling strategies, and the Sage
 - Oversampling can overfit; undersampling can discard information.
 - Choose the metric that matches false-positive/false-negative cost.
 
-## Exam Triggers
+## Decision Triggers
 
 - Rare positive class, skewed labels, or minority recall points to imbalance handling.
 - Facet representation imbalance points to Clarify Class Imbalance.

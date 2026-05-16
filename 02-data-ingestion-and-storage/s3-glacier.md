@@ -1,6 +1,8 @@
 ---
 title: "Amazon S3 Glacier Storage Classes"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.1"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # Amazon S3 Glacier Storage Classes
 
-## Exam Relevance
+## Knowledge Relevance
 
 Archive storage note focused on current S3 Glacier storage classes, not the legacy standalone Amazon Glacier vault API.
 
@@ -54,7 +56,7 @@ Archive storage note focused on current S3 Glacier storage classes, not the lega
 - Retrieval time and retrieval cost matter.
 - Archived data is usually not suitable for immediate training without restoration.
 
-## Exam Triggers
+## Decision Triggers
 
 - Low-cost long-term archive points to S3 Glacier storage classes.
 - Fast active training data points to S3 Standard/EFS/FSx depending on access pattern.

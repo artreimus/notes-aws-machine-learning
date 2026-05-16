@@ -1,6 +1,8 @@
 ---
 title: "Private ML Networking"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.1"
@@ -24,7 +26,7 @@ source_type: "aws-official"
 
 # Private ML Networking
 
-## Exam Relevance
+## Knowledge Relevance
 
 Security architecture note for keeping ML data movement, training, and inference paths private where required.
 
@@ -59,7 +61,7 @@ Security architecture note for keeping ML data movement, training, and inference
 - Endpoint policies and bucket policies should align.
 - Direct Connect is not encryption by itself.
 
-## Exam Triggers
+## Decision Triggers
 
 - Private access to S3/SageMaker without internet points to VPC endpoints/PrivateLink.
 - Dedicated on-prem connection points to Direct Connect.

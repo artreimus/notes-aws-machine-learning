@@ -1,6 +1,8 @@
 ---
 title: "AWS HealthLake"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "1.1"
@@ -22,7 +24,7 @@ source_type: "aws-official"
 
 # AWS HealthLake
 
-## Exam Relevance
+## Knowledge Relevance
 
 In-scope healthcare data service for storing, querying, analyzing, and sharing FHIR R4 health data.
 
@@ -58,7 +60,7 @@ In-scope healthcare data service for storing, querying, analyzing, and sharing F
 - Healthcare workflows require PHI/PII protection, encryption, access control, and audit.
 - Know the difference between HealthLake data storage and Comprehend Medical text extraction.
 
-## Exam Triggers
+## Decision Triggers
 
 - FHIR R4, healthcare interoperability, and health data store point to HealthLake.
 - Clinical text entity extraction points to Comprehend Medical.

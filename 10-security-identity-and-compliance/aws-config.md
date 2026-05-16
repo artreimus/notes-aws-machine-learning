@@ -1,6 +1,8 @@
 ---
 title: "AWS Config"
-exam: "MLA-C01"
+scope: "AWS Machine Learning and AI"
+certifications:
+  - "MLA-C01"
 status: "reviewed"
 domain:
   - "4.3"
@@ -20,7 +22,7 @@ source_type: "aws-official"
 
 # AWS Config
 
-## Exam Relevance
+## Knowledge Relevance
 
 Governance service for recording resource configuration history and evaluating compliance rules.
 
@@ -54,7 +56,7 @@ Governance service for recording resource configuration history and evaluating c
 - You need S3/SNS/IAM setup for recording and notifications.
 - Not all resource types support every relationship or rule pattern.
 
-## Exam Triggers
+## Decision Triggers
 
 - Configuration drift, compliance rule, resource history, and audit evidence point to AWS Config.
 - API call history points to CloudTrail.
