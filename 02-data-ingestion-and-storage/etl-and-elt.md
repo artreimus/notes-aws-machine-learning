@@ -1,3 +1,24 @@
+---
+title: "ETL And ELT"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "ETL And ELT"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# ETL And ELT
+
 **1. ETL vs ELT: Core Concepts**
 
 - **ETL (Extract → Transform → Load)**
@@ -96,3 +117,9 @@ Building reliable pipelines means wiring these steps together, handling dependen
   - Use serverless (Glue 2.0, Athena) where possible; monitor with CloudWatch; tear down dev resources.
 - **Monitoring & Observability**
   - Leverage CloudWatch Logs/Metrics, Glue job bookmarks, Airflow UI, and custom dashboards for SLA tracking.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

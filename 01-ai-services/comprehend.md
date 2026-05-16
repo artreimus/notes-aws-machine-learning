@@ -1,3 +1,22 @@
+---
+title: "Amazon Comprehend"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "01_ai_services"
+aliases:
+  - "Amazon Comprehend"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Comprehend
 
 ## 1. Overview
@@ -76,3 +95,8 @@ Amazon Comprehend's power lies in its suite of APIs and features that can be use
   - **Pre-process with Amazon Translate**: If you have text in a language not directly supported by a specific Comprehend feature, use Amazon Translate to convert it to a supported language (like English) first.
   - **Combine with Human Review**: For applications requiring high accuracy, like compliance or medical record analysis, integrate Amazon Augmented AI (A2I) to create workflows that send low-confidence predictions from Comprehend to humans for review.
   - **Optimize Custom Model Training**: When training custom models, start with a well-defined and clear annotation guide to ensure consistency in your labeled data. Use the model's performance metrics (F1 score, Precision, Recall) to iterate and improve your dataset.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

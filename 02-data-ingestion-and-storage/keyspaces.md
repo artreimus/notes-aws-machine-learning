@@ -1,3 +1,22 @@
+---
+title: "Amazon Keyspaces (for Apache Cassandra)"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Amazon Keyspaces (for Apache Cassandra)"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Keyspaces (for Apache Cassandra)
 
 ## 1. Overview
@@ -31,3 +50,7 @@ Amazon Keyspaces is a managed, scalable database compatible with **Apache Cassan
 - Choose **Keyspaces** when you want Cassandra compatibility (CQL, wide-column patterns) or you’re migrating Cassandra workloads.
 - Choose **DynamoDB** when your access patterns are primarily key/value or document lookups and you want tighter integration with DynamoDB-specific features (Streams, DAX, etc.).
 
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

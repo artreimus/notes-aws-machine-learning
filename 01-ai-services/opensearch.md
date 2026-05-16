@@ -1,3 +1,22 @@
+---
+title: "OpenSearch"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "01_ai_services"
+aliases:
+  - "OpenSearch"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # OpenSearch
 
 ## Overview
@@ -59,3 +78,8 @@ Amazon OpenSearch Service (formerly Amazon Elasticsearch Service) is a fully man
 - Monitor cluster health and set up alerts for anomalies.
 - Use vector search for ML-driven semantic search and recommendations.
 - Regularl
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

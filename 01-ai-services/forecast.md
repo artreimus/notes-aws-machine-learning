@@ -1,73 +1,68 @@
+---
+title: "Amazon Forecast"
+exam: "MLA-C01"
+status: "legacy"
+domain:
+  - "2.1"
+service:
+  - "Amazon Forecast"
+  - "Amazon SageMaker AI"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "legacy"
+  - "forecasting"
+aliases:
+  - "Amazon Forecast"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Forecast
 
-## Overview
+## Exam Relevance
 
-Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts. It is designed to help organizations predict future business outcomes such as product demand, resource needs, financial performance, and more. Forecast automates the entire forecasting process, from data ingestion and feature engineering to model training, evaluation, and deployment. It is based on the same technology used at Amazon.com and requires no prior machine learning experience to use effectively.
+Legacy forecasting service note. Amazon Forecast is no longer available to new customers and is absent from the current MLA-C01 in-scope ML service list.
 
-**Key Features:**
+## When To Use
 
-- Automated machine learning for time series forecasting
-- Support for multiple algorithms, including deep learning models
-- Handles missing data, related time series, and item metadata
-- Scalable and fully managed (no infrastructure to manage)
-- Integrates with other AWS services for data ingestion and deployment
+- Use only for historical context or existing customers.
+- For current forecasting study, prefer SageMaker built-in algorithms such as DeepAR or custom time-series models.
 
-**Relevance:**
-Forecasting is critical in many business domains, such as retail, supply chain, finance, and operations. Accurate forecasts enable better planning, cost savings, and improved customer satisfaction. Amazon Forecast abstracts the complexity of building, training, and deploying forecasting models, making advanced ML accessible to a wide range of users.
+## Core Concepts
 
-## AWS Services & Features
+- Forecast was a managed time-series forecasting service.
+- New customers should use current alternatives.
+- SageMaker DeepAR remains a key exam-relevant forecasting algorithm.
 
-- **Amazon Forecast**: The core service for time series forecasting. Provides APIs and a console for data import, model training (predictors), evaluation, and generating forecasts.
-- **Amazon S3**: Used for storing input data (historical time series, related time series, item metadata) and exporting forecast results.
-- **AWS Identity and Access Management (IAM)**: Manages access and permissions for Forecast resources and data in S3.
-- **AWS Glue**: Can be used for data preparation and ETL before ingesting data into Forecast.
-- **Amazon CloudWatch**: Monitors Forecast jobs and resources.
-- **Amazon SageMaker**: For advanced users, custom models can be built and compared with Forecast's automated models.
+## AWS Services And Features
 
-**Distinctive Capabilities:**
+- Amazon Forecast
+- Amazon SageMaker AI
+- DeepAR
 
-- Automated feature engineering and algorithm selection
-- Support for hierarchical and grouped time series
-- Quantile forecasts (e.g., p10, p50, p90)
-- Explainability features to understand model drivers
-- Backtesting and accuracy metrics (e.g., WQL, RMSE)
+## Implementation Patterns
 
-## Practical Application
+- Historical: time-series dataset -> Forecast predictor -> forecast.
+- Current: time-series data -> DeepAR/SageMaker training or custom model -> endpoint/batch forecast.
 
-**Example Use Cases:**
+## Tradeoffs And Pitfalls
 
-- **Retail**: Demand forecasting for inventory management
-- **Supply Chain**: Predicting product shipments and logistics needs
-- **Finance**: Revenue, cash flow, or expense forecasting
-- **Energy**: Load and consumption forecasting
+- No new customers; avoid as a preferred current answer.
+- Still useful to recognize old service wording.
 
-**Sample Workflow:**
+## Exam Triggers
 
-1. **Data Preparation**: Collect historical time series data, related time series, and item metadata. Store in Amazon S3.
-2. **Data Import**: Use Forecast to import datasets from S3.
-3. **Model Training**: Create predictors using built-in algorithms (e.g., DeepAR+, CNN-QR, Prophet).
-4. **Evaluation**: Review accuracy metrics and backtesting results.
-5. **Forecast Generation**: Generate forecasts for desired time horizons and quantiles.
-6. **Deployment**: Export forecasts to S3 or integrate with downstream applications (e.g., inventory systems).
+- Forecast service wording should trigger lifecycle caveat.
+- DeepAR points to SageMaker built-in forecasting.
 
-**Sample Architecture:**
+## Related Notes
 
-- Data sources → AWS Glue (ETL) → Amazon S3 → Amazon Forecast → S3/Applications
+- [[deep-ar]]
+- [[model-selection-decision-guide]]
 
-## Challenges & Best Practices
 
-**Common Challenges:**
+## Sources
 
-- Poor data quality or missing values
-- Incorrect time granularity or inconsistent timestamps
-- Not leveraging related time series or item metadata
-- Overfitting or underfitting due to improper model selection
-
-**Best Practices:**
-
-- Ensure high-quality, consistent, and complete data
-- Use related time series and item metadata to improve accuracy
-- Choose appropriate forecast frequency and horizon
-- Monitor accuracy metrics and retrain models as needed
-- Use explainability features to understand and validate model outputs
-- Automate retraining and deployment for continuous improvement
+- https://docs.aws.amazon.com/forecast/latest/dg/API_ListForecasts.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

@@ -1,3 +1,22 @@
+---
+title: "Pandas for AWS Machine Learning"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Pandas for AWS Machine Learning"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Pandas for AWS Machine Learning
 
 ## Overview

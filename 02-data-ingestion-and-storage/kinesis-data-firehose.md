@@ -1,3 +1,24 @@
+---
+title: "Kinesis Data Firehose"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Kinesis Data Firehose"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Kinesis Data Firehose
+
 Amazon Data Firehose (formerly known as Amazon Kinesis Data Firehose) is a fully managed service designed for real-time data delivery to various destinations, including Amazon S3, Amazon Redshift, Amazon OpenSearch Service, Splunk, Snowflake, Apache Iceberg tables, and custom HTTP endpoints. It simplifies the process of capturing, transforming, and loading streaming data, making it particularly useful in machine learning (ML) workflows for tasks such as data ingestion, preprocessing, and storage.
 
 ---
@@ -129,3 +150,9 @@ Partition data in Amazon S3 based on keys like customer ID or timestamp, enablin
 - **Amazon Data Firehose Developer Guide**: Comprehensive documentation on setting up and managing Firehose streams.
 
 - **AWS Big Data Blog**
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

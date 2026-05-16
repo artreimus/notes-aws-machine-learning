@@ -1,3 +1,22 @@
+---
+title: "Amazon Rekognition"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "01_ai_services"
+aliases:
+  - "Amazon Rekognition"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Rekognition
 
 ## 1. Overview
@@ -69,3 +88,8 @@ A common use case is to automatically analyze and tag images uploaded to an S3 b
 - **Optimize for Cost**: For stored video analysis, process videos at a lower frame rate if real-time precision is not required. Use notification handlers (`AmazonSQS` and `AmazonSNS`) to track the completion of asynchronous video analysis jobs instead of polling.
 - **Leverage Custom Labels**: When built-in labels are insufficient, use Rekognition Custom Labels to train a model on your specific data. Start with a small, high-quality dataset (as few as 10 images per label) and iterate.
 - **Pre-process Images**: For best results, provide images where the subject is clear, well-lit, and in-focus.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

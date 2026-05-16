@@ -1,3 +1,22 @@
+---
+title: "Amazon Lex"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "01_ai_services"
+aliases:
+  - "Amazon Lex"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Lex
 
 ## Overview
@@ -75,3 +94,8 @@ A retail company deploys a Lex-powered chatbot on its website to handle order st
 - Monitor bot performance with CloudWatch and iterate based on analytics
 - Implement IAM policies to restrict access and protect sensitive data
 - Test bots with real user data and continuously improve NLU models
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

@@ -1,3 +1,24 @@
+---
+title: "Kinesis Data Stream Vs Firehose"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Kinesis Data Stream Vs Firehose"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Kinesis Data Stream Vs Firehose
+
 Here's a comprehensive comparison between **Amazon Kinesis Data Streams (KDS)** and **Amazon Data Firehose (formerly Kinesis Data Firehose)**, highlighting their key differences and providing guidance on when to use each service.
 
 ---
@@ -24,7 +45,7 @@ Here's a comprehensive comparison between **Amazon Kinesis Data Streams (KDS)** 
 #### ✅ Use **Kinesis Data Streams** when:
 
 - You need **real-time processing** with low latency.
-- Your application requires **custom processing logic** or integration with other AWS services like AWS Lambda, Kinesis Data Analytics, or custom consumers.
+- Your application requires **custom processing logic** or integration with other AWS services like AWS Lambda, Amazon Managed Service for Apache Flink, or custom consumers.
 - You need to **reprocess or replay** data within a retention window.
 - You require **multiple consumers** to process the same stream concurrently.
 
@@ -44,3 +65,9 @@ Here's a comprehensive comparison between **Amazon Kinesis Data Streams (KDS)** 
 - [AWS Kinesis Data Streams vs. Data Firehose Comparison](https://jayendrapatil.com/aws-kinesis-data-streams-vs-kinesis-firehose/)
 
 By understanding the differences and use cases for Kinesis Data Streams and Data Firehose, you can choose the service that best fits your application's requirements.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

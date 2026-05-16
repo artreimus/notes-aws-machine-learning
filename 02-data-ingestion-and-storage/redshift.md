@@ -1,3 +1,22 @@
+---
+title: "Amazon Redshift, Redshift ML, Redshift Serverless, and Redshift Data API"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Amazon Redshift, Redshift ML, Redshift Serverless, and Redshift Data API"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Redshift, Redshift ML, Redshift Serverless, and Redshift Data API
 
 ## Overview
@@ -154,3 +173,8 @@ WHERE customer_id = 123;
 
 - **Latency**: Slightly higher latency than direct connections; not ideal for high-frequency, low-latency workloads.
 - **Timeouts**: Long-running queries may require polling for results.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

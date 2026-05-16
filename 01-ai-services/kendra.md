@@ -1,3 +1,22 @@
+---
+title: "Amazon Kendra"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "01_ai_services"
+aliases:
+  - "Amazon Kendra"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Kendra
 
 ## Overview
@@ -68,3 +87,8 @@ Kendra leverages AWS's ML capabilities to provide semantic search, making it eas
 - Leverage Kendra's relevance tuning features (boosting, synonyms, etc.).
 - Implement fine-grained access control using IAM and user context.
 - Monitor search metrics and user feedback to continuously improve search quality.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

@@ -1,13 +1,58 @@
+---
+title: "Amazon DataZone"
+exam: "MLA-C01"
+status: "out-of-scope"
+domain:
+  - "supplemental"
+service:
+  - "Amazon DataZone"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "out-of-scope"
+aliases:
+  - "Amazon DataZone"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon DataZone
 
-- Managed data governance and sharing service that creates a business data portal for publishing, discovering, and subscribing to governed data assets.
-- Core building blocks:
-  - **Domains**: administrative boundaries with their own administrators, glossary, and approval policies.
-  - **Projects**: workspaces for producer or consumer teams; used to publish assets to the catalog or request subscriptions.
-  - **Catalog**: indexed metadata with search, business glossary terms, and tags to aid discovery.
-  - **Data products/assets**: registered sources such as S3/Lake Formation tables, Redshift databases/tables, and other cataloged resources.
-- Access management and governance:
-  - Producers register data assets into a domain and define subscription terms; consumers submit subscription requests that follow domain-defined approval workflows.
-  - Enforces fine-grained access via Lake Formation (for S3/Glue catalogs) or Redshift permissions after a request is approved.
-  - Integrates with IAM Identity Center for SSO to the data portal and with centralized policies/glossary terms to enforce consistent governance.
-- Typical uses: enable self-service discovery of curated datasets across accounts, provide auditable approval flows for data access, and maintain a consistent business glossary and metadata for analytics and ML teams.
+## Exam Relevance
+
+Amazon DataZone is listed out of scope for MLA-C01. Keep only as governance background.
+
+## When To Use
+
+- Use only for background context unless a linked current service note needs it.
+
+## Core Concepts
+
+- Amazon DataZone is listed out of scope for MLA-C01. Keep only as governance background.
+- This note is retained to preserve local study context and links.
+
+## AWS Services And Features
+
+- Amazon DataZone
+
+## Implementation Patterns
+
+- Prefer current in-scope alternatives described in related notes.
+
+## Tradeoffs And Pitfalls
+
+- Do not prioritize this note for current MLA-C01 study.
+
+## Exam Triggers
+
+- Lifecycle or out-of-scope wording should trigger de-prioritization.
+
+## Related Notes
+
+- [[in-scope-services]]
+- [[out-of-scope-services]]
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-out-of-scope-services.html

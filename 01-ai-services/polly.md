@@ -1,3 +1,22 @@
+---
+title: "Amazon Polly"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "01_ai_services"
+aliases:
+  - "Amazon Polly"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Amazon Polly
 
 ## Overview

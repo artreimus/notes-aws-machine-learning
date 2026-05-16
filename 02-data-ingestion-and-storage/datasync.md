@@ -1,3 +1,22 @@
+---
+title: "AWS DataSync"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "AWS DataSync"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # AWS DataSync
 
 ## Overview
@@ -36,7 +55,7 @@ AWS DataSync is a fully managed data transfer service that simplifies, automates
 
 - **ML Data Lake Ingestion:** Rapidly transfer large training datasets from on-premises storage to Amazon S3 for use in ML pipelines.
 - **Hybrid Cloud Workflows:** Keep on-premises and cloud data in sync for distributed ML training or analytics.
-- **Automated Data Pipelines:** Use DataSync with Lambda/Step Functions to automate recurring data ingestion for model retraining.
+- **Automated Data Workflows:** Use DataSync with Lambda/Step Functions to automate recurring data ingestion for model retraining.
 - **Archival and Backup:** Move infrequently accessed ML data to cost-effective storage (e.g., S3 Glacier).
 
 ### Sample Architecture

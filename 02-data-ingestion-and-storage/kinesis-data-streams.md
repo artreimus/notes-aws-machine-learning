@@ -1,3 +1,24 @@
+---
+title: "Kinesis Data Streams"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "02_data_ingestion_and_storage"
+aliases:
+  - "Kinesis Data Streams"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Kinesis Data Streams
+
 ## Overview and Relevance to AWS ML Services
 
 Amazon Kinesis Data Streams (KDS) is a fully managed, high-throughput service for real-time ingestion and storage of streaming data. Producers push immutable data records into shards, and consumers read and process those records with sub-second latency. KDS is designed to elastically scale to handle gigabytes of data per second, offering configurable retention from 24 hours up to 365 days to support both real-time and delayed processing use cases.
@@ -41,7 +62,7 @@ In AWS ML architectures, KDS serves as the backbone for streaming data pipelines
    Raw data ingested into KDS is simultaneously archived in S3 via Firehose. A scheduled SageMaker training job reads the latest data from S3, retrains models, and writes updated artifacts back to S3 for redeployment.
 
 4. **Real-Time Anomaly Detection**  
-   Use Kinesis Data Analytics (SQL) or Managed Flink to apply pre-trained models to streaming data, flagging anomalies and triggering SNS alerts within seconds of detection.
+   Use Amazon Managed Service for Apache Flink or Flink Studio to apply pre-trained models to streaming data, flagging anomalies and triggering SNS alerts within seconds of detection.
 
 ## Common Challenges and Best Practices
 
@@ -77,3 +98,9 @@ In AWS ML architectures, KDS serves as the backbone for streaming data pipelines
 - **Hands-On Workshops & GitHub Samples** (e.g., real-time ML pipelines with Kinesis and SageMaker)
 
 These notes cover the essential Kinesis Data Streams concepts, integrations, and considerations you’ll need for both the real-world ML applications and the MLA-C01 exam. Good luck with your studies!
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html
