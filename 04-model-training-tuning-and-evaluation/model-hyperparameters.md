@@ -1,3 +1,23 @@
+---
+title: "Model Hyperparameters in Machine Learning"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "2.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "04_model_training_tuning_and_evaluation"
+aliases:
+  - "Model Hyperparameters in Machine Learning"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Model Hyperparameters in Machine Learning
 
 ## Overview
@@ -79,3 +99,7 @@ Key examples include learning rate, regularization strength, number of trees in 
 - **Resource Constraints**: Tuning can be resource-intensive, especially for deep learning or large datasets.
 - **Curse of Dimensionality**: The more hyperparameters, the harder it is to find the optimal combination.
 - **Reproducibility**: Randomness in tuning (e.g., random search) can make results less reproducible unless seeds are fixed.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

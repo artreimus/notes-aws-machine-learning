@@ -1,3 +1,23 @@
+---
+title: "What is Apache Spark?"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+  - "1.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "03_data_transformation_integrity_and_feature_engineering"
+aliases:
+  - "What is Apache Spark?"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # What is Apache Spark?
 
 **Apache Spark** is an open-source, distributed computing engine designed for fast, large-scale data processing. It is widely used for big data analytics, data engineering, and machine learning tasks.
@@ -31,3 +51,8 @@
 
 **References:**  
 - [Apache Spark Documentation](https://spark.apache.org/docs/latest/)
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

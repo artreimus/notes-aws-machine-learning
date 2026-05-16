@@ -1,3 +1,23 @@
+---
+title: "L1 and L2 Regularization: Quick Reference & Practical Guide"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+  - "1.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "03_data_transformation_integrity_and_feature_engineering"
+aliases:
+  - "L1 and L2 Regularization: Quick Reference & Practical Guide"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # L1 and L2 Regularization: Quick Reference & Practical Guide
 
 ---
@@ -89,3 +109,8 @@ Both methods are widely used in machine learning, including AWS ML services.
 - [Regularization in Machine Learning (GeeksforGeeks)](https://www.geeksforgeeks.org/regularization-in-machine-learning/)
 - [L1 vs L2 Regularization (Neptune.ai)](https://neptune.ai/blog/fighting-overfitting-with-l1-or-l2-regularization)
 - [AWS Certified Machine Learning – Associate Exam Guide](https://aws.amazon.com/certification/certified-machine-learning-specialty/)
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

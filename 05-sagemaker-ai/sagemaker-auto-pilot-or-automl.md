@@ -1,3 +1,28 @@
+---
+title: "SageMaker Auto Pilot Or Automl"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Auto Pilot Or Automl"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# SageMaker Auto Pilot Or Automl
+
 ## 1. Service Name
 
 **Amazon SageMaker Autopilot**
@@ -152,3 +177,11 @@ Where **input-config.json** points to your S3 CSV/Parquet and specifies the targ
 - **Ensemble mode** runs 10 diverse models via AutoGluon and stacks them.
 - **Always export the notebook** to understand data prep and guard against bias.
 - **Clarify integration**: SHAP‑based feature attribution for fairness and transparency.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

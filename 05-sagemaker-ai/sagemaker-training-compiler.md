@@ -1,79 +1,69 @@
-# SageMaker Training Compiler
-
-## Overview
-
-The SageMaker Training Compiler is an optimization tool integrated with Amazon SageMaker that accelerates the training of deep learning models by automatically optimizing the underlying training graphs. It works by analyzing and transforming the model's computational graph to reduce memory usage and improve hardware utilization, resulting in faster training times and lower costs. The Training Compiler is especially beneficial for large-scale deep learning workloads, such as those involving natural language processing (NLP) and computer vision, where training can be resource-intensive and time-consuming.
-
-Key features include:
-
-- Automatic graph optimization and fusion
-- Reduced memory footprint
-- Improved GPU utilization
-- Seamless integration with SageMaker training jobs
-
-The Training Compiler is relevant in the context of AWS Machine Learning services as it enables data scientists and ML engineers to train larger models more efficiently, making it easier to experiment and iterate quickly.
-
-## AWS Services & Features
-
-- **Amazon SageMaker**: The primary service where the Training Compiler is available. It is supported for specific deep learning frameworks, such as TensorFlow and PyTorch, within SageMaker's managed training environment.
-- **SageMaker Training Jobs**: The Training Compiler is enabled as an option when configuring training jobs, requiring minimal code changes.
-- **Supported Frameworks**: As of 2024, SageMaker Training Compiler supports PyTorch and TensorFlow (check AWS documentation for the latest compatibility).
-
-### Typical Use Cases
-
-- Training large transformer models (e.g., BERT, GPT)
-- Computer vision models with large batch sizes
-- Any deep learning workload where GPU memory or training time is a bottleneck
-
-## Practical Application
-
-### Example Scenario
-
-A data science team is training a BERT-based NLP model for document classification. The model is large, and training on a standard GPU instance is slow and often runs out of memory with larger batch sizes. By enabling SageMaker Training Compiler, the team observes:
-
-- Up to 50% reduction in training time
-- Ability to use larger batch sizes without running out of memory
-- Lower overall training costs due to reduced instance hours
-
-### How to Enable
-
-- In your SageMaker training script, set the `compiler_config` parameter when creating the `TensorFlow` or `PyTorch` estimator.
-- Example (PyTorch):
-
-```python
-from sagemaker.pytorch import PyTorch, TrainingCompilerConfig
-
-estimator = PyTorch(
-    entry_point='train.py',
-    ... # other parameters
-    compiler_config=TrainingCompilerConfig(),
-)
-```
-
-- No changes to the model code are required in most cases.
-
-## Challenges & Best Practices
-
-### Common Challenges
-
-- **Unsupported Operations**: Some custom or less common operations may not be optimized by the compiler, potentially leading to errors or fallback to standard training.
-- **Debugging**: Debugging can be more complex due to graph optimizations and transformations.
-- **Framework Compatibility**: Only specific versions of PyTorch and TensorFlow are supported.
-
-### Best Practices
-
-- **Check Compatibility**: Always verify that your framework version and model architecture are supported by the Training Compiler.
-- **Monitor Training**: Compare training metrics (speed, memory usage, accuracy) with and without the compiler enabled to ensure expected improvements.
-- **Start with Default Settings**: Use the default compiler configuration first, then fine-tune if needed.
-- **Review Logs**: Examine SageMaker logs for any warnings or errors related to the compiler.
-
-## Additional Resources
-
-- [AWS SageMaker Training Compiler Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/training-compiler.html)
-- [SageMaker Training Compiler Best Practices](https://docs.aws.amazon.com/sagemaker/latest/dg/training-compiler-best-practices.html)
-- [AWS Machine Learning Blog: Accelerate deep learning training with SageMaker Training Compiler](https://aws.amazon.com/blogs/machine-learning/accelerate-deep-learning-training-with-amazon-sagemaker-training-compiler/)
-- [SageMaker Supported Frameworks](https://docs.aws.amazon.com/sagemaker/latest/dg/amazon-sagemaker-supported-frameworks.html)
-
+---
+title: "SageMaker Training Compiler"
+exam: "MLA-C01"
+status: "legacy"
+domain:
+  - "2.2"
+service:
+  - "Amazon SageMaker AI"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "sagemaker"
+  - "legacy"
+aliases:
+  - "SageMaker Training Compiler"
+last_verified: "2026-05-16"
+source_type: "aws-official"
 ---
 
-This guide aligns with the AWS Certified Machine Learning Engineer – Associate (MLA-C01) exam requirements and current AWS documentation.
+# SageMaker Training Compiler
+
+## Exam Relevance
+
+Legacy SageMaker optimization feature. Keep for historical context and exam caveat recognition, but do not emphasize as a current optimization path.
+
+## When To Use
+
+- Use only for understanding old training optimization references.
+- Prefer current distributed training, compiler/framework-native optimization, instance selection, and training-data/input-mode optimization for new designs.
+
+## Core Concepts
+
+- Training Compiler optimized supported deep learning workloads in SageMaker DLCs.
+- AWS states there are no new releases or versions and existing DLCs no longer receive patches or updates for this feature.
+- It is incompatible with some distributed training paths and should not be the first current answer.
+
+## AWS Services And Features
+
+- Amazon SageMaker AI
+- SageMaker Distributed Data Parallel
+- SageMaker Model Parallelism
+
+## Implementation Patterns
+
+- Historical: estimator with compiler config -> optimized training job on supported GPU DLC.
+- Current: choose suitable instances, distributed libraries, mixed precision, checkpointing, and data/input optimization.
+
+## Tradeoffs And Pitfalls
+
+- Legacy/no-new-release status is the key exam caveat.
+- Do not combine with SMDDP as a current best-practice answer.
+- Security patch status matters for old DLCs.
+
+## Exam Triggers
+
+- Training Compiler wording should trigger legacy caveat.
+- Large model scaling points to distributed training/model parallelism instead.
+
+## Related Notes
+
+- [[training-compiler]]
+- [[sagemaker-training-techniques]]
+- [[sagemaker-model-parallelism]]
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/training-compiler-enable.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

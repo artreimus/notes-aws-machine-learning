@@ -1,3 +1,25 @@
+---
+title: "Elastic Map Reduce"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+  - "1.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "03_data_transformation_integrity_and_feature_engineering"
+aliases:
+  - "Elastic Map Reduce"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Elastic Map Reduce
+
 ### 1. Detailed Overview
 
 Amazon EMR is a managed **big data platform** designed to process vast amounts of data using open-source frameworks such as Apache Hadoop, Spark, HBase, Presto, and more. It is engineered for scalability, flexibility, and cost-effectiveness, making it an ideal solution for data-intensive applications and machine learning workflows.
@@ -30,7 +52,7 @@ Amazon EMR is a managed **big data platform** designed to process vast amounts o
 
 - **Integration with Other AWS Services:**
   - **Amazon S3:** Serves as the primary data lake for storing raw, preprocessed, and output data.
-  - **AWS Glue & Data Pipeline:** Assist in cataloging and moving data between data stores, complementing EMR’s processing capabilities.
+  - **AWS Glue, Step Functions, and MWAA:** Catalog, transform, and orchestrate data movement around EMR workloads. Treat AWS Data Pipeline only as legacy context because it is no longer available to new customers.
   - **Amazon CloudWatch:** For monitoring cluster performance, logging, and setting alarms to ensure the health of ML workflows.
 
 **Typical Use Cases:**
@@ -306,3 +328,9 @@ To further solidify your understanding and prepare for the exam, consider these 
 ## Conclusion
 
 Understanding the distinctions between EMR Serverless and traditional EMR clusters—including the roles of various node types—is essential for designing scalable, efficient ML pipelines on AWS. Apache Spark’s in-memory processing and Hadoop’s batch processing capabilities continue to play pivotal roles in big data and ML workflows. By mastering these concepts, configuring resources appropriately, and following best practices, you'll be well-prepared to tackle practical ML scenarios and the AWS Certified Machine Learning Engineer – Associate exam.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

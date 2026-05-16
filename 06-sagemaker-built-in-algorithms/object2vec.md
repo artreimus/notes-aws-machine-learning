@@ -1,3 +1,25 @@
+---
+title: "Object2vec"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Object2vec"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Object2vec
+
 **Amazon SageMaker's Object2Vec Algorithm**
 
 **Purpose:**
@@ -92,3 +114,9 @@ Object2Vec supports training on a single machine and can utilize both CPU and GP
 - **GPU Instances:** Options like `ml.p2.xlarge`, `ml.p3.2xlarge`, and newer generations such as G4dn and G5 are available. Multi-GPU configurations can be beneficial for larger models or datasets.
 
 For inference tasks, using instances like `ml.p3.2xlarge` is recommended. Additionally, setting the `INFERENCE_PREFERRED_MODE` environment variable can optimize the model for specific tasks, such as encoder embeddings or classification/regression.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

@@ -1,3 +1,23 @@
+---
+title: "Feature Engineering"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+  - "1.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "03_data_transformation_integrity_and_feature_engineering"
+aliases:
+  - "Feature Engineering"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Feature Engineering
 
 ## 1. Detailed Overview
@@ -152,3 +172,8 @@ For a deeper understanding of feature engineering and its implications—includi
 ## Conclusion
 
 Feature engineering is a crucial, creative part of the machine learning process that can significantly impact model accuracy and performance. It involves more than just applying standard transformations—instead, it relies on deep domain expertise to select the most informative features and reduce unnecessary complexity. Critically, by addressing the curse of dimensionality, practitioners can avoid sparse, noisy data spaces and build more generalizable models. Leveraging tools like AWS SageMaker Data Wrangler and Feature Store further enhances this process, making your ML pipelines more efficient and robust. This mastery of feature engineering not only bolsters real-world model performance but also positions you for success on the AWS Certified Machine Learning Engineer – Associate exam.
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

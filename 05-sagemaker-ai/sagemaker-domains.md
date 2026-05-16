@@ -1,3 +1,28 @@
+---
+title: "SageMaker Domains"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Domains"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# SageMaker Domains
+
 ## SageMaker Domains
 
 **Definition and Purpose:**  
@@ -40,3 +65,11 @@ Amazon SageMaker Domains provide a secure, managed environment for teams to coll
 **Further Reading:**
 
 - [Amazon SageMaker Domain Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-organization.html)
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

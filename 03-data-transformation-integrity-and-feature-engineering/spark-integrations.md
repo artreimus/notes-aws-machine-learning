@@ -1,3 +1,23 @@
+---
+title: "Apache Spark & AWS Integration Notes"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+  - "1.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "03_data_transformation_integrity_and_feature_engineering"
+aliases:
+  - "Apache Spark & AWS Integration Notes"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Apache Spark & AWS Integration Notes
 
 ## 1. Why integrate?
@@ -179,3 +199,8 @@ spark.range(10).show()
 - GitHub – [https://github.com/aws/sagemaker-spark](https://github.com/aws/sagemaker-spark)
 - GitHub – [https://github.com/jupyter-incubator/sparkmagic](https://github.com/jupyter-incubator/sparkmagic)
 - EMR Best Practices Guide – _Optimizing S3A performance_ (updated 2024‑11)
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

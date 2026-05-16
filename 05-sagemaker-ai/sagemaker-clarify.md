@@ -1,3 +1,28 @@
+---
+title: "SageMaker Clarify"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Clarify"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# SageMaker Clarify
+
 ### 1. Overview of SageMaker Clarify
 
 **What It Is:**  
@@ -111,3 +136,11 @@ An online retailer builds a recommendation engine:
 
 - **Community Resources:**
   - AWS forums and GitHub repositories where community members and AWS professionals share example notebooks and scripts for integrating SageMaker Clarify in various workflows.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

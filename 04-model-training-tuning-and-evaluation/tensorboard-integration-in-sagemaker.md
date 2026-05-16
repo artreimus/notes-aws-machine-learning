@@ -1,3 +1,25 @@
+---
+title: "Tensorboard Integration In SageMaker"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "2.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "04_model_training_tuning_and_evaluation"
+aliases:
+  - "Tensorboard Integration In SageMaker"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Tensorboard Integration In SageMaker
+
 ### 1. Feature Name
 
 **TensorBoard Integration in SageMaker**
@@ -108,3 +130,8 @@ TensorBoard is the standard visualization toolkit for TensorFlow (and now suppor
 - **One‑click in Studio**: You can launch TensorBoard directly from the SageMaker Studio UI.
 - **Supported Frameworks**: TensorFlow and PyTorch natively; others via custom logging in the same output path.
 - **No Extra Containers**: TensorBoard runs on SageMaker-managed infrastructure—no need to build your own container.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

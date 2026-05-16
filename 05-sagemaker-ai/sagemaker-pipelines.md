@@ -1,3 +1,28 @@
+---
+title: "SageMaker Pipelines"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Pipelines"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# SageMaker Pipelines
+
 ## 1. Overview of SageMaker Pipelines
 
 **Definition and Purpose:**  
@@ -99,3 +124,11 @@ For predictive maintenance in healthcare—for instance, predicting patient dete
     - Explore GitHub repositories and forums for sample code and community-contributed pipelines, which can provide practical examples and troubleshooting tips.
 
 ---
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

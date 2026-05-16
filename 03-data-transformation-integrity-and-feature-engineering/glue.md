@@ -1,3 +1,23 @@
+---
+title: "Glue"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "1.2"
+  - "1.3"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-1"
+  - "03_data_transformation_integrity_and_feature_engineering"
+aliases:
+  - "Glue"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Glue
 
 ---
@@ -153,7 +173,7 @@
 
 ## 10. Anti-Patterns & Streaming
 
-- **Anti-Pattern**: Mixing multiple ETL engines (e.g., Hive/Pig vs. Glue Spark). If non-Spark engines are needed, consider AWS Data Pipeline with EMR.
+- **Anti-Pattern**: Mixing multiple ETL engines without a clear ownership boundary. If non-Spark engines are needed, use EMR with Step Functions, MWAA, or Glue workflows rather than AWS Data Pipeline, which is no longer available to new customers.
 - **Streaming Support** (April 2020+): Serverless streaming ETL on Spark Structured Streaming consuming from Kinesis or Kafka, with in-flight transformation and output to S3 or other stores.
 
 ---
@@ -212,3 +232,8 @@
 ---
 
 _End of notes._
+
+## Sources
+
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain1.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html

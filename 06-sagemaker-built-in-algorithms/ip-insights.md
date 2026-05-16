@@ -1,3 +1,25 @@
+---
+title: "Ip Insights"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Ip Insights"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Ip Insights
+
 **IP Insights: Overview and Applications**
 
 Amazon SageMaker's IP Insights is an unsupervised machine learning algorithm designed to detect anomalous behavior in IP address usage patterns. It learns from historical data comprising (entity, IP address) pairs to identify suspicious activities, making it particularly valuable for security monitoring and fraud detection.
@@ -92,3 +114,9 @@ Amazon SageMaker's IP Insights is an unsupervised machine learning algorithm des
   - GPU utilization optimization
   - Memory management for large datasets
   - Scaling considerations
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

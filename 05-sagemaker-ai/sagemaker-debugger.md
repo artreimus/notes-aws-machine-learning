@@ -1,3 +1,26 @@
+---
+title: "SageMaker Debugger"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Debugger"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # SageMaker Debugger
 
 ## Overview
@@ -54,3 +77,10 @@ A team uses Debugger to ensure their model is not overfitting and that GPUs are 
 - Regularly review and update rules based on model and data changes.
 - Integrate Debugger alerts with CloudWatch for automated responses.
 - Use SageMaker Studio for interactive analysis and visualization.
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

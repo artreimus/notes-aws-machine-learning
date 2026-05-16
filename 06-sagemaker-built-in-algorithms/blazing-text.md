@@ -1,3 +1,25 @@
+---
+title: "Blazing Text"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Blazing Text"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Blazing Text
+
 **BlazingText: Overview and Applications**
 
 Amazon SageMaker's BlazingText is a highly optimized algorithm designed for natural language processing (NLP) tasks, offering implementations for both **text classification** and **Word2Vec** embeddings. These functionalities are pivotal in various applications, including web searches, information retrieval, sentiment analysis, and machine translation.
@@ -63,3 +85,9 @@ Alternatively, the Augmented Manifest Text (AMT) format in JSON lines can be use
   - For datasets smaller than 2GB: Compute-optimized instances like `ml.c5` are suitable.
 
   - For larger datasets: A single GPU instance, such as `ml.p2.xlarge` or `ml.p3.2xlarge`, is advisable to expedite training.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

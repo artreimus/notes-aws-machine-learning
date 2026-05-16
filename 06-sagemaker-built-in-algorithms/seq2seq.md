@@ -1,3 +1,25 @@
+---
+title: "Seq2seq"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Seq2seq"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Seq2seq
+
 Amazon SageMaker's **Sequence-to-Sequence (Seq2Seq)** algorithm is a supervised learning model designed to transform sequences of tokens from one domain to another. Common applications include machine translation, text summarization, and speech-to-text conversion. The algorithm utilizes encoder-decoder architectures based on Recurrent Neural Networks (RNNs) and Convolutional Neural Networks (CNNs) with attention mechanisms to effectively model complex sequence transformations.
 
 **Training Input Requirements:**
@@ -65,3 +87,9 @@ Selecting appropriate instance types is crucial for efficient training and optim
 For a practical demonstration and deeper understanding of SageMaker's Seq2Seq algorithm, consider viewing the following webinar:
 
 - **video:** Amazon SageMaker's Built-in Algorithm Webinar Series
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

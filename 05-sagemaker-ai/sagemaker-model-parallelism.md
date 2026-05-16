@@ -1,3 +1,26 @@
+---
+title: "Distributed Training in SageMaker"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "Distributed Training in SageMaker"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
 # Distributed Training in SageMaker
 
 ### 1. Topic
@@ -129,3 +152,10 @@ Split a single model’s parameters and states across GPUs/nodes when it cannot 
 ---
 
 With these distributed training techniques, you’ll be ready to architect SageMaker jobs that train the largest modern models—exactly what the exam will test. Good luck!
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain3.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain4.html

@@ -1,3 +1,25 @@
+---
+title: "Xgboost"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Xgboost"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Xgboost
+
 Amazon SageMaker integrates **XGBoost (eXtreme Gradient Boosting)**, a powerful and efficient open-source implementation of the gradient boosted trees algorithm. XGBoost is renowned for its performance in machine learning competitions and is widely used for both classification and regression tasks.
 
 **1. What is XGBoost Used For?**
@@ -69,3 +91,9 @@ XGBoost's performance is influenced by the choice of instance types. Memory-boun
 For detailed instance recommendations, consult the [SageMaker XGBoost documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost.html).
 
 By understanding these aspects, practitioners can effectively harness XGBoost within SageMaker to build robust and efficient machine learning models.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

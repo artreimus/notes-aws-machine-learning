@@ -1,3 +1,28 @@
+---
+title: "SageMaker Model Registry"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Model Registry"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# SageMaker Model Registry
+
 Amazon SageMaker Model Registry is a key component of the SageMaker ecosystem that provides a centralized, managed repository for cataloging, versioning, and managing machine learning (ML) models. It enables teams to organize their models along with associated metadata—such as hyperparameters, metrics, training data details, and approval status—which is essential for both governance and continuous deployment in production ML workflows.
 
 ---

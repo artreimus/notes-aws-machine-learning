@@ -1,3 +1,25 @@
+---
+title: "Latent Dirichlet Allocation"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Latent Dirichlet Allocation"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Latent Dirichlet Allocation
+
 **Latent Dirichlet Allocation (LDA): Overview and Applications**
 
 Amazon SageMaker's LDA is an unsupervised machine learning algorithm designed for topic modeling, capable of identifying latent topics within a collection of documents. Unlike deep learning approaches, LDA represents each document as a mixture of topics and each topic as a distribution over words, making it particularly valuable for organizing large text corpora and analyzing patterns in various types of data.
@@ -72,3 +94,9 @@ Consider an organization aiming to analyze customer feedback to enhance product 
 - **Computational Resources**: SageMaker's LDA currently supports single-instance CPU training. For large datasets, this may lead to longer training times. It's important to plan resources accordingly and consider data sampling or dimensionality reduction techniques if necessary.
 
 By leveraging SageMaker's LDA implementation and adhering to best practices, you can effectively extract valuable insights from textual data, enhancing decision-making processes and uncovering hidden patterns within your datasets.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

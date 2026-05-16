@@ -1,3 +1,25 @@
+---
+title: "Image Classification"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Image Classification"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Image Classification
+
 **Image Classification in Amazon SageMaker**
 
 **Purpose:**
@@ -42,3 +64,9 @@ Key hyperparameters for configuring the image classification algorithms include:
 
 - **Inference:**
   - **CPU or GPU Instances:** Depending on performance requirements, instances like ml.m5 (CPU) or ml.p2, ml.p3, ml.g4dn, and ml.g5 (GPU) can be used for deploying the model for predictions.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

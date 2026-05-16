@@ -1,3 +1,25 @@
+---
+title: "Random Cut Forest"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.1"
+  - "2.2"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "06_sagemaker_built_in_algorithms"
+aliases:
+  - "Random Cut Forest"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# Random Cut Forest
+
 **Random Cut Forest (RCF) in Amazon SageMaker**
 
 **Purpose:**
@@ -23,3 +45,9 @@ RCF constructs a forest of random cut trees, each built from a random sample of 
 
 - **Training:** RCF does not utilize GPUs; therefore, CPU instances like `ml.m5`, `ml.c5`, or `ml.c4` are recommended.
 - **Inference:** For deployment, instances such as `ml.c5.xlarge` are suitable.
+
+
+## Sources
+
+- https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01-domain2.html

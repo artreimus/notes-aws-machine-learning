@@ -1,3 +1,28 @@
+---
+title: "SageMaker Feature Store"
+exam: "MLA-C01"
+status: "draft"
+domain:
+  - "2.2"
+  - "3.1"
+  - "4.1"
+service:
+  - "none"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "domain-2"
+  - "domain-3"
+  - "domain-4"
+  - "05_sagemaker_ai"
+aliases:
+  - "SageMaker Feature Store"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
+
+# SageMaker Feature Store
+
 Amazon SageMaker Feature Store is a fully managed repository purpose-built to create, store, share, and manage machine learning (ML) features. It is an integral part of the SageMaker ecosystem that helps data scientists and ML engineers to standardize and reuse features consistently between model training and inference, reducing duplicate feature engineering work and minimizing training-serving skew.
 
 ---
