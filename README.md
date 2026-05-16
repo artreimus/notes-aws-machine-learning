@@ -1,63 +1,112 @@
-# AWS Certified Machine Learning Engineer – Associate (MLA-C01) Study Notes
+---
+title: "AWS Certified Machine Learning Engineer - Associate (MLA-C01) Study Notes"
+exam: "MLA-C01"
+status: "reviewed"
+domain:
+  - "all"
+service:
+  - "AWS Certification"
+tags:
+  - "aws"
+  - "mla-c01"
+  - "readme"
+aliases:
+  - "MLA-C01 Study Notes"
+last_verified: "2026-05-16"
+source_type: "aws-official"
+---
 
-Welcome to my personal study notes for the AWS Certified Machine Learning Engineer – Associate (MLA-C01) exam. This repository is a structured collection of notes, concepts, and resources aimed at covering the key domains of the exam.
+# AWS Certified Machine Learning Engineer - Associate (MLA-C01) Study Notes
 
-## Repository Structure
+This vault is an exam-first study system for AWS Certified Machine Learning Engineer - Associate (MLA-C01). It combines AWS service notes, machine learning concepts, SageMaker AI workflows, Bedrock/gen AI patterns, and operational/security guidance.
 
-The notes are organized into directories based on the major topics of the MLA-C01 exam. Each directory contains markdown files for specific concepts and services.
+## Current Exam Facts
 
-### 📂 `01-ai-services`
+| Item | Value |
+| --- | --- |
+| Exam code | MLA-C01 |
+| Duration | 130 minutes |
+| Question count | 65 questions |
+| Passing score | 720 |
+| Domain 1 | Data Preparation for Machine Learning, 28% |
+| Domain 2 | ML Model Development, 26% |
+| Domain 3 | Deployment and Orchestration of ML Workflows, 22% |
+| Domain 4 | ML Solution Monitoring, Maintenance, and Security, 24% |
 
-This section covers AWS's high-level AI services, which provide machine learning capabilities via APIs without requiring deep ML expertise.
+## How This Vault Is Organized
 
-### 📂 `02-data-ingestion-and-storage`
+| Folder | Purpose |
+| --- | --- |
+| `00-exam-guide/` | Official exam overview, domain maps, scope checklists, and study roadmap |
+| `01-ai-services/` | AWS AI and ML application services |
+| `02-data-ingestion-and-storage/` | Data sources, streaming, storage, lake, warehouse, and database services |
+| `03-data-transformation-integrity-and-feature-engineering/` | Data transformation, Glue, Spark, quality, feature engineering, and integrity topics |
+| `04-model-training-tuning-and-evaluation/` | Training, tuning, metrics, model selection, and evaluation concepts |
+| `05-sagemaker-ai/` | Amazon SageMaker AI capabilities for build, train, tune, deploy, and govern workflows |
+| `06-sagemaker-built-in-algorithms/` | SageMaker AI built-in algorithms and algorithm selection notes |
+| `07-generative-ai-model-fundamentals/` | Foundation model and transformer fundamentals |
+| `08-building-gen-ai-apps-with-bedrock/` | Bedrock application scenarios that link to canonical Bedrock notes |
+| `09-machine-learning-operations/` | MLOps, orchestration, CI/CD, deployment, cost, and observability |
+| `10-security-identity-and-compliance/` | IAM, network isolation, encryption, governance, compliance, and data protection |
+| `11-machine-learning-best-practices/` | Responsible AI, Well-Architected guidance, A2I, and human review |
+| `12-sql/` | SQL support material for Athena, Redshift, Glue, and analytics tasks |
+| `13-bedrock/` | Canonical Amazon Bedrock feature notes |
+| `14-agentic-ai/` | Supplemental agent framework notes |
+| `common/` | Cross-cutting ML fundamentals |
 
-Focuses on the services and concepts related to ingesting, storing, and managing data for machine learning workflows.
+## Study Paths
 
-### 📂 `03-data-transformation-integrity-and-feature-engineering`
+- Fast exam review: start with `00-exam-guide/exam-overview.md`, then review each domain map.
+- SageMaker AI path: use `05-sagemaker-ai/`, `06-sagemaker-built-in-algorithms/`, and Domain 2/3 guide notes.
+- Data preparation path: use `02-data-ingestion-and-storage/`, `03-data-transformation-integrity-and-feature-engineering/`, and Domain 1.
+- Bedrock/gen AI path: use `13-bedrock/` first, then `08-building-gen-ai-apps-with-bedrock/` for scenarios.
+- Security and operations path: use `09-machine-learning-operations/`, `10-security-identity-and-compliance/`, and Domain 4.
 
-Covers data processing, transformation, and feature engineering, which are crucial steps in preparing data for modeling.
+## Note Status Legend
 
-### 📂 `04-model-training-tuning-and-evaluation`
+| Status | Meaning |
+| --- | --- |
+| `reviewed` | Verified against current AWS docs and mapped to exam tasks |
+| `draft` | Useful and normalized, but not yet promoted to the fully reviewed set |
+| `stale` | Needs source refresh before exam study use |
+| `legacy` | AWS service or feature is no longer available to new customers, has no new releases, or is in shutdown/sunset status |
+| `supplemental` | Useful background but not a primary current MLA-C01 study target |
+| `out-of-scope` | Listed out of scope by the current AWS MLA-C01 guide |
 
-This section delves into the core machine learning processes of training models, tuning hyperparameters, and evaluating their performance.
+## How To Add Or Update A Note
 
-### 📂 `05-sagemaker-ai`
+1. Start from `NOTE_TEMPLATE.md`.
+2. Use current AWS service names, such as Amazon SageMaker AI and Amazon Managed Service for Apache Flink.
+3. Add frontmatter with `title`, `exam`, `status`, `domain`, `service`, `tags`, `aliases`, `last_verified`, and `source_type`.
+4. Include these sections: `Exam Relevance`, `When To Use`, `Core Concepts`, `AWS Services And Features`, `Implementation Patterns`, `Tradeoffs And Pitfalls`, `Exam Triggers`, `Related Notes`, and `Sources`.
+5. Cite official AWS docs first. Use blogs, whitepapers, or third-party sources only when AWS docs are insufficient.
+6. Mark lifecycle caveats clearly. Do not delete legacy notes unless the repo owner asks for that cleanup.
 
-A comprehensive look at Amazon SageMaker, AWS's flagship service for building, training, and deploying machine learning models at scale.
+## Validation Checks
 
-### 📂 `06-sagemaker-built-in-algorithms`
+Run the repo validator first:
 
-Details on the built-in algorithms provided by Amazon SageMaker, which are optimized for performance and scale.
+```bash
+python3 scripts/validate_notes.py
+```
 
-### 📂 `07-generative-ai-model-fundamentals`
+Use strict section checks when intentionally migrating inherited notes to the full `NOTE_TEMPLATE.md` layout:
 
-Explores the foundational concepts behind Generative AI and Large Language Models (LLMs).
+```bash
+python3 scripts/validate_notes.py --strict-sections
+```
 
-### 📂 `08-building-gen-ai-apps-with-bedrock`
+Useful focused spot checks:
 
-Focuses on Amazon Bedrock, a fully managed service for building and scaling generative AI applications.
+```bash
+rg --files-without-match '^# ' -g '*.md'
+rg --files-without-match '^(## )?(Sources|References|Additional Resources)\b' -g '*.md'
+rg -n 'Elastic Inference|Training Compiler|Data Pipeline|Amazon Forecast|AWS AppConfig|AWS IoT Greengrass|AWS Shield|Amazon DataZone|Kinesis Data Analytics|Studio Classic|Edge Manager|CodeWhisperer|Glue Elastic Views' -g '*.md'
+rg -n 'TODO|needs-verification|source_type: "needs-verification"' -g '*.md' --glob '!README.md' --glob '!PLAN_NOTES_IMPROVEMENT.md'
+```
 
-### 📂 `09-machine-learning-operations`
+## Sources
 
-Covers MLOps principles and AWS services used to automate and manage the end-to-end machine learning lifecycle.
-
-### 📂 `10-security-identity-and-compliance`
-
-Addresses the critical aspects of securing machine learning workloads and data on AWS.
-
-### 📂 `11-machine-learning-best-practices`
-
-Contains notes on best practices for building robust, reliable, and responsible machine learning systems.
-
-### 📂 `common`
-
-This directory holds notes on fundamental machine learning concepts that are applicable across various domains.
-
-## How to Use These Notes
-
-1.  Navigate through the directories based on the topic you want to study.
-2.  Review the markdown files. They are designed to be concise and focused on exam-relevant information.
-3.  Use these notes as a supplement to official AWS documentation, whitepapers, and hands-on practice.
-
-Good luck with your studies!
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/machine-learning-engineer-associate-01.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-in-scope-services.html
+- https://docs.aws.amazon.com/aws-certification/latest/machine-learning-engineer-associate-01/mla-01-out-of-scope-services.html
