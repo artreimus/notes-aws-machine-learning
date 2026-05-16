@@ -26,6 +26,7 @@ REQUIRED_FRONTMATTER_KEYS = (
 ALLOWED_STATUSES = {
     "reviewed",
     "draft",
+    "stale",
     "legacy",
     "supplemental",
     "out-of-scope",
