@@ -1,3 +1,5 @@
+
+
 ---
 title: "AWS Machine Learning and AI Notes"
 scope: "AWS Machine Learning and AI"
@@ -132,7 +134,7 @@ rg --files-without-match '^# ' -g '*.md'
 rg --files-without-match '^(## )?(Sources|References|Additional Resources)\b' -g '*.md'
 rg -n '^exam: ' -g '*.md'
 rg -n 'Elastic Inference|Training Compiler|Data Pipeline|Amazon Forecast|AWS AppConfig|AWS IoT Greengrass|AWS Shield|Amazon DataZone|Kinesis Data Analytics|Studio Classic|Edge Manager|CodeWhisperer|Glue Elastic Views' -g '*.md'
-rg -n 'TODO|needs-verification|source_type: "needs-verification"' -g '*.md' --glob '!README.md' --glob '!PLAN_NOTES_IMPROVEMENT.md'
+rg -n 'TODO|needs-verification|source_type: "needs-verification"' -g '*.md' -g '!README.md' -g '!PLAN_NOTES_IMPROVEMENT.md'
 ```
 
 ## Sources
